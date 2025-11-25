@@ -1,0 +1,1525 @@
+# Minecraft launcher log started at 2025-11-24 23:52:16
+# Profile: TRANS 
+
+
+[23:52:17] [main] [FabricLoader/GameProvider/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.1
+[23:52:17] [ForkJoinPool-1-worker-16] [FabricLoader/Metadata/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[23:52:17] [ForkJoinPool-1-worker-11] [FabricLoader/Metadata/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 26 column 4
+- Unsupported root entry "" at line 26 column 92
+- Unsupported root entry "" at line 28 column 4
+- Unsupported root entry "" at line 28 column 24
+[23:52:17] [main] [FabricLoader/Resolution/WARN]: Warnings were found!
+ - Mod 'Dynamic FPS' (dynamic_fps) 3.9.5 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.9+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[23:52:17] [main] [FabricLoader/INFO]: Loading 229 mods:
+	- adorablehamsterpets 3.3.2-1.20.1+fabric
+	- ae2 15.4.10
+	   \-- team_reborn_energy 3.0.0
+	- ae2wtlib 15.2.1-fabric
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- badoptimizations 2.3.1
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- bcc 4.0.1
+	- betterstats 3.12.6+fabric-1.20.1
+	- bookshelf 20.2.13
+	- botarium 2.3.4
+	   \-- team_reborn_energy 3.0.0
+	- c2me 0.2.0+alpha.11.16
+	   |-- c2me-base 0.2.0+alpha.11.16
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.16
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.16
+	   |-- c2me-notickvd 0.2.0+alpha.11.16
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-opts-math 0.2.0+alpha.11.16
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-server-utils 0.2.0+alpha.11.16
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.16
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.16
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- chunksending 1.20.1-2.8
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.4
+	- connectivity 1.20.1-7.2
+	- constructionwand 2.0.1
+	   \-- dev_smto_simpleconfig 2.4.3+1.20.1
+	- controlling 12.0.2
+	- copycats 2.2.2+mc.1.20.1-fabric
+	- crash_assistant 1.10.23
+	- crashexploitfixer 1.1.0
+	- create 0.5.1-j-build.1631+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.11-4
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_base 2.3.8+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_config 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.8+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.8+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_utility 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_client_events 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_entity 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |-- porting_lib_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_networking 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_obj_loader 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_tool_actions 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_transfer 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_fluids 2.3.8+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- cubes-without-borders 3.0.0+mc1.20
+	- cupboard 1.20.1-2.7
+	- distanthorizons 2.3.6-b
+	- dynamic_fps 3.9.5
+	   \-- net_lostluma_battery 1.3.0
+	- dynamiclights 1.9+mod
+	- embeddium 0.3.25+mc1.20.1
+	   |-- indium 1.99.99
+	   \-- sodium 0.5.11
+	- entityculling 1.9.3
+	   |-- transition 1.0.8
+	   \-- trender 1.0.8
+	- estrogen 4.3.4+1.20.1-fabric
+	   |-- baubly 1.0.1
+	   |-- com_teamresourceful_resourceful-cosmetics-4j 1.0.4
+	   |-- critter_lib 0.1-beta.14
+	   \-- jukeboxfix 1.0.1
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.1
+	   \-- mixinextras 0.5.0
+	- fastasyncworldsave 1.20.1-2.6
+	- fastipping 1.0.7
+	- fastitemframes 20.1.5
+	- faunify 1.2.4
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.2
+	- friendlyfire 18.0.7
+	- fzzy_config 0.7.3+1.20.1
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- gpumemleakfix 1.20.1-1.8
+	- immediatelyfast 1.5.2+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- immortal_pets 1.0.0
+	- indypets 1.4.7
+	- jade 11.13.1+fabric
+	- java 17
+	- jei 15.20.0.125
+	- leavesbegone 8.0.0
+	- lithium 0.11.3
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- modernfix 5.25.1+mc1.20.1
+	- mousetweaks 2.26
+	- naturescompass 1.20.1-2.2.3-fabric
+	- nochatreports 1.20.1-v2.2.2
+	- packetfixer 3.3.1
+	- patchouli 1.20.1-84.1-FABRIC
+	   \-- fiber 0.23.0-2
+	- puzzleslib 8.1.33
+	   \-- puzzlesaccessapi 20.1.1
+	- redirected 1.0.0
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- searchables 1.0.3
+	- servercore 1.5.2+1.20.1
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- placeholder-api 2.1.3+1.20.1
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- smoothchunk 1.20.1-4.1
+	- sodiumdynamiclights 1.0.9
+	- sound_physics_remastered 1.20.1-1.5.1
+	- spark 1.10.53
+	- spectators-generate-loot 1.0.1
+	- starlight 1.1.2+fabric.dbc156f
+	- storagedrawers 12.14.3
+	- tcdcommons 3.12.3.3+fabric-1.20.1
+	- toofast 1.2.0
+	- trinkets 3.7.2
+	   |-- cardinal-components-base 5.2.0
+	   \-- cardinal-components-entity 5.2.0
+	- txnilib 1.0.24
+	- voicechat 1.20.1-2.6.6
+	   \-- voicechat_api 2.6.0
+	- waystones 14.1.17
+[23:52:17] [main] [FabricLoader/WARN]: Found 1 non-fabric mod:
+	- qfapi-7.7.0_qsl-6.3.0_fapi-0.92.2_mc-1.20.1.jar
+[23:52:18] [main] [CrashAssistantJarInJarHelper/INFO]: Launching CrashAssistantApp (CrashAssistant-fabric-1.19-1.21.4-1.10.23.jar)
+[23:52:18] [CrashAssistantApp process logger] [dev.kostromdan.mods.crash_assistant.common_config.loading_utils.ChildProcessLogger/ERROR]: gamemodeauto:
+[23:52:18] [main] [FabricLoader/Mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/saturncorgi/.local/share/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[23:52:18] [main] [FabricLoader/Mixin/INFO]: Compatibility level set to JAVA_17
+[23:52:18] [CrashAssistantApp process logger] [dev.kostromdan.mods.crash_assistant.common_config.loading_utils.ChildProcessLogger/INFO]: CrashAssistantApp process successfully started.
+[23:52:19] [main] [BadOptimizations/INFO]: Config version: 4
+[23:52:19] [main] [BadOptimizations/INFO]: BadOptimizations config dump:
+[23:52:19] [main] [BadOptimizations/INFO]: enable_toast_optimizations: true
+[23:52:19] [main] [BadOptimizations/INFO]: ignore_mod_incompatibilities: false
+[23:52:19] [main] [BadOptimizations/INFO]: lightmap_time_change_needed_for_update: 80
+[23:52:19] [main] [BadOptimizations/INFO]: enable_lightmap_caching: true
+[23:52:19] [main] [BadOptimizations/INFO]: enable_particle_manager_optimization: true
+[23:52:19] [main] [BadOptimizations/INFO]: enable_entity_renderer_caching: true
+[23:52:19] [main] [BadOptimizations/INFO]: log_config: true
+[23:52:19] [main] [BadOptimizations/INFO]: enable_remove_redundant_fov_calculations: true
+[23:52:19] [main] [BadOptimizations/INFO]: config_version: 4
+[23:52:19] [main] [BadOptimizations/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[23:52:19] [main] [BadOptimizations/INFO]: enable_block_entity_renderer_caching: true
+[23:52:19] [main] [BadOptimizations/INFO]: skycolor_time_change_needed_for_update: 3
+[23:52:19] [main] [BadOptimizations/INFO]: enable_entity_flag_caching: true
+[23:52:19] [main] [BadOptimizations/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[23:52:19] [main] [BadOptimizations/INFO]: enable_sky_color_caching: true
+[23:52:19] [main] [BadOptimizations/INFO]: enable_remove_tutorial_if_not_demo: true
+[23:52:19] [main] [BadOptimizations/INFO]: show_f3_text: true
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.base.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[23:52:19] [main] [C2ME Config System/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[23:52:19] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[23:52:19] [main] [Embeddium/INFO]: Loaded configuration file for Embeddium: 273 options available, 0 override(s) found
+[23:52:19] [main] [FabricLoader/Mixin/WARN]: Reference map 'fastitemframes.fabric.refmap.json' for fastitemframes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:52:19] [main] [Lithium/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
+[23:52:19] [main] [FabricLoader/Mixin/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:52:19] [main] [ModernFix/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 71 options available, 3 override(s) found
+[23:52:19] [main] [ModernFix/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[23:52:19] [main] [ModernFix/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[23:52:19] [main] [ModernFix/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[23:52:19] [main] [ModernFix/INFO]: Applying Nashorn fix
+[23:52:19] [main] [ModernFix/INFO]: Configuring Minecraft's max.bg.threads option with 13 threads
+[23:52:19] [main] [dev.tonimatas.packetfixer.mixins.v1_19_3_fabric.MixinPlugin/INFO]: Packet Fixer fabric 1.19.3-1.20.1 has been applied successfully.
+[23:52:19] [main] [FabricLoader/Mixin/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:52:19] [main] [FabricLoader/Mixin/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/HostAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/HostAPI)
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.HostAPI was not found estrogen-common.mixins.json:mixincompat.figura.HostAPIMixin from mod estrogen
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/entity/ViewerAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/entity/ViewerAPI)
+[23:52:20] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.entity.ViewerAPI was not found estrogen-common.mixins.json:mixincompat.figura.ViewerAPIMixin from mod estrogen
+[23:52:21] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[23:52:21] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[23:52:21] [main] [Lithium/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[23:52:21] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[23:52:21] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[23:52:21] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[23:52:21] [main] [Embeddium-GraphicsAdapterProbe/INFO]: Searching for graphics cards...
+[23:52:22] [main] [Embeddium-GraphicsAdapterProbe/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=GA107M [GeForce RTX 3050 Ti Mobile], version=580.105.08]
+[23:52:22] [main] [Embeddium-GraphicsAdapterProbe/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=Cezanne [Radeon Vega Series / Radeon Vega Mobile Series], version=unknown]
+[23:52:22] [main] [Embeddium-Workarounds/WARN]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS, NO_ERROR_CONTEXT_UNSUPPORTED]
+[23:52:22] [main] [Embeddium-Workarounds/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[23:52:22] [main] [FabricLoader/MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[23:52:22] [main] [FabricLoader/Mixin/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
+[23:52:22] [main] [FabricLoader/Mixin/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
+[23:52:23] [main] [FabricLoader/Mixin/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
+[23:52:23] [main] [FabricLoader/Mixin/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
+[23:52:23] [main] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to mdde9fc4$nochatreports$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[23:52:23] [main] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to mdde9fc4$nochatreports$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[23:52:23] [main] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to mdde9fc4$nochatreports$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[23:52:23] [main] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to mdde9fc4$nochatreports$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[23:52:23] [main] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to mdde9fc4$nochatreports$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[23:52:24] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
+[23:52:24] [main] [FabricLoader/Mixin/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[23:52:24] [main] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mdde9fc4$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[23:52:24] [main] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mdde9fc4$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[23:52:24] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[23:52:24] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[23:52:24] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[23:52:24] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[23:52:24] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[23:52:24] [main] [FabricLoader/Mixin/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBlockMixin from mod lithium->@Redirect::removeAllocation()[Lnet/minecraft/class_2350; with priority 1000
+[23:52:24] [main] [FabricLoader/Mixin/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBlockMixin from mod lithium->@Redirect::removeAllocation()[Lnet/minecraft/class_2350; with priority 1000
+[23:52:24] [main] [FabricLoader/Mixin/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedstoneWireBlockMixin from mod lithium->@Redirect::removeAllocation1()[Lnet/minecraft/class_2350; with priority 1000
+[23:52:24] [main] [FabricLoader/Mixin/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedstoneWireBlockMixin from mod lithium->@Redirect::removeAllocation2()[Lnet/minecraft/class_2350; with priority 1000
+[23:52:27] [main] [FabricLoader/Mixin/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[23:52:27] [main] [FabricLoader/Mixin/WARN]: @ModifyConstant conflict. Skipping packetfixer.v1_19_3.fabric.mixins.json:v1_19_3_fabric.ServerGamePacketListenerImplMixin from mod packetfixer->@ModifyConstant::packetfixer$tick$1(J)J with priority 1000, already redirected by connectivity.mixins.json:ServerPlayNetHandlerMixin from mod connectivity->@ModifyConstant::playTimeout(J)J with priority 1001
+[23:52:27] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[23:52:27] [main] [net.minecraft.class_2966/INFO]: Vanilla bootstrap took 3827 milliseconds
+[23:52:28] [Render thread] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:52:28] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+[23:52:28] [Render thread] [net.minecraft.class_310/INFO]: Setting user: SaturnCorgi
+[23:52:28] [Render thread] [ModernFix/INFO]: Bypassed Mojang DFU
+[23:52:28] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
+[23:52:29] [Render thread] [fzzy_config/INFO]: Loaded config adorablehamsterpets:main in 699ms
+[23:52:29] [Render thread] [adorablehamsterpets/INFO]: Registering Mod Criteria for adorablehamsterpets
+[23:52:29] [Render thread] [adorablehamsterpets/INFO]: [BiomeConfig] Parsed 7 tags, 212 included biomes, and 1 excluded biomes.
+[23:52:29] [Render thread] [adorablehamsterpets/INFO]: [FeatureConfig] Parsed feature generation settings from config.
+[23:52:29] [Render thread] [adorablehamsterpets/INFO]: Parsed all item tag overrides from config.
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[23:52:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[23:52:29] [Render thread] [Better Compatibility Checker/INFO]: Better Compatibility Checker starting
+[23:52:29] [Render thread] [Better Compatibility Checker/INFO]: Loading config file
+[23:52:29] [Render thread] [Better Compatibility Checker/INFO]: Config file loaded
+[23:52:29] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[23:52:29] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[23:52:29] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[23:52:29] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[23:52:29] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[23:52:29] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[23:52:29] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[23:52:29] [Render thread] [com.cupboard.Cupboard/INFO]: Loaded config for: chunksending.json
+[23:52:29] [Render thread] [com.chunksending.ChunkSending/INFO]: chunksending mod initialized
+[23:52:29] [Render thread] [com.connectivity.Connectivity/INFO]: Connectivity initialized
+[23:52:29] [Render thread] [dev.smto.constructionwand.ConstructionWand/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[23:52:31] [Render thread] [com.cupboard.Cupboard/INFO]: Loaded config for: cupboard.json
+[23:52:31] [Render thread] [dynamiclights/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[23:52:31] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
+[23:52:31] [Render thread] [Estrogen/INFO]: Injecting Estrogen into your veins!
+[23:52:32] [Render thread] [FabricLoader/Mixin/WARN]: @ModifyConstant conflict. Skipping packetfixer.v1_19_3.fabric.mixins.json:v1_19_3_fabric.ServerLoginPacketListenerImplMixin from mod packetfixer->@ModifyConstant::packetfixer$tick(I)I with priority 1000, already redirected by connectivity.mixins.json:ServerLoginNetHandlerMixin from mod connectivity->@ModifyConstant::loginTimeout(I)I with priority 1001
+[23:52:32] [Render thread] [me.fallenbreath.fastipping.FastIpPingMod/INFO]: ping & connect fast!
+[23:52:32] [Render thread] [Puzzles Lib/INFO]: Constructing common components for fastitemframes:main
+[23:52:32] [Render thread] [faunify/INFO]: Initializing Faunify...
+[23:52:32] [Render thread] [faunify/INFO]: Faunify initialized successfully!
+[23:52:32] [Render thread] [Friendly Fire/INFO]: Creating a new config file at /home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/friendlyfire.json.
+[23:52:32] [Render thread] [Friendly Fire/INFO]: Saved config file.
+[23:52:32] [Render thread] [Puzzles Lib/INFO]: Constructing common components for leavesbegone:main
+[23:52:32] [Render thread] [NoChatReports/INFO]: KONNICHIWA ZA WARUDO!
+[23:52:32] [Render thread] [NoChatReports/INFO]: Default JVM text encoding is: UTF-8
+[23:52:32] [Render thread] [NoChatReports/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[23:52:32] [Render thread] [NoChatReports/INFO]: Client initialization...
+[23:52:32] [Render thread] [Puzzles Lib/INFO]: Constructing common components for puzzleslib:main
+[23:52:32] [Render thread] [me.wesley1808.servercore.common.ServerCore/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 4 clay_ball = 1 clay
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 4 snowball = 1 snow_block
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 4 glowstone_dust = 1 glowstone
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 4 brick = 1 bricks
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 4 nether_brick = 1 nether_bricks
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 4 quartz = 1 quartz_block
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 9 melon_slice = 1 melon
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 9 bamboo = 1 bamboo_block
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New compacting rule 4 clay_ball = 1 clay
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: New denied storage item creative_vending_upgrade
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: Adding ore conversions for types: forge:storage_blocks, forge:ingots, forge:nuggets
+[23:52:32] [Render thread] [com.jaquadro.minecraft.storagedrawers.ModServices/INFO]: Adding ore conversions for materials: aluminum, constantan, steel, uranium, invar, tin, lead, silver, platinum, nickel, osmium, bronze, electrum
+TxniLib onInitialize!
+[23:52:32] [Render thread] [voicechat/INFO]: [voicechat] Compatibility version 20
+[23:52:32] [Render thread] [voicechat/INFO]: [voicechat] Loading plugins
+[23:52:32] [Render thread] [voicechat/INFO]: [voicechat] Loaded 1 plugin(s)
+[23:52:32] [Render thread] [voicechat/INFO]: [voicechat] Initializing plugins
+[23:52:32] [Render thread] [Sound Physics - General/INFO]: Initializing Simple Voice Chat integration
+[23:52:32] [Render thread] [voicechat/INFO]: [voicechat] Initialized 1 plugin(s)
+[23:52:32] [Render thread] [voicechat/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[23:52:33] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[23:52:33] [Render thread] [betterstats/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[23:52:33] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_500
+[23:52:33] [Render thread] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to mdde9fc4$nochatreports$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[23:52:33] [Render thread] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to mdde9fc4$nochatreports$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[23:52:33] [Render thread] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to mdde9fc4$nochatreports$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[23:52:33] [Render thread] [DistantHorizons-AbstractModInitializer/INFO]: Initializing Distant Horizons client, firing DhApiBeforeDhInitEvent...
+[23:52:33] [Render thread] [DistantHorizons-AbstractModInitializer/INFO]: Distant Horizons, Version: 2.3.6-b
+[23:52:33] [Render thread] [DistantHorizons-com.seibel.distanthorizons.fabric.FabricClientProxy/INFO]: Registering Fabric Client Events
+[23:52:33] [Render thread] [DistantHorizons-com.seibel.distanthorizons.fabric.FabricServerProxy/INFO]: Registering Fabric Server Events
+[23:52:33] [Render thread] [DistantHorizons-ModAccessorInjector/INFO]: Registered mod compatibility accessor for: [Sodium-Fabric].
+[23:52:33] [Render thread] [DistantHorizons-ModAccessorInjector/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[23:52:33] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.config.ConfigHandler/INFO]: Initialising config for [DistantHorizons]
+[23:52:33] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.config.ConfigHandler/INFO]: [DistantHorizons] Config initialised
+[23:52:33] [Render thread] [DistantHorizons-AbstractModInitializer/INFO]: Distant Horizons client Initialized.
+[23:52:33] [Render thread] [dynamic_fps/INFO]: Dynamic FPS 3.9.5 active on Fabric!
+[23:52:34] [Render thread] [net.fabricmc.fabric.impl.client.indigo.Indigo/INFO]: [Indigo] Registering Indigo renderer!
+[23:52:34] [Render thread] [Puzzles Lib/INFO]: Constructing client components for fastitemframes:main
+[23:52:34] [Render thread] [com.jozufozu.flywheel.backend.Backend/INFO]: No shaders mod detected.
+[23:52:34] [Render thread] [fzzy_config/INFO]: Loaded config fzzy_config:keybinds in 43ms
+[23:52:34] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending ConfigManager...
+[23:52:34] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending ConfigManager took 1.608 ms
+[Mouse Tweaks] Main.initialize()
+[Mouse Tweaks] Initialized.
+[23:52:34] [Render thread] [Puzzles Lib/INFO]: Constructing client components for puzzleslib:main
+[23:52:34] [Render thread] [sodiumdynamiclights/INFO]: [LambDynLights] Initializing SodiumDynamicLights...
+[23:52:34] [Render thread] [Sound Physics - General/INFO]: Reloading reverb parameters
+[23:52:34] [Render thread] [tcdcommons/INFO]: Initializing 'TCD Commons API' 3.12.3.3+fabric-1.20.1 as 'TCDCommonsClient'.
+[LibGui] Initializing Client...
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Using Cloth Config GUI
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Initializing Opus
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Opus
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Initializing RNNoise
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized RNNoise
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Initializing Speex
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Speex
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Initializing LAME
+[23:52:34] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized LAME
+[23:52:34] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.class_315
+[23:52:34] [Render thread] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to mdde9fc4$nochatreports$lambda$onlyShowSecureChat$0$0 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[23:52:34] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_338
+[23:52:34] [Render thread] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to mdde9fc4$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[23:52:34] [Render thread] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to mdde9fc4$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[23:52:35] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[23:52:35] [Render thread] [FabricLoader/Mixin/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$de9fc4$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[23:52:35] [Render thread] [net.minecraft.class_310/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[23:52:35] [Render thread] [Embeddium-NvidiaWorkarounds/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[23:52:35] [Render thread] [Embeddium-PostlaunchChecks/INFO]: OpenGL Vendor: NVIDIA Corporation
+[23:52:35] [Render thread] [Embeddium-PostlaunchChecks/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2
+[23:52:35] [Render thread] [Embeddium-PostlaunchChecks/INFO]: OpenGL Version: 3.2.0 NVIDIA 580.105.08
+[23:52:35] [Render thread] [Embeddium-PostlaunchChecks/WARN]: Enabling secondary workaround for NVIDIA threaded optimizations
+[23:52:35] [Render thread] [ImmediatelyFast/INFO]: Initializing ImmediatelyFast 1.5.2+1.20.4 on NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 580.105.08
+[23:52:35] [Render thread] [ModernFix/INFO]: Replacing search trees with 'JEI' provider
+[23:52:35] [Finalizer] [ModernFix/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[23:52:36] [Render thread] [ModernFix/WARN]: Failed to initialize Linux Narrator. Make sure you have libflite installed!
+[23:52:36] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_7594
+[23:52:36] [Render thread] [net.minecraft.class_3304/INFO]: Reloading ResourceManager: vanilla, fabric (adorablehamsterpets, ae2, ae2wtlib, appleskin, badoptimizations, balm, bcc, betterstats, bookshelf, c2me, cardinal-components-base, cardinal-components-entity, chunksending, cloth-config, clumps, connectivity, constructionwand, controlling, copycats, crashexploitfixer, create, cubes-without-borders, distanthorizons, dripstone_fluid_lib, dynamic_fps, dynamiclights, embeddium, entityculling, estrogen, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fastipping, fastitemframes, faunify, flywheel, forgeconfigapiport, friendlyfire, fzzy_config, geckolib, immediatelyfast, indypets, jade, jei, lithium, milk, modernfix, naturescompass, nochatreports, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, redirected, registrate-fabric, searchables, smoothchunk, sodiumdynamiclights, sound_physics_remastered, spark, spectators-generate-loot, starlight, storagedrawers, tcdcommons, team_reborn_energy, trender, trinkets, txnilib, voicechat, waystones)
+[23:52:36] [Worker-ResourceReload-12] [net.minecraft.class_391/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[23:52:36] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/INFO]: Checking for Distant Horizons update
+[23:52:36] [Worker-ResourceReload-9] [Porting Lib/WARN]: Model loader 'ae2:block/cable_bus' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-9] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/256k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/accelerator_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-0] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/unit_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-0] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-8] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/64k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-14] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/16k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-8] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-14] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/1k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-1] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/4k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-1] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-1] [Porting Lib/WARN]: Model loader 'ae2:block/drive' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-1] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [DH-ApplyConfigPresetTimer] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/INFO]: changing preset to: BALANCED
+[23:52:36] [DH-ApplyConfigPresetTimer] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/INFO]: preset active: BALANCED
+[23:52:36] [DH-ApplyConfigPresetTimer] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/INFO]: changing preset to: MEDIUM
+[23:52:36] [Worker-ResourceReload-13] [Porting Lib/WARN]: Model loader 'ae2:block/paint' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-13] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/INFO]: Distant Horizons already up to date.
+[23:52:36] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'ae2:block/qnb/qnb_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-11] [Porting Lib/WARN]: Model loader 'ae2:block/quartz_glass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-11] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'ae2:block/spatial_pylon' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:36] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:36] [DH-ApplyConfigPresetTimer] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/INFO]: preset active: MEDIUM
+[23:52:37] [Worker-ResourceReload-5] [Porting Lib/WARN]: Model loader 'ae2:item/facade' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-5] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:item/memory_card' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-12] [Porting Lib/WARN]: Model loader 'ae2:item/meteorite_compass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-12] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-1] [Porting Lib/WARN]: Model loader 'ae2:part/annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-12] [Porting Lib/WARN]: Model loader 'ae2:part/annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-12] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'ae2:part/formation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-5] [Porting Lib/WARN]: Model loader 'ae2:part/formation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-13] [Porting Lib/WARN]: Model loader 'ae2:part/identity_annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-14] [Porting Lib/WARN]: Model loader 'ae2:part/identity_annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-13] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-5] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-1] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-13] [Porting Lib/WARN]: Model loader 'ae2:part/p2p/p2p_tunnel_frequency' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[23:52:37] [Worker-ResourceReload-14] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Worker-ResourceReload-13] [Porting Lib/WARN]: Falling back to vanilla logic.
+[23:52:37] [Render thread] [NoChatReports/INFO]: Game entered main loop!
+[23:52:37] [Render thread] [com.cupboard.Cupboard/INFO]: Loaded config for: smoothchunk.json
+[23:52:37] [Render thread] [com.cupboard.Cupboard/INFO]: Loaded config for: connectivity.json
+[23:52:37] [Render thread] [DistantHorizons-AbstractModInitializer/INFO]: Running Delayed setup...
+[23:52:37] [Render thread] [DistantHorizons-AbstractModInitializer/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[23:52:37] [Render thread] [Jade/INFO]: Start loading plugin from Adorable Hamster Pets
+[23:52:37] [Render thread] [Jade/INFO]: Start loading plugin from Applied Energistics 2
+[23:52:37] [Render thread] [Jade/INFO]: Start loading plugin from Balm
+[23:52:37] [Render thread] [Jade/INFO]: Start loading plugin from Jade
+[23:52:37] [Render thread] [Jade/INFO]: Start loading plugin from Jade
+[23:52:37] [Render thread] [Jade/INFO]: Start loading plugin from Jade
+[23:52:37] [Render thread] [Jade/INFO]: Start loading plugin from Waystones
+[23:52:38] [Render thread] [dev.kostromdan.mods.crash_assistant.common_config.mod_list.ModListUtils/INFO]: Parsed 76 mod(s) metadata in 385 ms
+[23:52:38] [Render thread] [dev.kostromdan.mods.crash_assistant.common_config.mod_list.ModListUtils/INFO]: Modlist saved to config/crash_assistant/modlist.json
+[23:52:41] [Worker-ResourceReload-13] [Estrogen/INFO]: baking 16 thigh highs
+[23:52:41] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[23:52:41] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23:52:41] [Render thread] [net.minecraft.class_4225/INFO]: OpenAL initialized on device Family 17h/19h/1ah HD Audio Controller Speaker
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: Initializing Sound Physics
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: EFX Extension recognized
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: Max auxiliary sends: 4
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: Aux slot 1 created
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: Aux slot 2 created
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: Aux slot 3 created
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: Aux slot 4 created
+[23:52:41] [Render thread] [Sound Physics - General/INFO]: EFX ready
+[23:52:41] [Render thread] [net.minecraft.class_1140/INFO]: Sound engine started
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:52:41] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:52:42] [Render thread] [net.minecraft.class_5944/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23:52:42] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:52:42] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:52:42] [Render thread] [net.minecraft.class_1059/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23:52:42] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[23:52:42] [Render thread] [com.simibubi.create.Create/INFO]: Loaded 51 train hat configurations.
+[23:52:42] [Render thread] [com.jozufozu.flywheel.backend.Backend/INFO]: Loaded all shader sources.
+[23:52:42] [Render thread] [patchouli/INFO]: BookContentResourceListenerLoader preloaded 34 jsons
+[23:52:44] [Render thread] [ModernFix/WARN]: Game took 28.017 seconds to start
+[23:53:09] [Render thread] [net.minecraft.class_1863/INFO]: Loaded 30 recipes
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_ghost_block: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stone_pressure_plate: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_iron_trapdoor: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_byte_panel: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stacked_half_layer: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_half_layer: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_heavy_weighted_pressure_plate: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stone_button: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_corner_slice: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement naturescompass:natures_compass: Expected items to be a JsonArray, was "min...ss"
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_door: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_beam: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_flat_pane: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_panel: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_flat_pane_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stacked_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_pane_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_sliding_door_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_byte: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_folding_door_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_light_weighted_pressure_plate: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wooden_button: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_board: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wall: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fence_gate: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_ladder: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_shaft: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_pane: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fence: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_layer: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_folding_door: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_large_cogwheel: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wooden_pressure_plate: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_cogwheel: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fluid_pipe: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_layer: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_sliding_door: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_2989/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_iron_door: Missing criteria, expected to find a JsonObject
+[23:53:09] [Render thread] [net.minecraft.class_163/INFO]: Loaded 2820 advancements
+[23:53:09] [Render thread] [ModernFix/WARN]: Initial datapack load took 2.944 s
+[23:53:09] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinRowHelper from mixins/common/nochatreports.mixins.json into net.minecraft.class_7845$class_7939
+[23:53:09] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_404
+[23:53:09] [Render thread] [FabricLoader/Mixin/INFO]: Renaming synthetic method lambda$init$0(Lnet/minecraft/class_339;)V to mdde9fc4$nochatreports$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen from mod nochatreports
+[23:53:18] [Render thread] [mezz.jei.fabric.startup.ClientLifecycleHandler/INFO]: Stopping JEI
+[23:53:18] [Render thread] [mezz.jei.library.startup.JeiStarter/INFO]: Stopping JEI
+[23:53:18] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime Unavailable...
+[23:53:18] [Render thread] [mezz.jei.fabric.plugins.fabric.FabricGuiPlugin/INFO]: Stopping JEI GUI
+[23:53:18] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime Unavailable took 1.319 ms
+[23:53:18] [Render thread] [FabricLoader/Mixin/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[23:53:18] [Render thread] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl/INFO]: Applied 491 biome modifications to 65 of 65 new biomes in 42.93 ms
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Configuration file /home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/create-server.toml is not correct. Correcting
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.bulkPressing was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.bulkCutting was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.allowFillingBySpout was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.disableStress was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.encasedFan.fanProcessingTime was corrected from null to its default, 150.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.rollerFillDepth was corrected from null to its default, 12.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.contraptionPlacing was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.minecartContraptionInContainers was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.contraptions.stabiliseStableContraptions was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stats was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stats.mediumSpeed was corrected from null to its default, 30.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stats.fastSpeed was corrected from null to its default, 100.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stats.mediumStressImpact was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stats.highStressImpact was corrected from null to its default, 8.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stats.mediumCapacity was corrected from null to its default, 256.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stats.highCapacity was corrected from null to its default, 1024.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.elevator_pulley was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.netherite_backtank was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity.large_water_wheel was corrected from null to its default, 128.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 32.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.fillInfinite was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.fluidFillPlaceFluidSourceBlocks was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key fluids.pipesPlaceFluidSourceBlocks was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.psiTimeout was corrected from null to its default, 60.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.linkRange was corrected from null to its default, 256.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.brassTunnelTimer was corrected from null to its default, 10.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key logistics.seatHostileMobs was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.maxSchematics was corrected from null to its default, 10.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.maxTotalSchematicSize was corrected from null to its default, 256.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key schematics.schematicannon.schematicannonShotsPerGunpowder was corrected from null to its default, 400.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.maxSymmetryWandRange was corrected from null to its default, 50.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.placementAssistRange was corrected from null to its default, 12.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.toolboxRange was corrected from null to its default, 10.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.airInBacktank was corrected from null to its default, 900.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.enchantedBacktankCapacity was corrected from null to its default, 300.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.maxExtendoGripActions was corrected from null to its default, 1000.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.maxPotatoCannonShots was corrected from null to its default, 200.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key equipment.potatoCannonWorldModification was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Configuration file /home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/estrogen-server.toml is not correct. Correcting
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key dash was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key dash.dashEnabled was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key dash.dashDeltaModifier was corrected from null to its default, 2.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key patch was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key patch.patchGirlPowerAmount was corrected from null to its default, 1.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key patch.patchDrain was corrected from null to its default, true.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key patch.patchDrainAmount was corrected from null to its default, 72.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key centrifuge was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key centrifuge.centrifugeSpeedRequired was corrected from null to its default, 256.0.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Configuration file /home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/leavesbegone-server.toml is not correct. Correcting
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key maximum_decay_ticks was corrected from null to its default, 20.
+[23:53:18] [Server thread] [Forge Config API Port/WARN]: Incorrect key minimum_decay_ticks was corrected from null to its default, 5.
+[23:53:18] [Server thread] [Puzzles Lib/INFO]: Loading server config for leavesbegone
+[23:53:18] [Thread-7] [Puzzles Lib/INFO]: Reloading server config for leavesbegone
+[23:53:18] [Thread-7] [Puzzles Lib/INFO]: Reloading server config for leavesbegone
+[23:53:18] [Server thread] [spark/INFO]: Starting background profiler...
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[23:53:20] [Server thread] [AE2:S/INFO]: Scanning class de.mari_023.ae2wtlib.AE2WTLibTestPlots for plots
+[23:53:20] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Started DhWorld of type CLIENT_SERVER
+[23:53:20] [Server thread] [net.minecraft.class_1132/INFO]: Starting integrated minecraft server version 1.20.1
+[23:53:20] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Generating keypair
+[23:53:20] [Server thread] [CheckedThreadLocalRandom/INFO]: Enforcing safe world random access
+[23:53:20] [Server thread] [FabricLoader/Mixin/WARN]: @Redirect conflict. Skipping smoothchunk.mixins.json:ChunkMapSlowUnload from mod smoothchunk->@Redirect::getSize(Ljava/util/Queue;)I with priority 1000, already redirected by c2me-opts-scheduling.mixins.json:general_overheads.MixinThreadedAnvilChunkStorage from mod c2me-opts-scheduling->@Redirect::redirectUnloadSize(Ljava/util/Queue;)I with priority 1100
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[23:53:21] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data]...
+[23:53:21] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Found [0] data sources that need migration.
+[23:53:21] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: No migration necessary.
+[23:53:21] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Started DhClientServerLevel for [Wrapped{ServerLevel[pet test]@minecraft:overworld}] at [[LocalSaveStructure@(/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data)]].
+[23:53:23] [Worker-Main-12] [FabricLoader/Mixin/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.state.CacheMixin from mod redirected->@Redirect::redirectSupportTypes()[Lnet/minecraft/class_5431; with priority 10, already redirected by modernfix-common.mixins.json:perf.cache_blockstate_cache_arrays.AbstractBlockStateCacheMixin from mod modernfix->@Redirect::getVoxelShapeValues()[Lnet/minecraft/class_5431; with priority 1000
+[23:53:26] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:26] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:26] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:26] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data]...
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Found [0] data sources that need migration.
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: No migration necessary.
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Started DhClientServerLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_nether}] at [[LocalSaveStructure@(/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data;/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data)]].
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data]...
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Found [0] data sources that need migration.
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: No migration necessary.
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Started DhClientServerLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_end}] at [[LocalSaveStructure@(/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data;/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data;/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data)]].
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.DatabaseUpdater/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Attempting to migrate data sources for: [ae2:spatial_storage]-[/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data]...
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Found [0] data sources that need migration.
+[23:53:27] [DH-Full Data Migration Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: No migration necessary.
+[23:53:27] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Started DhClientServerLevel for [Wrapped{ServerLevel[pet test]@ae2:spatial_storage}] at [[LocalSaveStructure@(/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data;/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data;/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data;/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data)]].
+[23:53:27] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Preparing start region for dimension minecraft:overworld
+[23:53:27] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 0%
+[23:53:27] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 0%
+[23:53:28] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 0%
+[23:53:29] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 0%
+[23:53:29] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 0%
+[23:53:30] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 0%
+[23:53:30] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 0%
+[23:53:30] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 1%
+[23:53:31] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 1%
+[23:53:31] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 2%
+[23:53:32] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 3%
+[23:53:32] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 4%
+[23:53:33] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 5%
+[23:53:33] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 6%
+[23:53:34] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 7%
+[23:53:34] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 9%
+[23:53:35] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 9%
+[23:53:35] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 10%
+[23:53:36] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 12%
+[23:53:36] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 14%
+[23:53:37] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 15%
+[23:53:37] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 15%
+[23:53:38] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 18%
+[23:53:38] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 18%
+[23:53:39] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 19%
+[23:53:39] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 21%
+[23:53:40] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 23%
+[23:53:40] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 24%
+[23:53:41] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 26%
+[23:53:41] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 29%
+[23:53:42] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 29%
+[23:53:42] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 32%
+[23:53:43] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 34%
+[23:53:43] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 36%
+[23:53:44] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 38%
+[23:53:44] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 38%
+[23:53:45] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 42%
+[23:53:45] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 44%
+[23:53:46] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 46%
+[23:53:46] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 49%
+[23:53:47] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 51%
+[23:53:47] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 53%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:51] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:52] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 54%
+[23:53:52] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 57%
+[23:53:53] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 60%
+[23:53:53] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 62%
+[23:53:54] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 65%
+[23:53:54] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 68%
+[23:53:55] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 70%
+[23:53:55] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 72%
+[23:53:56] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 74%
+[23:53:56] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 77%
+[23:53:57] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 82%
+[23:53:57] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 84%
+[23:53:58] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 87%
+[23:53:58] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 88%
+[23:53:59] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 92%
+[23:53:59] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 94%
+[23:54:00] [Render thread] [net.minecraft.class_3951/INFO]: Preparing spawn area: 97%
+[23:54:00] [Render thread] [net.minecraft.class_3951/INFO]: Time elapsed: 33259 ms
+[23:54:00] [Server thread] [FabricLoader/Mixin/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[23:54:00] [VoiceChatServerThread] [voicechat/INFO]: [voicechat] Voice chat server started at port 44562
+[23:54:00] [Server thread] [FabricLoader/Mixin/WARN]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientboundCustomPayloadPacketMixin from mod connectivity->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19_3.fabric.mixins.json:v1_19_3_fabric.ClientboundCustomPayloadPacketMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[23:54:00] [Server thread] [net.minecraft.class_1132/INFO]: Changing view distance to 12, from 10
+[23:54:00] [Server thread] [net.minecraft.class_1132/INFO]: Changing simulation distance to 12, from 0
+[23:54:01] [Netty Local Client IO #0] [FabricLoader/Mixin/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[23:54:01] [Netty Local Client IO #0] [FabricLoader/Mixin/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[23:54:01] [Netty Local Client IO #0] [FabricLoader/Mixin/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[23:54:03] [Server thread] [net.minecraft.class_3324/INFO]: SaturnCorgi[local:E:67f29e5e] logged in with entity id 143 at (10.5, 56.0, 7.5)
+[23:54:03] [Server thread] [Jade/INFO]: Syncing config to SaturnCorgi (29b941b5-b70b-43b0-9bca-3bf107fd4084)
+[23:54:03] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinServerData from mixins/common/nochatreports.mixins.json into net.minecraft.class_642
+[23:54:03] [Render thread] [com.seibel.distanthorizons.core.api.internal.ClientApi/INFO]: Loading client level [Wrapped{ClientLevel@g1t06100ccqo8@minecraft:overworld}]-[g1t06100ccqo8@minecraft:overworld].
+[23:54:03] [Render thread] [com.seibel.distanthorizons.core.api.internal.ClientApi/INFO]: Loaded [0] waiting chunk wrappers.
+[23:54:03] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/INFO]: Player [SaturnCorgi] joined.
+[23:54:03] [Render thread] [BatchExecutor/INFO]: Started 10 worker threads
+[23:54:03] [Server thread] [voicechat/INFO]: [voicechat] Using Fabric Permissions API
+[23:54:03] [Render thread] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[23:54:03] [Render thread] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[23:54:03] [Render thread] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[23:54:03] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: SaturnCorgi joined the game
+[23:54:04] [Render thread] [ChunkBuilder/INFO]: Started 10 worker threads
+[23:54:04] [Render thread] [voicechat/INFO]: [voicechat] Sending secret request to the server
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: Initializing sound physics for voice chat audio
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: Initializing Sound Physics
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: EFX Extension recognized
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: Max auxiliary sends: 2
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: Aux slot 1 created
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: Aux slot 2 created
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: Aux slot 3 created
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: Aux slot 4 created
+[23:54:04] [Render thread] [Sound Physics - General/INFO]: EFX ready
+[23:54:04] [Render thread] [com.seibel.distanthorizons.core.api.internal.ClientApi/INFO]: Loading client level [Wrapped{ClientLevel@g1t06100ccqo8@minecraft:overworld}]-[g1t06100ccqo8@minecraft:overworld].
+[23:54:04] [Render thread] [com.seibel.distanthorizons.core.api.internal.ClientApi/INFO]: Loaded [0] waiting chunk wrappers.
+[23:54:04] [Render thread] [Jade/INFO]: Received config from the server:
+[23:54:04] [Server thread] [voicechat/INFO]: [voicechat] Received secret request of SaturnCorgi (20)
+[23:54:04] [Render thread] [FabricLoader/Mixin/INFO]: Mixing client.MixinGuiMessageTag from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591
+[23:54:04] [Server thread] [voicechat/INFO]: [voicechat] Sent secret to SaturnCorgi
+[23:54:04] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] Thanks for installing Crash Assistant mod!\nIf you're installing it into a modpack,\nyou may configure it in [mod config]:\nChange link to your modpack Discord...\nThis message won't appear again.
+[23:54:04] [Render thread] [net.minecraft.class_299/WARN]: Unknown recipe category: ae2:charger/ae2:charger/guide
+[23:54:04] [Render thread] [net.minecraft.class_299/WARN]: Unknown recipe category: ae2:charger/ae2:charger/meteorite_compass
+[23:54:04] [Render thread] [net.minecraft.class_299/WARN]: Unknown recipe category: ae2:charger/ae2:charger/charged_certus_quartz_crystal
+[23:54:04] [Server thread] [net.minecraft.server.MinecraftServer/WARN]: Can't keep up! Is the server overloaded? Running 3672ms or 73 ticks behind
+[23:54:04] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Starting JEI...
+[23:54:04] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering item subtypes...
+[23:54:04] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering item subtypes: jei:minecraft took 23.44 milliseconds
+[23:54:04] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering item subtypes took 25.24 ms
+[23:54:04] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering fluid subtypes...
+[23:54:04] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering fluid subtypes took 11.07 ms
+[23:54:04] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering ingredients...
+[23:54:04] [Render thread] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering ingredients: jei:minecraft took 882.5 milliseconds
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering ingredients took 883.8 ms
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering extra ingredients...
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering extra ingredients took 617.1 μs
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering search ingredient aliases...
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering search ingredient aliases took 1.051 ms
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering categories...
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering categories: jei:minecraft took 32.33 milliseconds
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering categories: ae2:core took 32.15 milliseconds
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering categories: create:jei_plugin took 118.4 milliseconds
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering categories took 194.9 ms
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering vanilla category extensions...
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering vanilla category extensions took 6.102 ms
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering recipe catalysts...
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering recipe catalysts took 4.222 ms
+[23:54:05] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building recipe registry...
+[23:54:05] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building recipe registry took 29.99 ms
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering advanced plugins...
+[23:54:05] [Render thread] [mezz.jei.library.load.registration.AdvancedRegistration/INFO]: Added recipe manager plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering advanced plugins took 2.369 ms
+[23:54:05] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering recipes...
+[23:54:06] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering recipes: jei:minecraft took 853.7 milliseconds
+Finalizing energy item registration
+Finalizing fluid item registration
+[23:54:06] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering recipes: ae2:core took 153.6 milliseconds
+[23:54:07] [Render thread] [mezz.jei.library.ingredients.IngredientManager/INFO]: Ingredients are being removed at runtime: 4 mezz.jei.api.fabric.ingredients.fluids.IJeiFluidIngredient
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering recipes: create:jei_plugin took 1.099 seconds
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering recipes took 2.117 s
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering recipes transfer handlers...
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering recipes transfer handlers took 14.48 ms
+[23:54:07] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building runtime...
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering gui handlers...
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering gui handlers: jei:gui took 19.40 milliseconds
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering gui handlers took 44.84 ms
+[23:54:07] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering Runtime...
+[23:54:07] [Render thread] [mezz.jei.gui.startup.JeiGuiStarter/INFO]: Starting JEI GUI
+[23:54:07] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building ingredient list...
+[23:54:08] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building ingredient list took 222.3 ms
+[23:54:08] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building ingredient filter...
+[23:54:08] [Render thread] [mezz.jei.gui.ingredients.IngredientFilter/INFO]: Adding 3288 ingredients
+[23:54:09] [Render thread] [mezz.jei.gui.ingredients.IngredientFilter/INFO]: Added 3288 ingredients
+[23:54:09] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building ingredient filter took 1.756 s
+[23:54:10] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Registering Runtime: jei:fabric_gui took 2.166 seconds
+[23:54:10] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Registering Runtime took 2.168 s
+[23:54:10] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Building runtime took 2.228 s
+[23:54:10] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime...
+[23:54:10] [Render thread] [mezz.jei.library.ingredients.IngredientManager/INFO]: Ingredients are being removed at runtime: 9 net.minecraft.class_1799
+[23:54:10] [Render thread] [mezz.jei.library.load.PluginCallerTimerRunnable/INFO]: Sending Runtime: ae2:core took 13.38 milliseconds
+[23:54:10] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime took 15.27 ms
+[23:54:10] [Render thread] [mezz.jei.core.util.LoggedTimer/INFO]: Starting JEI took 5.647 s
+[23:54:10] [Render thread] [net.minecraft.class_1255/FATAL]: Error executing task on Client
+io.netty.util.IllegalReferenceCountException: refCnt: 0
+	at knot//io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1454)
+	at knot//io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1383)
+	at knot//io.netty.buffer.UnpooledHeapByteBuf.copy(UnpooledHeapByteBuf.java:534)
+	at knot//io.netty.buffer.AbstractByteBuf.copy(AbstractByteBuf.java:1194)
+	at knot//net.minecraft.class_2540.copy(class_2540.java:1628)
+	at knot//net.minecraft.class_2540.copy(class_2540.java:1628)
+	at knot//net.minecraft.class_2658.method_11458(class_2658.java:68)
+	at knot//net.fabricmc.fabric.impl.networking.client.ClientPlayNetworkAddon.handle(ClientPlayNetworkAddon.java:87)
+	at knot//net.minecraft.class_634.handler$cij000$fabric-networking-api-v1$handleCustomPayload(class_634.java:3768)
+	at knot//net.minecraft.class_634.method_11152(class_634.java)
+	at knot//net.minecraft.class_2658.method_11457(class_2658.java:60)
+	at knot//net.minecraft.class_2658.method_11054(class_2658.java:8)
+	at knot//net.minecraft.class_2600.method_11072(class_2600.java:22)
+	at knot//net.minecraft.class_1255.method_18859(class_1255.java:156)
+	at knot//net.minecraft.class_4093.method_18859(class_4093.java:23)
+	at knot//net.minecraft.class_1255.method_16075(class_1255.java:130)
+	at knot//net.minecraft.class_1255.method_5383(class_1255.java:115)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1175)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:802)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[23:54:10] [Render thread] [net.minecraft.class_1255/FATAL]: Error executing task on Client
+[23:54:10] [Render thread] [voicechat/INFO]: [voicechat] Received secret
+[23:54:10] [Render thread] [voicechat/INFO]: [voicechat] Connecting to voice chat server: '127.0.0.1:44562'
+[23:54:10] [VoiceChatAuthenticationThread] [voicechat/INFO]: [voicechat] Trying to authenticate voice chat connection
+[23:54:10] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] [Simple Voice Chat] Press V to set up
+[23:54:10] [VoiceChatPacketProcessingThread] [voicechat/INFO]: [voicechat] Successfully authenticated player 29b941b5-b70b-43b0-9bca-3bf107fd4084
+[23:54:10] [VoiceChatConnectionThread] [voicechat/INFO]: [voicechat] Server acknowledged authentication
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.renderer.LodRenderer/WARN]: Renderer setup called but GLProxy has not yet been setup!
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Creating GLProxy... If this is the last message you see there must have been an OpenGL error.
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Lod Render OpenGL version [3.2.0 NVIDIA 580.105.08].
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: minecraftGlCapabilities:
+Your OpenGL support:
+openGL version 3.2+: [true] <- REQUIRED
+Vertex Attribute Buffer Binding: [true] <- optional improvement
+Buffer Storage: [true] <- optional improvement
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: GPU Vendor [NVIDIA CORPORATION] with OS [Linux], Preferred upload method is [BUFFER_STORAGE].
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: GLProxy creation successful. OpenGL smiles upon you this day.
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:10] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 8
+[23:54:11] [Render thread] [ModernFix/WARN]: Time from main menu to in-game was 53.012245 seconds
+[23:54:11] [Render thread] [ModernFix/WARN]: Total time to load game and open world was 81.02924 seconds
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.renderer.LodRenderer/INFO]: Setting up renderer
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.renderer.LodRenderer/INFO]: Renderer setup complete
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [VoiceChatAuthenticationThread] [voicechat/INFO]: [voicechat] Trying to validate voice chat connection
+[23:54:11] [VoiceChatPacketProcessingThread] [voicechat/INFO]: [voicechat] Successfully validated connection of player 29b941b5-b70b-43b0-9bca-3bf107fd4084
+[23:54:11] [VoiceChatPacketProcessingThread] [voicechat/INFO]: [voicechat] Player SaturnCorgi (29b941b5-b70b-43b0-9bca-3bf107fd4084) successfully connected to voice chat
+[23:54:11] [VoiceChatConnectionThread] [voicechat/INFO]: [voicechat] Server acknowledged connection check
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35633]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Loading shader with type: [35632]
+[23:54:11] [Render thread] [com.seibel.distanthorizons.core.render.glObject.GLProxy/INFO]: Shader loaded sucessfully.
+[23:54:14] [Render thread] [net.minecraft.class_163/INFO]: Loaded 53 advancements
+[23:54:14] [Render thread] [patchouli/INFO]: BookContentResourceListenerLoader: Files found in 659.9 μs
+[23:54:14] [Render thread] [patchouli/INFO]: BookContentResourceListenerLoader: Files found in 3.967 ms
+[23:54:14] [Render thread] [patchouli/INFO]: BookContentResourceListenerLoader: Files found in 298.1 μs
+[23:54:16] [DH-Phantom Array Recycler Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.pooling.PhantomArrayListPool/WARN]: Pool: [Render Reducer]. Unable to find checkout for phantom reference [java.lang.ref.PhantomReference@347e1931], arrays will need to be recreated.
+[23:54:24] [Server thread] [LodWorldGen/INFO]: DH TerraFirmaCraft detection: false
+[23:54:24] [Server thread] [LodWorldGen/INFO]: ================WORLD_GEN_STEP_INITING=============
+[23:54:24] [Server thread] [LodWorldGen/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[23:54:24] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/INFO]: Batch Chunk Generator initialized
+[23:54:24] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/INFO]: Creating world gen queue
+[23:54:24] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/INFO]: Created world gen queue
+[23:54:24] [Server thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/INFO]: Set world gen queue for level [minecraft:overworld].
+[23:54:26] [Render thread] [net.minecraft.class_163/INFO]: Loaded 60 advancements
+[23:54:44] [Server thread] [net.minecraft.server.MinecraftServer/WARN]: Can't keep up! Is the server overloaded? Running 24855ms or 497 ticks behind
+[23:55:04] [Server thread] [net.minecraft.server.MinecraftServer/WARN]: Can't keep up! Is the server overloaded? Running 5622ms or 112 ticks behind
+[23:55:24] [Server thread] [net.minecraft.server.MinecraftServer/WARN]: Can't keep up! Is the server overloaded? Running 4923ms or 98 ticks behind
+[23:55:42] [Server thread] [net.minecraft.server.MinecraftServer/WARN]: Can't keep up! Is the server overloaded? Running 2496ms or 49 ticks behind
+[23:55:42] [DH-World Gen Thread[3]] [DistantHorizons-DhLitWorldGenRegion/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
+[23:57:21] [Server thread] [net.minecraft.class_1132/INFO]: Saving and pausing game...
+[23:57:21] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[23:57:22] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[23:57:22] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[23:57:22] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[23:57:30] [Server thread] [net.minecraft.class_1132/INFO]: Saving and pausing game...
+[23:57:30] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[23:57:30] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[23:57:30] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[23:57:30] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[23:57:33] [Server thread] [net.minecraft.class_1132/INFO]: Saving and pausing game...
+[23:57:33] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[23:57:33] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[23:57:33] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[23:57:33] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[23:58:03] [Server thread] [net.minecraft.class_1132/INFO]: Saving and pausing game...
+[23:58:03] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[23:58:03] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[23:58:03] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[23:58:03] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[23:58:09] [Server thread] [net.minecraft.class_1132/INFO]: Saving and pausing game...
+[23:58:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[23:58:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[23:58:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[23:58:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[23:58:13] [Render thread] [fzzy_config/INFO]: Saved config main to file /home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/adorablehamsterpets/main.toml
+[00:00:39] [Render thread] [net.minecraft.class_1060/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/light.png
+java.io.FileNotFoundException: faunify:textures/entity/hedgehog/light.png
+	at knot//net.minecraft.class_5912.method_43043(class_5912.java:21)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at knot//net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21)
+	at knot//software.bernie.geckolib.cache.texture.AnimatableTexture.method_4625(AnimatableTexture.java:40)
+	at knot//net.minecraft.class_1060.method_24303(class_1060.java:97)
+	at knot//net.minecraft.class_1060.method_4616(class_1060.java:69)
+	at knot//net.minecraft.class_1060.handler$dan000$geckolib$wrapAnimatableTexture(class_1060.java:1029)
+	at knot//net.minecraft.class_1060.method_4619(class_1060.java)
+	at knot//software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:89)
+	at knot//software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:81)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:527)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:47)
+	at knot//software.bernie.geckolib.renderer.GeoRenderer.actuallyRender(GeoRenderer.java:176)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:242)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:47)
+	at knot//software.bernie.geckolib.renderer.GeoRenderer.defaultRender(GeoRenderer.java:142)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.method_3936(GeoEntityRenderer.java:156)
+	at knot//net.minecraft.class_898.method_3954(class_898.java:145)
+	at knot//net.minecraft.class_761.method_22977(class_761.java:1574)
+	at knot//net.minecraft.class_761.method_22710(class_761.java:1324)
+	at knot//net.minecraft.class_757.method_3188(class_757.java:1110)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:880)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1219)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:802)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[00:00:39] [Render thread] [net.minecraft.class_1060/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/light.png
+[00:00:39] [Render thread] [net.minecraft.class_1060/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/light.png
+java.io.FileNotFoundException: faunify:textures/entity/hedgehog/light.png
+	at knot//net.minecraft.class_5912.method_43043(class_5912.java:21)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at knot//net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21)
+	at knot//net.minecraft.class_1049$class_4006.method_18156(class_1049.java:83)
+	at knot//net.minecraft.class_1049.method_18153(class_1049.java:58)
+	at knot//net.minecraft.class_1049.method_4625(class_1049.java:29)
+	at knot//net.minecraft.class_1060.method_24303(class_1060.java:97)
+	at knot//net.minecraft.class_1060.method_4616(class_1060.java:69)
+	at knot//net.minecraft.class_1060.method_4619(class_1060.java:119)
+	at knot//software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:89)
+	at knot//software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:81)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:527)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:47)
+	at knot//software.bernie.geckolib.renderer.GeoRenderer.actuallyRender(GeoRenderer.java:176)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:242)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:47)
+	at knot//software.bernie.geckolib.renderer.GeoRenderer.defaultRender(GeoRenderer.java:142)
+	at knot//software.bernie.geckolib.renderer.GeoEntityRenderer.method_3936(GeoEntityRenderer.java:156)
+	at knot//net.minecraft.class_898.method_3954(class_898.java:145)
+	at knot//net.minecraft.class_761.method_22977(class_761.java:1574)
+	at knot//net.minecraft.class_761.method_22710(class_761.java:1324)
+	at knot//net.minecraft.class_757.method_3188(class_757.java:1110)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:880)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1219)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:802)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[00:00:39] [Render thread] [net.minecraft.class_1060/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/light.png
+[00:01:19] [Render thread] [net.minecraft.class_1140/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[00:01:20] [Render thread] [ModernFix/INFO]: Building search tree for 3317 items (this may take a while)...
+[00:01:20] [Render thread] [ModernFix/INFO]: Building search tree for 3317 items took 492.7 μs
+[00:01:23] [Render thread] [net.minecraft.class_163/INFO]: Loaded 61 advancements
+[00:01:28] [DH-World Gen Thread[1]] [ModernFix/INFO]: Instantiating Mojang DFU
+[00:01:29] [Datafixer Bootstrap] [com.mojang.datafixers.DataFixerBuilder/INFO]: 188 Datafixer optimizations took 202 milliseconds
+[00:02:53] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: SaturnCorgi has made the advancement [Create: Estrogen]
+[00:02:53] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] SaturnCorgi has made the advancement [Create: Estrogen]
+[00:02:53] [Render thread] [net.minecraft.class_163/INFO]: Loaded 64 advancements
+[00:03:20] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: SaturnCorgi has reached the goal [Pill up, gals!]
+[00:03:20] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] SaturnCorgi has reached the goal [Pill up, gals!]
+[00:03:20] [Render thread] [net.minecraft.class_163/INFO]: Loaded 70 advancements
+[00:03:22] [Render thread] [net.minecraft.class_163/INFO]: Loaded 92 advancements
+[00:03:26] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] Saved screenshot as 2025-11-25_00.03.25.png
+[00:03:32] [Render thread] [net.minecraft.class_163/INFO]: Loaded 96 advancements
+[00:03:44] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: SaturnCorgi has reached the goal [Estrogen Dealer]
+[00:03:44] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] SaturnCorgi has reached the goal [Estrogen Dealer]
+[00:03:44] [Render thread] [net.minecraft.class_163/INFO]: Loaded 96 advancements
+[00:04:08] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: SaturnCorgi has made the advancement [Cover Me with Diamonds]
+[00:04:08] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] SaturnCorgi has made the advancement [Cover Me with Diamonds]
+[00:04:08] [Render thread] [net.minecraft.class_163/INFO]: Loaded 103 advancements
+[00:04:54] [Render thread] [net.minecraft.class_163/INFO]: Loaded 106 advancements
+[00:05:02] [Render thread] [net.minecraft.class_163/INFO]: Loaded 106 advancements
+[00:05:09] [Server thread] [net.minecraft.class_1132/INFO]: Saving and pausing game...
+[00:05:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[00:05:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[00:05:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[00:05:09] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[00:07:18] [Server thread] [net.minecraft.class_1132/INFO]: Saving and pausing game...
+[00:07:19] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[00:07:19] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[00:07:19] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[00:07:19] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[00:07:19] [Render thread] [voicechat/INFO]: [voicechat] Clearing audio channels
+[00:07:19] [Netty Server IO #1] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/INFO]: Player [SaturnCorgi] disconnected.
+[00:07:19] [Render thread] [voicechat/INFO]: [voicechat] Stopping microphone thread
+[00:07:19] [Render thread] [voicechat/INFO]: [voicechat] Disconnecting voicechat
+[00:07:19] [Render thread] [com.seibel.distanthorizons.core.api.internal.ClientApi/INFO]: Client on ClientOnly mode disconnecting.
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [minecraft:overworld].
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.ClientLevelModule$ClientRenderState/INFO]: Shutting down ClientRenderState
+[00:07:19] [Render thread] [com.seibel.distanthorizons.core.render.renderer.LodRenderer/INFO]: Shutting down LodRenderer...
+[00:07:19] [Render thread] [com.seibel.distanthorizons.core.render.renderer.LodRenderer/INFO]: Queuing Renderer Cleanup for main render thread
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.render.LodQuadTree/INFO]: Shutting down LodQuadTree...
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.render.LodQuadTree/INFO]: Finished shutting down LodQuadTree
+[00:07:19] [Render thread] [com.seibel.distanthorizons.core.render.renderer.LodRenderer/INFO]: Finished shutting down LodRenderer
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.render.LodQuadTree/INFO]: Shutting down LodQuadTree...
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.render.LodQuadTree/INFO]: Finished shutting down LodQuadTree
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/INFO]: Closing world gen queue
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/INFO]: Closing WorldGenerationQueue...
+[00:07:19] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/INFO]: Awaiting world generator thread pool termination...
+[00:07:19] [DH-Cleanup Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.render.LodQuadTree/INFO]: waiting for [8] futures before closing render cache...
+[00:07:19] [DH-Cleanup Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.render.LodQuadTree/INFO]: waiting for [0] futures before closing render cache...
+[00:07:22] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[00:07:22] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/INFO]: BatchGenerator shutting down...
+[00:07:22] [Render thread] [LodWorldGen/INFO]: BatchGenerationEnvironment shutting down...
+[00:07:22] [Render thread] [LodWorldGen/INFO]: Canceling in progress generation event futures...
+[00:07:22] [Render thread] [LodWorldGen/INFO]: BatchGenerationEnvironment shutdown complete.
+[00:07:22] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/INFO]: Finished closing WorldGenerationQueue
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:23] [DH-Parent Update Queue [minecraft:overworld] Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]...
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:overworld}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:overworld}
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [ae2:spatial_storage].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:23] [DH-Parent Update Queue [ae2:spatial_storage] Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Update thread [DH-Parent Update Queue [ae2:spatial_storage] Thread[0]] terminated.
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]...
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@ae2:spatial_storage}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@ae2:spatial_storage}
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [minecraft:the_nether].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:23] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]...
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
+[00:07:23] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_nether}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_nether}
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [minecraft:the_end].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:24] [DH-Parent Update Queue [minecraft:the_end] Thread[0]] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]...
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_end}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_end}
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Closed DhWorld of type CLIENT_SERVER
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [minecraft:overworld].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:overworld}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:overworld}
+[00:07:24] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [ae2:spatial_storage].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@ae2:spatial_storage}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@ae2:spatial_storage}
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [minecraft:the_nether].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_nether}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_nether}
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Unloading level [minecraft:the_end].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:25] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_end}].
+[00:07:26] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:26] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
+[00:07:26] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_end}
+[00:07:26] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/INFO]: Closed DhWorld of type CLIENT_SERVER
+[00:07:26] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/INFO]: Shutting down PriorityTaskPicker thread pool...
+[00:07:26] [Render thread] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/INFO]: Closing all [0] database connections...
+[00:07:26] [Render thread] [mezz.jei.fabric.startup.ClientLifecycleHandler/INFO]: Stopping JEI
+[00:07:26] [Render thread] [mezz.jei.library.startup.JeiStarter/INFO]: Stopping JEI
+[00:07:26] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime Unavailable...
+[00:07:26] [Render thread] [mezz.jei.fabric.plugins.fabric.FabricGuiPlugin/INFO]: Stopping JEI GUI
+[00:07:26] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime Unavailable took 1.025 ms
+[00:07:26] [Server thread] [net.minecraft.class_3244/INFO]: SaturnCorgi lost connection: Disconnected
+[00:07:26] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: SaturnCorgi left the game
+[00:07:26] [Server thread] [voicechat/INFO]: [voicechat] Disconnecting client SaturnCorgi
+[00:07:26] [Server thread] [net.minecraft.class_3244/INFO]: Stopping singleplayer server as player logged out
+[00:07:27] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Stopping server
+[00:07:27] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving players
+[00:07:27] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving worlds
+[00:07:27] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: ThreadedAnvilChunkStorage (pet test): All chunks are saved
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[00:07:28] [Server thread] [net.minecraft.server.MinecraftServer/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:07:29] [Render thread] [com.seibel.distanthorizons.core.api.internal.ClientApi/INFO]: Unloading client level [ClientLevelWrapper]-[g1t06100ccqo8@minecraft:overworld].
+[00:07:29] [Render thread] [ChunkBuilder/INFO]: Stopping worker threads
+Shutting down culling task!
+[00:07:31] [Render thread] [net.minecraft.class_310/INFO]: Stopping!
+[00:07:31] [Render thread] [mezz.jei.fabric.startup.ClientLifecycleHandler/INFO]: Stopping JEI
+[00:07:31] [Render thread] [mezz.jei.library.startup.JeiStarter/INFO]: Stopping JEI
+[00:07:31] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime Unavailable...
+[00:07:31] [Render thread] [mezz.jei.fabric.plugins.fabric.FabricGuiPlugin/INFO]: Stopping JEI GUI
+[00:07:31] [Render thread] [mezz.jei.library.load.PluginCaller/INFO]: Sending Runtime Unavailable took 362.5 μs
+[LauncherLogger] Warning: Stream injection failed; legacy loggers may retain blocking behavior.
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+
+# Process exited with status: exit status: 0

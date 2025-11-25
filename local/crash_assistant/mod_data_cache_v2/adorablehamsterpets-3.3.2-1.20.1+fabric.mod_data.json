@@ -1,0 +1,1 @@
+{"jarName":"adorablehamsterpets-3.3.2-1.20.1+fabric.jar","modId":"adorablehamsterpets","version":"3.3.2-1.20.1+fabric","mixinConfigs":["adorablehamsterpets.mixins.json"],"jarJarMods":[{"jarName":"placeholder-api-2.1.1+1.20.jar","modId":"placeholder-api","version":"2.1.1+1.20","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

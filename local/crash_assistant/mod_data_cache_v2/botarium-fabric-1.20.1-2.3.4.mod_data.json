@@ -1,0 +1,1 @@
+{"jarName":"botarium-fabric-1.20.1-2.3.4.jar","modId":"botarium","version":"2.3.4","mixinConfigs":["botarium.fabric.mixins.json"],"jarJarMods":[{"jarName":"energy-3.0.0.jar","modId":"team_reborn_energy","version":"3.0.0","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

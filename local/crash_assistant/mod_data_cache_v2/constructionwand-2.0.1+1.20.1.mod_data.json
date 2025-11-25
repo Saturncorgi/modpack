@@ -1,0 +1,1 @@
+{"jarName":"constructionwand-2.0.1+1.20.1.jar","modId":"constructionwand","version":"2.0.1","mixinConfigs":["constructionwand.mixins.json","constructionwand.client.mixins.json"],"jarJarMods":[{"jarName":"simpleconfig-2.4.3+1.20.1.jar","modId":"dev_smto_simpleconfig","version":"2.4.3+1.20.1","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}
