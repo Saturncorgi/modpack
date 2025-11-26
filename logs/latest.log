@@ -1,5 +1,924 @@
-[00:00:39] [Render thread/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/light.png
-java.io.FileNotFoundException: faunify:textures/entity/hedgehog/light.png
+[19:23:00] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.1
+[19:23:00] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[19:23:00] [ForkJoinPool-1-worker-10/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 26 column 4
+- Unsupported root entry "" at line 26 column 92
+- Unsupported root entry "" at line 28 column 4
+- Unsupported root entry "" at line 28 column 24
+[19:23:00] [ForkJoinPool-1-worker-20/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[19:23:00] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic FPS' (dynamic_fps) 3.9.5 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.9+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[19:23:00] [main/INFO]: Loading 229 mods:
+	- adorablehamsterpets 3.3.2-1.20.1+fabric
+	- ae2 15.4.10
+	   \-- team_reborn_energy 3.0.0
+	- ae2wtlib 15.2.1-fabric
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- badoptimizations 2.3.1
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- bcc 4.0.1
+	- betterstats 3.12.6+fabric-1.20.1
+	- bookshelf 20.2.13
+	- botarium 2.3.4
+	   \-- team_reborn_energy 3.0.0
+	- c2me 0.2.0+alpha.11.16
+	   |-- c2me-base 0.2.0+alpha.11.16
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.16
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.16
+	   |-- c2me-notickvd 0.2.0+alpha.11.16
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-opts-math 0.2.0+alpha.11.16
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-server-utils 0.2.0+alpha.11.16
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.16
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.16
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- chunksending 1.20.1-2.8
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.4
+	- connectivity 1.20.1-7.2
+	- constructionwand 2.0.1
+	   \-- dev_smto_simpleconfig 2.4.3+1.20.1
+	- controlling 12.0.2
+	- copycats 2.2.2+mc.1.20.1-fabric
+	- crash_assistant 1.10.23
+	- crashexploitfixer 1.1.0
+	- create 0.5.1-j-build.1631+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.11-4
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_base 2.3.8+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_config 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.8+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.8+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_utility 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_client_events 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_entity 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |-- porting_lib_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_networking 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_obj_loader 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_tool_actions 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_transfer 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_fluids 2.3.8+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- cubes-without-borders 3.0.0+mc1.20
+	- cupboard 1.20.1-2.7
+	- distanthorizons 2.3.6-b
+	- dynamic_fps 3.9.5
+	   \-- net_lostluma_battery 1.3.0
+	- dynamiclights 1.9+mod
+	- embeddium 0.3.25+mc1.20.1
+	   |-- indium 1.99.99
+	   \-- sodium 0.5.11
+	- entityculling 1.9.3
+	   |-- transition 1.0.8
+	   \-- trender 1.0.8
+	- estrogen 4.3.4+1.20.1-fabric
+	   |-- baubly 1.0.1
+	   |-- com_teamresourceful_resourceful-cosmetics-4j 1.0.4
+	   |-- critter_lib 0.1-beta.14
+	   \-- jukeboxfix 1.0.1
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.1
+	   \-- mixinextras 0.5.0
+	- fastasyncworldsave 1.20.1-2.6
+	- fastipping 1.0.7
+	- fastitemframes 20.1.5
+	- faunify 1.2.4
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.2
+	- friendlyfire 18.0.7
+	- fzzy_config 0.7.3+1.20.1
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- gpumemleakfix 1.20.1-1.8
+	- immediatelyfast 1.5.2+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- immortal_pets 1.0.0
+	- indypets 1.4.7
+	- jade 11.13.1+fabric
+	- java 17
+	- jei 15.20.0.125
+	- leavesbegone 8.0.0
+	- lithium 0.11.3
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- modernfix 5.25.1+mc1.20.1
+	- mousetweaks 2.26
+	- naturescompass 1.20.1-2.2.3-fabric
+	- nochatreports 1.20.1-v2.2.2
+	- packetfixer 3.3.1
+	- patchouli 1.20.1-84.1-FABRIC
+	   \-- fiber 0.23.0-2
+	- puzzleslib 8.1.33
+	   \-- puzzlesaccessapi 20.1.1
+	- redirected 1.0.0
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- searchables 1.0.3
+	- servercore 1.5.2+1.20.1
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- placeholder-api 2.1.3+1.20.1
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- smoothchunk 1.20.1-4.1
+	- sodiumdynamiclights 1.0.9
+	- sound_physics_remastered 1.20.1-1.5.1
+	- spark 1.10.53
+	- spectators-generate-loot 1.0.1
+	- starlight 1.1.2+fabric.dbc156f
+	- storagedrawers 12.14.3
+	- tcdcommons 3.12.3.3+fabric-1.20.1
+	- toofast 1.2.0
+	- trinkets 3.7.2
+	   |-- cardinal-components-base 5.2.0
+	   \-- cardinal-components-entity 5.2.0
+	- txnilib 1.0.24
+	- voicechat 1.20.1-2.6.6
+	   \-- voicechat_api 2.6.0
+	- waystones 14.1.17
+[19:23:00] [main/WARN]: Found 1 non-fabric mod:
+	- qfapi-7.7.0_qsl-6.3.0_fapi-0.92.2_mc-1.20.1.jar
+[19:23:11] [main/INFO]: Launching CrashAssistantApp (CrashAssistant-fabric-1.19-1.21.4-1.10.23.jar)
+[19:23:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Mischa/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:23:12] [main/INFO]: Compatibility level set to JAVA_17
+[19:23:12] [CrashAssistantApp process logger/INFO]: CrashAssistantApp process successfully started.
+[19:23:13] [main/INFO]: Config version: 4
+[19:23:13] [main/INFO]: BadOptimizations config dump:
+[19:23:13] [main/INFO]: enable_toast_optimizations: true
+[19:23:13] [main/INFO]: ignore_mod_incompatibilities: false
+[19:23:13] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[19:23:13] [main/INFO]: enable_lightmap_caching: true
+[19:23:13] [main/INFO]: enable_particle_manager_optimization: true
+[19:23:13] [main/INFO]: enable_entity_renderer_caching: true
+[19:23:13] [main/INFO]: log_config: true
+[19:23:13] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[19:23:13] [main/INFO]: config_version: 4
+[19:23:13] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[19:23:13] [main/INFO]: enable_block_entity_renderer_caching: true
+[19:23:13] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[19:23:13] [main/INFO]: enable_entity_flag_caching: true
+[19:23:13] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[19:23:13] [main/INFO]: enable_sky_color_caching: true
+[19:23:13] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[19:23:13] [main/INFO]: show_f3_text: true
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:23:13] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[19:23:13] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:23:13] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:23:13] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[19:23:13] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[19:23:13] [main/INFO]: Loaded configuration file for Embeddium: 273 options available, 0 override(s) found
+[19:23:13] [main/WARN]: Reference map 'fastitemframes.fabric.refmap.json' for fastitemframes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:23:13] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
+[19:23:13] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:23:13] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 71 options available, 3 override(s) found
+[19:23:13] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[19:23:13] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[19:23:13] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[19:23:13] [main/INFO]: Applying Nashorn fix
+[19:23:13] [main/INFO]: Configuring Minecraft's max.bg.threads option with 21 threads
+[19:23:13] [main/INFO]: Packet Fixer fabric 1.19.3-1.20.1 has been applied successfully.
+[19:23:13] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:23:13] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:23:14] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[19:23:14] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[19:23:14] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[19:23:14] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[19:23:14] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[19:23:15] [main/WARN]: Error loading class: org/figuramc/figura/lua/api/HostAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/HostAPI)
+[19:23:15] [main/WARN]: @Mixin target org.figuramc.figura.lua.api.HostAPI was not found estrogen-common.mixins.json:mixincompat.figura.HostAPIMixin from mod estrogen
+[19:23:15] [main/WARN]: Error loading class: org/figuramc/figura/lua/api/entity/ViewerAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/entity/ViewerAPI)
+[19:23:15] [main/WARN]: @Mixin target org.figuramc.figura.lua.api.entity.ViewerAPI was not found estrogen-common.mixins.json:mixincompat.figura.ViewerAPIMixin from mod estrogen
+[19:23:15] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:23:15] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[19:23:15] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[19:23:15] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[19:23:15] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[19:23:15] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[19:23:15] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[19:23:15] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[19:23:15] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[19:23:15] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[19:23:16] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[19:23:16] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[19:23:16] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[19:23:16] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[19:23:16] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[19:23:16] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[19:23:16] [main/INFO]: Searching for graphics cards...
+[19:23:16] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon RX 5700 XT, version=DriverVersion=32.0.21030.2001]
+[19:23:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:23:17] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[19:23:18] [main/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
+[19:23:18] [main/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
+[19:23:18] [main/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
+[19:23:19] [main/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
+[19:23:19] [main/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
+[19:23:19] [main/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to md6bf601$nochatreports$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:23:19] [main/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to md6bf601$nochatreports$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:23:19] [main/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md6bf601$nochatreports$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:23:19] [main/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md6bf601$nochatreports$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:23:19] [main/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to md6bf601$nochatreports$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:23:19] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[19:23:19] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md6bf601$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[19:23:19] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md6bf601$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[19:23:20] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:23:20] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:23:20] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[19:23:20] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[19:23:20] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[19:23:20] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBlockMixin from mod lithium->@Redirect::removeAllocation()[Lnet/minecraft/class_2350; with priority 1000
+[19:23:20] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBlockMixin from mod lithium->@Redirect::removeAllocation()[Lnet/minecraft/class_2350; with priority 1000
+[19:23:20] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedstoneWireBlockMixin from mod lithium->@Redirect::removeAllocation1()[Lnet/minecraft/class_2350; with priority 1000
+[19:23:20] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedstoneWireBlockMixin from mod lithium->@Redirect::removeAllocation2()[Lnet/minecraft/class_2350; with priority 1000
+[19:23:23] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[19:23:23] [main/WARN]: @ModifyConstant conflict. Skipping packetfixer.v1_19_3.fabric.mixins.json:v1_19_3_fabric.ServerGamePacketListenerImplMixin from mod packetfixer->@ModifyConstant::packetfixer$tick$1(J)J with priority 1000, already redirected by connectivity.mixins.json:ServerPlayNetHandlerMixin from mod connectivity->@ModifyConstant::playTimeout(J)J with priority 1001
+[19:23:24] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[19:23:24] [main/INFO]: Vanilla bootstrap took 5054 milliseconds
+[19:23:25] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:23:25] [Render thread/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+[19:23:25] [Render thread/INFO]: Setting user: a_mishmash
+[19:23:25] [Render thread/INFO]: Bypassed Mojang DFU
+[19:23:25] [Render thread/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
+[19:23:27] [Render thread/INFO]: Loaded config adorablehamsterpets:main in 1034ms
+[19:23:27] [Render thread/INFO]: Registering Mod Criteria for adorablehamsterpets
+[19:23:27] [Render thread/INFO]: [BiomeConfig] Parsed 7 tags, 212 included biomes, and 1 excluded biomes.
+[19:23:27] [Render thread/INFO]: [FeatureConfig] Parsed feature generation settings from config.
+[19:23:27] [Render thread/INFO]: Parsed all item tag overrides from config.
+[19:23:27] [Render thread/INFO]: Registering C2S receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[19:23:27] [Render thread/INFO]: Registering S2C receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[19:23:27] [Render thread/INFO]: Registering C2S receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[19:23:27] [Render thread/INFO]: Registering S2C receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[19:23:27] [Render thread/INFO]: Registering C2S receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[19:23:27] [Render thread/INFO]: Registering S2C receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[19:23:27] [Render thread/INFO]: Registering C2S receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[19:23:27] [Render thread/INFO]: Registering S2C receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[19:23:27] [Render thread/INFO]: Registering C2S receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[19:23:27] [Render thread/INFO]: Registering S2C receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[19:23:27] [Render thread/INFO]: Better Compatibility Checker starting
+[19:23:27] [Render thread/INFO]: Loading config file
+[19:23:27] [Render thread/INFO]: Config file loaded
+[19:23:27] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[19:23:27] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[19:23:27] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[19:23:27] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[19:23:27] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[19:23:27] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[19:23:27] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[19:23:27] [Render thread/INFO]: Loaded config for: chunksending.json
+[19:23:27] [Render thread/INFO]: chunksending mod initialized
+[19:23:27] [Render thread/INFO]: Connectivity initialized
+[19:23:27] [Render thread/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[19:23:28] [Thread-31/INFO]: [STDERR]: java.lang.NullPointerException
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.LogicalSidedProvider.get(LogicalSidedProvider.java:34)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.lambda$refreshItemVisibility$8(FeatureToggle.java:142)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.Platform$Environment.runIfCurrent(Platform.java:40)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.refreshItemVisibility(FeatureToggle.java:141)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.CFeatures.onReload(CFeatures.java:58)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(Unknown Source)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.simibubi.create.foundation.config.ConfigBase.onReload(ConfigBase.java:36)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.SyncConfigBase.onReload(SyncConfigBase.java:63)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.fabric.CCConfigsImpl.onReload(CCConfigsImpl.java:28)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.api.config.v2.ModConfigEvents$ModConfigEventsHolder.lambda$create$2(ModConfigEvents.java:133)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.impl.core.FabricAbstractions.fireConfigReloading(FabricAbstractions.java:20)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:160)
+[19:23:28] [Thread-31/INFO]: [STDERR]: 	at knot//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[19:23:30] [Render thread/INFO]: Loaded config for: cupboard.json
+[19:23:30] [Render thread/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[19:23:30] [Render thread/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
+[19:23:30] [Render thread/INFO]: Injecting Estrogen into your veins!
+[19:23:30] [Render thread/WARN]: @ModifyConstant conflict. Skipping packetfixer.v1_19_3.fabric.mixins.json:v1_19_3_fabric.ServerLoginPacketListenerImplMixin from mod packetfixer->@ModifyConstant::packetfixer$tick(I)I with priority 1000, already redirected by connectivity.mixins.json:ServerLoginNetHandlerMixin from mod connectivity->@ModifyConstant::loginTimeout(I)I with priority 1001
+[19:23:30] [Render thread/INFO]: ping & connect fast!
+[19:23:30] [Render thread/INFO]: Constructing common components for fastitemframes:main
+[19:23:30] [Render thread/INFO]: Initializing Faunify...
+[19:23:31] [Render thread/INFO]: Faunify initialized successfully!
+[19:23:31] [Render thread/INFO]: Loaded config file.
+[19:23:31] [Render thread/INFO]: Saved config file.
+[19:23:31] [Render thread/INFO]: Constructing common components for leavesbegone:main
+[19:23:31] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[19:23:31] [Render thread/INFO]: Default JVM text encoding is: windows-1252
+[19:23:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[19:23:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[19:23:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[19:23:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[19:23:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[19:23:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[19:23:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[19:23:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[19:23:31] [Render thread/INFO]: Client initialization...
+[19:23:31] [Render thread/INFO]: Constructing common components for puzzleslib:main
+[19:23:32] [Render thread/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
+[19:23:32] [Render thread/INFO]: New compacting rule 4 clay_ball = 1 clay
+[19:23:32] [Render thread/INFO]: New compacting rule 4 snowball = 1 snow_block
+[19:23:32] [Render thread/INFO]: New compacting rule 4 glowstone_dust = 1 glowstone
+[19:23:32] [Render thread/INFO]: New compacting rule 4 brick = 1 bricks
+[19:23:32] [Render thread/INFO]: New compacting rule 4 nether_brick = 1 nether_bricks
+[19:23:32] [Render thread/INFO]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[19:23:32] [Render thread/INFO]: New compacting rule 4 quartz = 1 quartz_block
+[19:23:32] [Render thread/INFO]: New compacting rule 9 melon_slice = 1 melon
+[19:23:32] [Render thread/INFO]: New compacting rule 9 bamboo = 1 bamboo_block
+[19:23:32] [Render thread/INFO]: New compacting rule 4 clay_ball = 1 clay
+[19:23:32] [Render thread/INFO]: New denied storage item creative_vending_upgrade
+[19:23:32] [Render thread/INFO]: Adding ore conversions for types: forge:storage_blocks, forge:ingots, forge:nuggets
+[19:23:32] [Render thread/INFO]: Adding ore conversions for materials: aluminum, constantan, steel, uranium, invar, tin, lead, silver, platinum, nickel, osmium, bronze, electrum
+[19:23:32] [Render thread/INFO]: [voicechat] Compatibility version 20
+[19:23:32] [Render thread/INFO]: [voicechat] Loading plugins
+[19:23:32] [Render thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[19:23:32] [Render thread/INFO]: [voicechat] Initializing plugins
+[19:23:32] [Render thread/INFO]: Initializing Simple Voice Chat integration
+[19:23:32] [Render thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[19:23:32] [Render thread/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[19:23:33] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[19:23:33] [Render thread/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[19:23:33] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_500
+[19:23:33] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md6bf601$nochatreports$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[19:23:33] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md6bf601$nochatreports$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[19:23:33] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to md6bf601$nochatreports$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[19:23:33] [Render thread/INFO]: Initializing Distant Horizons client, firing DhApiBeforeDhInitEvent...
+[19:23:33] [Render thread/INFO]: Distant Horizons, Version: 2.3.6-b
+[19:23:33] [Render thread/INFO]: Registering Fabric Client Events
+[19:23:33] [Render thread/INFO]: Registering Fabric Server Events
+[19:23:33] [Render thread/INFO]: Registered mod compatibility accessor for: [Sodium-Fabric].
+[19:23:33] [Render thread/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[19:23:33] [Render thread/INFO]: Initialising config for [DistantHorizons]
+[19:23:34] [Render thread/INFO]: [DistantHorizons] Config initialised
+[19:23:34] [Render thread/INFO]: Distant Horizons client Initialized.
+[19:23:34] [Render thread/INFO]: Dynamic FPS 3.9.5 active on Fabric!
+[19:23:34] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[19:23:34] [Render thread/INFO]: Constructing client components for fastitemframes:main
+[19:23:34] [Render thread/INFO]: No shaders mod detected.
+[19:23:35] [Render thread/INFO]: Loaded config fzzy_config:keybinds in 49ms
+[19:23:35] [Render thread/INFO]: Sending ConfigManager...
+[19:23:35] [Render thread/INFO]: Sending ConfigManager took 1.866 ms
+[19:23:35] [Render thread/INFO]: Constructing client components for puzzleslib:main
+[19:23:35] [Render thread/INFO]: [LambDynLights] Initializing SodiumDynamicLights...
+[19:23:35] [Render thread/INFO]: Reloading reverb parameters
+[19:23:35] [Render thread/INFO]: Initializing 'TCD Commons API' 3.12.3.3+fabric-1.20.1 as 'TCDCommonsClient'.
+[19:23:35] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[19:23:35] [Render thread/INFO]: [voicechat] Initializing Opus
+[19:23:35] [Render thread/INFO]: [voicechat] Successfully initialized Opus
+[19:23:35] [Render thread/INFO]: [voicechat] Initializing RNNoise
+[19:23:35] [Render thread/INFO]: [voicechat] Successfully initialized RNNoise
+[19:23:35] [Render thread/INFO]: [voicechat] Initializing Speex
+[19:23:35] [Render thread/INFO]: [voicechat] Successfully initialized Speex
+[19:23:35] [Render thread/INFO]: [voicechat] Initializing LAME
+[19:23:35] [Render thread/INFO]: [voicechat] Successfully initialized LAME
+[19:23:35] [Render thread/INFO]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.class_315
+[19:23:35] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to md6bf601$nochatreports$lambda$onlyShowSecureChat$0$0 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[19:23:35] [Render thread/INFO]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_338
+[19:23:35] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md6bf601$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[19:23:35] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to md6bf601$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[19:23:35] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[19:23:35] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$6bf601$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[19:23:35] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[19:23:36] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[19:23:36] [Render thread/INFO]: OpenGL Renderer: AMD Radeon RX 5700 XT
+[19:23:36] [Render thread/INFO]: OpenGL Version: 3.2.0 Core Profile Context 25.10.30.02.250923
+[19:23:36] [Render thread/INFO]: Initializing ImmediatelyFast 1.5.2+1.20.4 on AMD Radeon RX 5700 XT (ATI Technologies Inc.) with OpenGL 3.2.0 Core Profile Context 25.10.30.02.250923
+[19:23:37] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[19:23:37] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[19:23:37] [Render thread/INFO]: Replacing search trees with 'JEI' provider
+[19:23:37] [Render thread/INFO]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_7594
+[19:23:37] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (adorablehamsterpets, ae2, ae2wtlib, appleskin, badoptimizations, balm, bcc, betterstats, bookshelf, c2me, cardinal-components-base, cardinal-components-entity, chunksending, cloth-config, clumps, connectivity, constructionwand, controlling, copycats, crashexploitfixer, create, cubes-without-borders, distanthorizons, dripstone_fluid_lib, dynamic_fps, dynamiclights, embeddium, entityculling, estrogen, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fastipping, fastitemframes, faunify, flywheel, forgeconfigapiport, friendlyfire, fzzy_config, geckolib, immediatelyfast, indypets, jade, jei, lithium, milk, modernfix, naturescompass, nochatreports, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, redirected, registrate-fabric, searchables, smoothchunk, sodiumdynamiclights, sound_physics_remastered, spark, spectators-generate-loot, starlight, storagedrawers, tcdcommons, team_reborn_energy, trender, trinkets, txnilib, voicechat, waystones)
+[19:23:38] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[19:23:38] [Worker-ResourceReload-11/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[19:23:38] [Render thread/INFO]: Checking for Distant Horizons update
+[19:23:38] [Worker-ResourceReload-12/WARN]: Model loader 'ae2:block/cable_bus' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-12/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-7/WARN]: Model loader 'ae2:block/crafting/16k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-12/WARN]: Model loader 'ae2:block/crafting/256k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-22/WARN]: Model loader 'ae2:block/crafting/4k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-4/WARN]: Model loader 'ae2:block/crafting/1k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-7/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-4/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-12/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-22/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-17/WARN]: Model loader 'ae2:block/crafting/64k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-4/WARN]: Model loader 'ae2:block/crafting/accelerator_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-4/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-17/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-8/WARN]: Model loader 'ae2:block/crafting/unit_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-8/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-1/WARN]: Model loader 'ae2:block/drive' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-1/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-0/WARN]: Model loader 'ae2:block/paint' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-0/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-16/WARN]: Model loader 'ae2:block/qnb/qnb_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-16/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-18/WARN]: Model loader 'ae2:block/quartz_glass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-18/WARN]: Falling back to vanilla logic.
+[19:23:38] [Worker-ResourceReload-16/WARN]: Model loader 'ae2:block/spatial_pylon' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:38] [Worker-ResourceReload-16/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-2/WARN]: Model loader 'ae2:item/facade' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-2/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-11/WARN]: Model loader 'ae2:item/memory_card' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-0/WARN]: Model loader 'ae2:item/meteorite_compass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-11/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-0/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-7/WARN]: Model loader 'ae2:part/annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-11/WARN]: Model loader 'ae2:part/annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-11/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-7/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-14/WARN]: Model loader 'ae2:part/identity_annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-3/WARN]: Model loader 'ae2:part/p2p/p2p_tunnel_frequency' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-12/WARN]: Model loader 'ae2:part/formation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-14/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-10/WARN]: Model loader 'ae2:part/formation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-3/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-12/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-10/WARN]: Falling back to vanilla logic.
+[19:23:39] [Worker-ResourceReload-6/WARN]: Model loader 'ae2:part/identity_annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[19:23:39] [Worker-ResourceReload-6/WARN]: Falling back to vanilla logic.
+[19:23:39] [Render thread/INFO]: Distant Horizons already up to date.
+[19:23:39] [Render thread/INFO]: Game entered main loop!
+[19:23:39] [Render thread/INFO]: Loaded config for: smoothchunk.json
+[19:23:39] [Render thread/INFO]: Loaded config for: connectivity.json
+[19:23:39] [Render thread/INFO]: Running Delayed setup...
+[19:23:39] [Render thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[19:23:39] [Render thread/INFO]: Start loading plugin from Adorable Hamster Pets
+[19:23:39] [Render thread/INFO]: Start loading plugin from Applied Energistics 2
+[19:23:40] [Render thread/INFO]: Start loading plugin from Balm
+[19:23:40] [Render thread/INFO]: Start loading plugin from Jade
+[19:23:40] [Render thread/INFO]: Start loading plugin from Jade
+[19:23:40] [Render thread/INFO]: Start loading plugin from Jade
+[19:23:40] [Render thread/INFO]: Start loading plugin from Waystones
+[19:23:43] [Worker-ResourceReload-1/INFO]: baking 16 thigh highs
+[19:23:43] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:23:43] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:23:44] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (2- USB Audio Device)
+[19:23:44] [Render thread/INFO]: Initializing Sound Physics
+[19:23:44] [Render thread/INFO]: EFX Extension recognized
+[19:23:44] [Render thread/INFO]: Max auxiliary sends: 4
+[19:23:44] [Render thread/INFO]: Aux slot 1 created
+[19:23:44] [Render thread/INFO]: Aux slot 2 created
+[19:23:44] [Render thread/INFO]: Aux slot 3 created
+[19:23:44] [Render thread/INFO]: Aux slot 4 created
+[19:23:44] [Render thread/INFO]: EFX ready
+[19:23:44] [Render thread/INFO]: Sound engine started
+[19:23:44] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:23:44] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:23:45] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:23:46] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:23:46] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:23:46] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:23:46] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[19:23:46] [Render thread/INFO]: Loaded 51 train hat configurations.
+[19:23:46] [Render thread/INFO]: Loaded all shader sources.
+[19:23:46] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 34 jsons
+[19:23:48] [Render thread/WARN]: Game took 57.403 seconds to start
+[19:23:50] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_404
+[19:23:50] [Render thread/INFO]: Renaming synthetic method lambda$init$0(Lnet/minecraft/class_339;)V to md6bf601$nochatreports$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen from mod nochatreports
+[19:23:50] [Render thread/INFO]: Mixing client.MixinRowHelper from mixins/common/nochatreports.mixins.json into net.minecraft.class_7845$class_7939
+[19:23:54] [Render thread/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[19:24:31] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[19:24:33] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[19:24:54] [Render thread/INFO]: Mixing client.MixinServerData from mixins/common/nochatreports.mixins.json into net.minecraft.class_642
+[19:24:54] [Render thread/INFO]: Mixing client.MixinOnlineServerEntry from mixins/common/nochatreports.mixins.json into net.minecraft.class_4267$class_4270
+[19:24:54] [Render thread/INFO]: Renaming synthetic method lambda$onRender$0()Ljava/util/ArrayList; to md6bf601$nochatreports$lambda$onRender$0$0 in mixins/common/nochatreports.mixins.json:client.MixinOnlineServerEntry from mod nochatreports
+[19:25:06] [Netty Client IO #0/WARN]: @ModifyConstant conflict. Skipping packetfixer.v1_19_3.fabric.mixins.json:v1_19_3_fabric.PacketEncoderMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000, already redirected by connectivity.mixins.json:PacketEncoderMixin from mod connectivity->@ModifyConstant::modifyLimit(ILio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;Lio/netty/buffer/ByteBuf;)I with priority 1000
+[19:25:07] [Server Pinger #0/INFO]: Mixing client.MixinServerStatusPinger$1 from mixins/common/nochatreports.mixins.json into net.minecraft.class_644$1
+[19:25:07] [Server Pinger #0/INFO]: Mixing client.MixinServerStatusPinger$1 from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_644$1
+[19:25:07] [Server Pinger #0/INFO]: Common mixin into ServerStatusPinger$1 succeeded.
+[19:25:07] [Server Pinger #0/INFO]: Fabric mixin into ServerStatusPinger$1 succeeded.
+[19:25:07] [Netty Client IO #0/WARN]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientboundCustomPayloadPacketMixin from mod connectivity->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19_3.fabric.mixins.json:v1_19_3_fabric.ClientboundCustomPayloadPacketMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[19:25:07] [Netty Client IO #0/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[19:25:07] [Netty Client IO #0/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[19:25:07] [Netty Client IO #0/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[19:25:07] [Netty Client IO #0/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[19:25:07] [Render thread/INFO]: Mixing client.MixinConnectScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_412
+[19:25:07] [Render thread/INFO]: Stopping JEI
+[19:25:07] [Render thread/INFO]: Stopping JEI
+[19:25:07] [Render thread/INFO]: Sending Runtime Unavailable...
+[19:25:07] [Render thread/INFO]: Stopping JEI GUI
+[19:25:07] [Render thread/INFO]: Sending Runtime Unavailable took 1.609 ms
+[19:25:07] [Render thread/INFO]: Connecting to mc.saturncorgi.com, 25565
+[19:25:08] [Netty Client IO #1/INFO]: Reloading server config for leavesbegone
+[19:25:08] [Render thread/INFO]: Enforcing safe world random access
+[19:25:09] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@77r67ss56vtms@minecraft:overworld}]-[77r67ss56vtms@minecraft:overworld].
+[19:25:09] [Render thread/INFO]: Started 10 worker threads
+[19:25:09] [Render thread/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[19:25:09] [Render thread/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[19:25:09] [Render thread/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[19:25:09] [Render thread/INFO]: Started 10 worker threads
+[19:25:09] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[19:25:09] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[19:25:09] [Render thread/INFO]: Initializing Sound Physics
+[19:25:09] [Render thread/INFO]: EFX Extension recognized
+[19:25:09] [Render thread/INFO]: Max auxiliary sends: 2
+[19:25:09] [Render thread/INFO]: Aux slot 1 created
+[19:25:09] [Render thread/INFO]: Aux slot 2 created
+[19:25:09] [Render thread/INFO]: Aux slot 3 created
+[19:25:09] [Render thread/INFO]: Aux slot 4 created
+[19:25:09] [Render thread/INFO]: EFX ready
+[19:25:09] [Render thread/INFO]: Client on ClientOnly mode connecting.
+[19:25:09] [Render thread/INFO]: Started DhWorld of type CLIENT_ONLY
+[19:25:09] [Render thread/INFO]: Loading [1] waiting client level wrappers.
+[19:25:09] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@77r67ss56vtms@minecraft:overworld}]-[77r67ss56vtms@minecraft:overworld].
+[19:25:09] [Render thread/WARN]: unable to create data folder.
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [Render thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:09] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [77r67ss56vtms@minecraft:overworld]-[C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld]...
+[19:25:09] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:25:09] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:25:09] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@77r67ss56vtms@minecraft:overworld} with saves at [ClientOnlySaveStructure@(C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld)]
+[19:25:09] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[19:25:09] [Render thread/INFO]: Saved config main to file C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\config\adorablehamsterpets\main.toml
+[19:25:10] [Render thread/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.20.1.json:net.minecraft.world.level.block.state.CacheMixin from mod redirected->@Redirect::redirectSupportTypes()[Lnet/minecraft/class_5431; with priority 10, already redirected by modernfix-common.mixins.json:perf.cache_blockstate_cache_arrays.AbstractBlockStateCacheMixin from mod modernfix->@Redirect::getVoxelShapeValues()[Lnet/minecraft/class_5431; with priority 1000
+[19:25:11] [Render thread/INFO]: Received config from the server: {}
+[19:25:11] [Render thread/WARN]: Unknown recipe category: ae2:charger/ae2:charger/guide
+[19:25:11] [Render thread/WARN]: Unknown recipe category: ae2:charger/ae2:charger/meteorite_compass
+[19:25:11] [Render thread/WARN]: Unknown recipe category: ae2:charger/ae2:charger/charged_certus_quartz_crystal
+[19:25:11] [Render thread/INFO]: Starting JEI...
+[19:25:11] [Render thread/INFO]: Registering item subtypes...
+[19:25:11] [Render thread/INFO]: Registering item subtypes took 9.455 ms
+[19:25:11] [Render thread/INFO]: Registering fluid subtypes...
+[19:25:11] [Render thread/INFO]: Registering fluid subtypes took 3.671 ms
+[19:25:11] [Render thread/INFO]: Registering ingredients...
+[19:25:11] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[19:25:11] [Render thread/INFO]: Registering ingredients: jei:minecraft took 94.38 milliseconds
+[19:25:11] [Render thread/INFO]: Registering ingredients took 95.49 ms
+[19:25:11] [Render thread/INFO]: Registering extra ingredients...
+[19:25:11] [Render thread/INFO]: Registering extra ingredients took 345.0 ?s
+[19:25:11] [Render thread/INFO]: Registering search ingredient aliases...
+[19:25:11] [Render thread/INFO]: Registering search ingredient aliases took 711.8 ?s
+[19:25:11] [Render thread/INFO]: Registering categories...
+[19:25:11] [Render thread/INFO]: Registering categories: jei:minecraft took 19.02 milliseconds
+[19:25:11] [Render thread/INFO]: Registering categories: ae2:core took 12.92 milliseconds
+[19:25:11] [Render thread/INFO]: Registering categories: create:jei_plugin took 40.66 milliseconds
+[19:25:11] [Render thread/INFO]: Registering categories took 79.21 ms
+[19:25:11] [Render thread/INFO]: Registering vanilla category extensions...
+[19:25:11] [Render thread/INFO]: Registering vanilla category extensions took 3.015 ms
+[19:25:11] [Render thread/INFO]: Registering recipe catalysts...
+[19:25:11] [Render thread/INFO]: Registering recipe catalysts took 2.804 ms
+[19:25:11] [Render thread/INFO]: Building recipe registry...
+[19:25:11] [Render thread/INFO]: Building recipe registry took 18.54 ms
+[19:25:11] [Render thread/INFO]: Registering advanced plugins...
+[19:25:11] [Render thread/INFO]: Added recipe manager plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[19:25:11] [Render thread/INFO]: Registering advanced plugins took 1.123 ms
+[19:25:11] [Render thread/INFO]: Registering recipes...
+[19:25:12] [Render thread/INFO]: Registering recipes: jei:minecraft took 621.2 milliseconds
+[19:25:12] [Render thread/INFO]: Registering recipes: ae2:core took 184.9 milliseconds
+[19:25:12] [Render thread/INFO]: Ingredients are being removed at runtime: 4 mezz.jei.api.fabric.ingredients.fluids.IJeiFluidIngredient
+[19:25:12] [Render thread/INFO]: Registering recipes: create:jei_plugin took 579.3 milliseconds
+[19:25:12] [Render thread/INFO]: Registering recipes took 1.397 s
+[19:25:12] [Render thread/INFO]: Registering recipes transfer handlers...
+[19:25:12] [Render thread/INFO]: Registering recipes transfer handlers took 18.64 ms
+[19:25:12] [Render thread/INFO]: Building runtime...
+[19:25:12] [Render thread/INFO]: Registering gui handlers...
+[19:25:12] [Render thread/INFO]: Registering gui handlers: jei:minecraft took 16.56 milliseconds
+[19:25:12] [Render thread/INFO]: Registering gui handlers: jei:gui took 36.52 milliseconds
+[19:25:12] [Render thread/INFO]: Registering gui handlers took 70.87 ms
+[19:25:12] [Render thread/INFO]: Registering Runtime...
+[19:25:12] [Render thread/INFO]: Starting JEI GUI
+[19:25:12] [Render thread/INFO]: Building ingredient list...
+[19:25:13] [Render thread/INFO]: Building ingredient list took 207.4 ms
+[19:25:13] [Render thread/INFO]: Building ingredient filter...
+[19:25:13] [Render thread/INFO]: Adding 3233 ingredients
+[19:25:14] [Render thread/INFO]: Added 3233 ingredients
+[19:25:14] [Render thread/INFO]: Building ingredient filter took 889.3 ms
+[19:25:14] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 1.273 seconds
+[19:25:14] [Render thread/INFO]: Registering Runtime took 1.274 s
+[19:25:14] [Render thread/INFO]: Building runtime took 1.387 s
+[19:25:14] [Render thread/INFO]: Sending Runtime...
+[19:25:14] [Render thread/INFO]: Ingredients are being removed at runtime: 9 net.minecraft.class_1799
+[19:25:14] [Render thread/INFO]: Sending Runtime took 6.771 ms
+[19:25:14] [Render thread/INFO]: Starting JEI took 3.116 s
+[19:25:14] [Render thread/WARN]: Received passengers for unknown entity
+[19:25:14] [Render thread/WARN]: Unknown custom packed identifier: betterstats:s2c_bss
+[19:25:14] [Render thread/INFO]: Loaded 53 advancements
+[19:25:14] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 215.3 ?s
+[19:25:14] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 327.8 ?s
+[19:25:14] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 124.2 ?s
+[19:25:14] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[19:25:15] [Render thread/INFO]: Loaded 60 advancements
+[19:25:15] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[77r67ss56vtms@minecraft:overworld].
+[19:25:15] [Render thread/INFO]: Unloading level DhClientLevel{77r67ss56vtms@minecraft:overworld}
+[19:25:15] [Render thread/INFO]: Shutting down ClientRenderState
+[19:25:15] [Render thread/INFO]: Shutting down LodRenderer...
+[19:25:15] [Render thread/WARN]: Renderer Cleanup called but the GLProxy has never been initialized!
+[19:25:15] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:25:15] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:25:15] [Render thread/INFO]: Finished shutting down LodRenderer
+[19:25:15] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:25:15] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:25:15] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:25:15] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:25:15] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{77r67ss56vtms@minecraft:overworld}].
+[19:25:15] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{77r67ss56vtms@minecraft:overworld}].
+[19:25:15] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]...
+[19:25:15] [DH-Parent Update Queue [77r67ss56vtms@minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [77r67ss56vtms@minecraft:overworld] Thread[0]] terminated.
+[19:25:15] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:25:15] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@77r67ss56vtms@minecraft:overworld}]
+[19:25:15] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@77r67ss56vtms@minecraft:overworld}]-[77r67ss56vtms@minecraft:overworld].
+[19:25:15] [Render thread/INFO]: Loading level [77r67ss56vtms@minecraft:overworld] with key: [77r67ss56vtms@minecraft:overworld].
+[19:25:15] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [77r67ss56vtms@minecraft:overworld]-[C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld]...
+[19:25:15] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:25:15] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:25:15] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@77r67ss56vtms@minecraft:overworld} with saves at [ClientOnlySaveStructure@(C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld;C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld)]
+[19:25:15] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[19:25:15] [Render thread/INFO]: [voicechat] Received secret
+[19:25:15] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '52.15.230.215:24454'
+[19:25:15] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:15] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591
+[19:25:15] [Render thread/INFO]: [CHAT] [Simple Voice Chat] Press V to set up
+[19:25:15] [Render thread/INFO]: Set world gen queue for level [77r67ss56vtms@minecraft:overworld].
+[19:25:15] [Render thread/INFO]: Stopping worker threads
+[19:25:15] [Render thread/INFO]: Started 10 worker threads
+[19:25:16] [Render thread/WARN]: Renderer setup called but GLProxy has not yet been setup!
+[19:25:16] [Render thread/INFO]: Creating GLProxy... If this is the last message you see there must have been an OpenGL error.
+[19:25:16] [Render thread/INFO]: Lod Render OpenGL version [3.2.0 Core Profile Context 25.10.30.02.250923].
+[19:25:16] [Render thread/INFO]: minecraftGlCapabilities:
+Your OpenGL support:
+openGL version 3.2+: [true] <- REQUIRED
+Vertex Attribute Buffer Binding: [true] <- optional improvement
+Buffer Storage: [true] <- optional improvement
+
+[19:25:16] [Render thread/INFO]: GPU Vendor [ATI TECHNOLOGIES INC.] with OS [Windows], Preferred upload method is [BUFFER_STORAGE].
+[19:25:16] [Render thread/INFO]: GLProxy creation successful. OpenGL smiles upon you this day.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 8
+[19:25:16] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:16] [Render thread/WARN]: Time from main menu to in-game was 8.563908 seconds
+[19:25:16] [Render thread/WARN]: Total time to load game and open world was 65.9669 seconds
+[19:25:16] [Render thread/INFO]: Setting up renderer
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[19:25:16] [Render thread/INFO]: Renderer setup complete
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35633]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:16] [Render thread/INFO]: Loading shader with type: [35632]
+[19:25:16] [Render thread/INFO]: Shader loaded sucessfully.
+[19:25:17] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:18] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:19] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:20] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:21] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:22] [Render thread/INFO]: [CHAT] <a_mishmash> gabagool
+[19:25:22] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:23] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:24] [Render thread/INFO]: [CHAT] <SaturnCorgi> hi
+[19:25:24] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:25:25] [VoiceChatAuthenticationThread/WARN]: [voicechat] Trying to authenticate voice chat connection (this message will not be logged again)
+[19:25:33] [Render thread/INFO]: [CHAT] <SaturnCorgi> I'm tring to fix vc
+[19:25:58] [Render thread/INFO]: [CHAT] <a_mishmash> k
+[19:26:03] [Render thread/INFO]: [voicechat] Reloading audio
+[19:26:03] [Render thread/INFO]: [voicechat] Clearing audio channels
+[19:26:03] [Render thread/INFO]: [voicechat] Restarting sound manager
+[19:26:03] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[19:26:03] [Render thread/INFO]: Initializing Sound Physics
+[19:26:03] [Render thread/INFO]: EFX Extension recognized
+[19:26:03] [Render thread/INFO]: Max auxiliary sends: 2
+[19:26:03] [Render thread/INFO]: Aux slot 1 created
+[19:26:03] [Render thread/INFO]: Aux slot 2 created
+[19:26:03] [Render thread/INFO]: Aux slot 3 created
+[19:26:03] [Render thread/INFO]: Aux slot 4 created
+[19:26:03] [Render thread/INFO]: EFX ready
+[19:26:03] [Render thread/INFO]: [voicechat] Starting microphone thread
+[19:26:06] [Render thread/INFO]: [voicechat] Reloading audio
+[19:26:06] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[19:26:06] [Render thread/INFO]: [voicechat] Clearing audio channels
+[19:26:06] [Render thread/INFO]: [voicechat] Restarting sound manager
+[19:26:06] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[19:26:06] [Render thread/INFO]: Initializing Sound Physics
+[19:26:06] [Render thread/INFO]: EFX Extension recognized
+[19:26:06] [Render thread/INFO]: Max auxiliary sends: 2
+[19:26:06] [Render thread/INFO]: Aux slot 1 created
+[19:26:06] [Render thread/INFO]: Aux slot 2 created
+[19:26:06] [Render thread/INFO]: Aux slot 3 created
+[19:26:06] [Render thread/INFO]: Aux slot 4 created
+[19:26:06] [Render thread/INFO]: EFX ready
+[19:26:06] [Render thread/INFO]: [voicechat] Starting microphone thread
+[19:26:50] [Render thread/INFO]: [CHAT] <SaturnCorgi> apparently it's a server problem I don't have time to solve. discord?
+[19:26:55] [VoiceTestingThread/INFO]: [voicechat] Mic test audio channel closed
+[19:27:04] [Render thread/INFO]: [CHAT] <a_mishmash> ok
+[19:27:42] [Render thread/WARN]: Received passengers for unknown entity
+[19:27:44] [DH-Phantom Array Recycler Thread[0]/WARN]: Pool: [Render Reducer]. Unable to find checkout for phantom reference [java.lang.ref.PhantomReference@2382a514], arrays will need to be recreated.
+[19:27:52] [Render thread/INFO]: Loaded 65 advancements
+[19:28:35] [Render thread/INFO]: Loaded 77 advancements
+[19:28:38] [Render thread/INFO]: Loaded 81 advancements
+[19:29:08] [Render thread/INFO]: Loaded 89 advancements
+[19:29:13] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[19:29:35] [Render thread/INFO]: [CHAT] a_mishmash has made the advancement [Stone Age]
+[19:29:35] [Render thread/INFO]: Loaded 105 advancements
+[19:30:14] [Render thread/INFO]: [CHAT] a_mishmash has made the advancement [Monster Hunter]
+[19:30:14] [Render thread/INFO]: Loaded 136 advancements
+[19:30:20] [Render thread/INFO]: [CHAT] a_mishmash has made the advancement [Getting an Upgrade]
+[19:30:20] [Render thread/INFO]: Loaded 140 advancements
+[19:30:30] [Render thread/INFO]: Loaded 140 advancements
+[19:30:31] [Render thread/INFO]: Loaded 149 advancements
+[19:30:35] [Render thread/INFO]: Loaded 152 advancements
+[19:30:38] [Render thread/INFO]: Loaded 174 advancements
+[19:31:43] [Render thread/INFO]: Loaded 174 advancements
+[19:31:43] [Render thread/INFO]: Loaded 175 advancements
+[19:31:44] [Render thread/INFO]: Loaded 182 advancements
+[19:31:50] [Render thread/INFO]: Loaded 183 advancements
+[19:32:07] [Render thread/INFO]: Loaded 184 advancements
+[19:32:13] [Render thread/INFO]: Loaded 185 advancements
+[19:32:36] [Render thread/INFO]: Loaded 185 advancements
+[19:32:46] [Render thread/INFO]: Loaded 189 advancements
+[19:33:25] [DH-Phantom Array Recycler Thread[0]/WARN]: Pool: [Render Reducer]. Unable to find checkout for phantom reference [java.lang.ref.PhantomReference@7162f8bf], arrays will need to be recreated.
+[19:33:37] [Render thread/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/dark.png
+java.io.FileNotFoundException: faunify:textures/entity/hedgehog/dark.png
 	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
 	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
@@ -34,8 +953,8 @@ java.io.FileNotFoundException: faunify:textures/entity/hedgehog/light.png
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
 	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar:?]
 	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar:?]
-[00:00:39] [Render thread/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/light.png
-java.io.FileNotFoundException: faunify:textures/entity/hedgehog/light.png
+[19:33:37] [Render thread/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/dark.png
+java.io.FileNotFoundException: faunify:textures/entity/hedgehog/dark.png
 	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
 	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
@@ -71,161 +990,136 @@ java.io.FileNotFoundException: faunify:textures/entity/hedgehog/light.png
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
 	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar:?]
 	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar:?]
-[00:01:19] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[00:01:20] [Render thread/INFO]: Building search tree for 3317 items (this may take a while)...
-[00:01:20] [Render thread/INFO]: Building search tree for 3317 items took 492.7 μs
-[00:01:23] [Render thread/INFO]: Loaded 61 advancements
-[00:01:28] [DH-World Gen Thread[1]/INFO]: Instantiating Mojang DFU
-[00:01:29] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 202 milliseconds
-[00:02:53] [Server thread/INFO]: SaturnCorgi has made the advancement [Create: Estrogen]
-[00:02:53] [Render thread/INFO]: [CHAT] SaturnCorgi has made the advancement [Create: Estrogen]
-[00:02:53] [Render thread/INFO]: Loaded 64 advancements
-[00:03:20] [Server thread/INFO]: SaturnCorgi has reached the goal [Pill up, gals!]
-[00:03:20] [Render thread/INFO]: [CHAT] SaturnCorgi has reached the goal [Pill up, gals!]
-[00:03:20] [Render thread/INFO]: Loaded 70 advancements
-[00:03:22] [Render thread/INFO]: Loaded 92 advancements
-[00:03:26] [Render thread/INFO]: [CHAT] Saved screenshot as 2025-11-25_00.03.25.png
-[00:03:32] [Render thread/INFO]: Loaded 96 advancements
-[00:03:44] [Server thread/INFO]: SaturnCorgi has reached the goal [Estrogen Dealer]
-[00:03:44] [Render thread/INFO]: [CHAT] SaturnCorgi has reached the goal [Estrogen Dealer]
-[00:03:44] [Render thread/INFO]: Loaded 96 advancements
-[00:04:08] [Server thread/INFO]: SaturnCorgi has made the advancement [Cover Me with Diamonds]
-[00:04:08] [Render thread/INFO]: [CHAT] SaturnCorgi has made the advancement [Cover Me with Diamonds]
-[00:04:08] [Render thread/INFO]: Loaded 103 advancements
-[00:04:54] [Render thread/INFO]: Loaded 106 advancements
-[00:05:02] [Render thread/INFO]: Loaded 106 advancements
-[00:05:09] [Server thread/INFO]: Saving and pausing game...
-[00:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
-[00:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
-[00:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
-[00:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
-[00:07:18] [Server thread/INFO]: Saving and pausing game...
-[00:07:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
-[00:07:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
-[00:07:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
-[00:07:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
-[00:07:19] [Render thread/INFO]: [voicechat] Clearing audio channels
-[00:07:19] [Netty Server IO #1/INFO]: Player [SaturnCorgi] disconnected.
-[00:07:19] [Render thread/INFO]: [voicechat] Stopping microphone thread
-[00:07:19] [Render thread/INFO]: [voicechat] Disconnecting voicechat
-[00:07:19] [Render thread/INFO]: Client on ClientOnly mode disconnecting.
-[00:07:19] [Render thread/INFO]: Unloading level [minecraft:overworld].
-[00:07:19] [Render thread/INFO]: Shutting down ClientRenderState
-[00:07:19] [Render thread/INFO]: Shutting down LodRenderer...
-[00:07:19] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
-[00:07:19] [Render thread/INFO]: Shutting down LodQuadTree...
-[00:07:19] [Render thread/INFO]: Finished shutting down LodQuadTree
-[00:07:19] [Render thread/INFO]: Finished shutting down LodRenderer
-[00:07:19] [Render thread/INFO]: Shutting down LodQuadTree...
-[00:07:19] [Render thread/INFO]: Finished shutting down LodQuadTree
-[00:07:19] [Render thread/INFO]: Closing world gen queue
-[00:07:19] [Render thread/INFO]: Closing WorldGenerationQueue...
-[00:07:19] [Render thread/INFO]: Awaiting world generator thread pool termination...
-[00:07:19] [DH-Cleanup Thread[0]/INFO]: waiting for [8] futures before closing render cache...
-[00:07:19] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
-[00:07:22] [Render thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
-[00:07:22] [Render thread/INFO]: BatchGenerator shutting down...
-[00:07:22] [Render thread/INFO]: BatchGenerationEnvironment shutting down...
-[00:07:22] [Render thread/INFO]: Canceling in progress generation event futures...
-[00:07:22] [Render thread/INFO]: BatchGenerationEnvironment shutdown complete.
-[00:07:22] [Render thread/INFO]: Finished closing WorldGenerationQueue
-[00:07:23] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:23] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
-[00:07:23] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:23] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]...
-[00:07:23] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/data/DistantHorizons.sqlite]
-[00:07:23] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:overworld}].
-[00:07:23] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:23] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:23] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:overworld}
-[00:07:23] [Render thread/INFO]: Unloading level [ae2:spatial_storage].
-[00:07:23] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:23] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:23] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]...
-[00:07:23] [DH-Parent Update Queue [ae2:spatial_storage] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [ae2:spatial_storage] Thread[0]] terminated.
-[00:07:23] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
-[00:07:23] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@ae2:spatial_storage}].
-[00:07:23] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:23] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:23] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@ae2:spatial_storage}
-[00:07:23] [Render thread/INFO]: Unloading level [minecraft:the_nether].
-[00:07:23] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:23] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:23] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]...
-[00:07:23] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
-[00:07:23] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM-1/data/DistantHorizons.sqlite]
-[00:07:23] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_nether}].
-[00:07:24] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:24] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:24] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_nether}
-[00:07:24] [Render thread/INFO]: Unloading level [minecraft:the_end].
-[00:07:24] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:24] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:24] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]...
-[00:07:24] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
-[00:07:24] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/saves/pet test/DIM1/data/DistantHorizons.sqlite]
-[00:07:24] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_end}].
-[00:07:24] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:24] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:24] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_end}
-[00:07:24] [Render thread/INFO]: Closed DhWorld of type CLIENT_SERVER
-[00:07:24] [Render thread/INFO]: Unloading level [minecraft:overworld].
-[00:07:24] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:24] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:24] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:overworld}].
-[00:07:24] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:24] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:overworld}].
-[00:07:24] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:overworld}
-[00:07:24] [Render thread/INFO]: Unloading level [ae2:spatial_storage].
-[00:07:25] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:25] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:25] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@ae2:spatial_storage}].
-[00:07:25] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:25] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@ae2:spatial_storage}].
-[00:07:25] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@ae2:spatial_storage}
-[00:07:25] [Render thread/INFO]: Unloading level [minecraft:the_nether].
-[00:07:25] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:25] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:25] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_nether}].
-[00:07:25] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:25] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_nether}].
-[00:07:25] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_nether}
-[00:07:25] [Render thread/INFO]: Unloading level [minecraft:the_end].
-[00:07:25] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:25] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:25] [Render thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[pet test]@minecraft:the_end}].
-[00:07:26] [Render thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:26] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientServerLevel{pet_test_g1t06100ccqo8@minecraft:the_end}].
-[00:07:26] [Render thread/INFO]: Closed DhClientServerLevel for Wrapped{ServerLevel[pet test]@minecraft:the_end}
-[00:07:26] [Render thread/INFO]: Closed DhWorld of type CLIENT_SERVER
-[00:07:26] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
-[00:07:26] [Render thread/INFO]: Closing all [0] database connections...
-[00:07:26] [Render thread/INFO]: Stopping JEI
-[00:07:26] [Render thread/INFO]: Stopping JEI
-[00:07:26] [Render thread/INFO]: Sending Runtime Unavailable...
-[00:07:26] [Render thread/INFO]: Stopping JEI GUI
-[00:07:26] [Render thread/INFO]: Sending Runtime Unavailable took 1.025 ms
-[00:07:26] [Server thread/INFO]: SaturnCorgi lost connection: Disconnected
-[00:07:26] [Server thread/INFO]: SaturnCorgi left the game
-[00:07:26] [Server thread/INFO]: [voicechat] Disconnecting client SaturnCorgi
-[00:07:26] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[00:07:27] [Server thread/INFO]: Stopping server
-[00:07:27] [Server thread/INFO]: Saving players
-[00:07:27] [Server thread/INFO]: Saving worlds
-[00:07:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:overworld
-[00:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_nether
-[00:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/minecraft:the_end
-[00:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pet test]'/ae2:spatial_storage
-[00:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (pet test): All chunks are saved
-[00:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[00:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:07:29] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[g1t06100ccqo8@minecraft:overworld].
-[00:07:29] [Render thread/INFO]: Stopping worker threads
-[00:07:31] [Render thread/INFO]: Stopping!
-[00:07:31] [Render thread/INFO]: Stopping JEI
-[00:07:31] [Render thread/INFO]: Stopping JEI
-[00:07:31] [Render thread/INFO]: Sending Runtime Unavailable...
-[00:07:31] [Render thread/INFO]: Stopping JEI GUI
-[00:07:31] [Render thread/INFO]: Sending Runtime Unavailable took 362.5 μs
+[19:34:00] [Render thread/INFO]: Loaded 198 advancements
+[19:34:07] [Render thread/WARN]: Received passengers for unknown entity
+[19:34:30] [Render thread/INFO]: Loaded 200 advancements
+[19:35:27] [Render thread/INFO]: Stopping worker threads
+[19:35:27] [Render thread/INFO]: Started 10 worker threads
+[19:35:27] [Render thread/INFO]: [CHAT] [Debug]: Reloading all chunks
+[19:35:27] [Render thread/INFO]: Stopping worker threads
+[19:35:27] [Render thread/INFO]: Started 10 worker threads
+[19:35:27] [Render thread/INFO]: [CHAT] [Debug]: Reloading all chunks
+[19:35:38] [Render thread/WARN]: Received passengers for unknown entity
+[19:35:55] [DH-Phantom Array Recycler Thread[0]/WARN]: Pool: [Render Reducer]. Unable to find checkout for phantom reference [java.lang.ref.PhantomReference@253e8cd0], arrays will need to be recreated.
+[19:35:58] [Render thread/INFO]: Loaded 200 advancements
+[19:36:06] [Render thread/INFO]: Loaded 200 advancements
+[19:36:10] [Render thread/WARN]: Received passengers for unknown entity
+[19:36:10] [DH-Phantom Array Recycler Thread[0]/WARN]: Pool: [Render Reducer]. Unable to find checkout for phantom reference [java.lang.ref.PhantomReference@4a37d4fa], arrays will need to be recreated.
+[19:36:35] [Render thread/WARN]: Received passengers for unknown entity
+[19:37:13] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[19:37:19] [Render thread/INFO]: Loaded 200 advancements
+[19:37:20] [DH-Phantom Array Recycler Thread[0]/WARN]: Pool: [Render Reducer]. Unable to find checkout for phantom reference [java.lang.ref.PhantomReference@6ba5fb7b], arrays will need to be recreated.
+[19:37:30] [Render thread/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/albino.png
+java.io.FileNotFoundException: faunify:textures/entity/hedgehog/albino.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at software.bernie.geckolib.cache.texture.AnimatableTexture.method_4625(AnimatableTexture.java:40) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at net.minecraft.class_1060.method_24303(class_1060.java:97) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_4616(class_1060.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.handler$dan000$geckolib$wrapAnimatableTexture(class_1060.java:1029) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_4619(class_1060.java) ~[client-intermediary.jar:?]
+	at software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:89) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:81) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:527) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:47) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoRenderer.actuallyRender(GeoRenderer.java:176) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:242) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:47) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoRenderer.defaultRender(GeoRenderer.java:142) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.method_3936(GeoEntityRenderer.java:156) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at net.minecraft.class_898.method_3954(class_898.java:145) ~[client-intermediary.jar:?]
+	at net.minecraft.class_761.method_22977(class_761.java:1574) ~[client-intermediary.jar:?]
+	at net.minecraft.class_761.method_22710(class_761.java:1324) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3188(class_757.java:1110) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3192(class_757.java:880) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1219) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[1.20.1-0.18.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.18.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar:?]
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar:?]
+[19:37:30] [Render thread/WARN]: Failed to load texture: faunify:textures/entity/hedgehog/albino.png
+java.io.FileNotFoundException: faunify:textures/entity/hedgehog/albino.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1049$class_4006.method_18156(class_1049.java:83) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1049.method_18153(class_1049.java:58) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1049.method_4625(class_1049.java:29) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_24303(class_1060.java:97) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_4616(class_1060.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_4619(class_1060.java:119) ~[client-intermediary.jar:?]
+	at software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:89) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.cache.texture.AnimatableTexture.setAndUpdate(AnimatableTexture.java:81) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:527) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.updateAnimatedTextureFrame(GeoEntityRenderer.java:47) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoRenderer.actuallyRender(GeoRenderer.java:176) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:242) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:47) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoRenderer.defaultRender(GeoRenderer.java:142) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.method_3936(GeoEntityRenderer.java:156) ~[geckolib-fabric-1.20.1-4.8.2.jar:?]
+	at net.minecraft.class_898.method_3954(class_898.java:145) ~[client-intermediary.jar:?]
+	at net.minecraft.class_761.method_22977(class_761.java:1574) ~[client-intermediary.jar:?]
+	at net.minecraft.class_761.method_22710(class_761.java:1324) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3188(class_757.java:1110) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3192(class_757.java:880) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1219) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[1.20.1-0.18.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.18.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar:?]
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar:?]
+[19:37:42] [Render thread/INFO]: [CHAT] a_mishmash fell from a high place
+[19:37:44] [Render thread/WARN]: Received passengers for unknown entity
+[19:37:45] [DH-Phantom Array Recycler Thread[0]/WARN]: Pool: [Render Reducer]. Unable to find checkout for phantom reference [java.lang.ref.PhantomReference@2f2ca65a], arrays will need to be recreated.
+[19:38:06] [Render thread/INFO]: [voicechat] Clearing audio channels
+[19:38:06] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[19:38:06] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[19:38:06] [Render thread/INFO]: Client on ClientOnly mode disconnecting.
+[19:38:06] [Render thread/INFO]: Unloading level [77r67ss56vtms@minecraft:overworld].
+[19:38:06] [Render thread/INFO]: Shutting down ClientRenderState
+[19:38:06] [Render thread/INFO]: Shutting down LodRenderer...
+[19:38:06] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[19:38:06] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:38:06] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:38:06] [Render thread/INFO]: Finished shutting down LodRenderer
+[19:38:06] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:38:06] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:38:06] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:38:06] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:38:07] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{77r67ss56vtms@minecraft:overworld}].
+[19:38:07] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{77r67ss56vtms@minecraft:overworld}].
+[19:38:07] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]...
+[19:38:07] [DH-Parent Update Queue [77r67ss56vtms@minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [77r67ss56vtms@minecraft:overworld] Thread[0]] terminated.
+[19:38:07] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\Distant_Horizons_server_data\Gabagool\77r67ss56vtms@minecraft@@overworld\DistantHorizons.sqlite]
+[19:38:07] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@77r67ss56vtms@minecraft:overworld}]
+[19:38:07] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[19:38:07] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[19:38:07] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[19:38:07] [Render thread/INFO]: Closing all [0] database connections...
+[19:38:07] [Render thread/INFO]: Stopping JEI
+[19:38:07] [Render thread/INFO]: Stopping JEI
+[19:38:07] [Render thread/INFO]: Sending Runtime Unavailable...
+[19:38:07] [Render thread/INFO]: Stopping JEI GUI
+[19:38:07] [Render thread/INFO]: Sending Runtime Unavailable took 450.3 ?s
+[19:38:07] [Render thread/INFO]: Unloading client level [ServerKeyedClientLevel]-[77r67ss56vtms@minecraft:overworld].
+[19:38:07] [Render thread/INFO]: Stopping worker threads
+[19:38:08] [Render thread/INFO]: Stopping!
+[19:38:08] [Render thread/INFO]: Stopping JEI
+[19:38:08] [Render thread/INFO]: Stopping JEI
+[19:38:08] [Render thread/INFO]: Sending Runtime Unavailable...
+[19:38:08] [Render thread/INFO]: Stopping JEI GUI
+[19:38:08] [Render thread/INFO]: Sending Runtime Unavailable took 322.8 ?s
