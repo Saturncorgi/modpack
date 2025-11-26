@@ -10,10 +10,17 @@
   ],
   "lookup_history": [],
   "craft_history": [
+    "minecraft:iron_helmet",
+    "minecraft:iron_boots",
+    "minecraft:iron_chestplate",
+    "minecraft:raw_iron",
+    "minecraft:iron_leggings",
+    "minecraft:chest",
+    "minecraft:oak_planks",
+    "minecraft:torch",
     "minecraft:iron_pickaxe",
     "minecraft:stick",
-    "minecraft:spruce_door",
-    "minecraft:oak_planks"
+    "minecraft:spruce_door"
   ],
   "recipe_defaults": {
     "added": [],
