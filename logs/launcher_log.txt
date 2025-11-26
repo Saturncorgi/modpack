@@ -1,22 +1,22 @@
-# Minecraft launcher log started at 2025-11-25 21:02:53
+# Minecraft launcher log started at 2025-11-25 21:07:33
 # Profile: Strawberry Flavored 
 
 
-[21:02:55] [main] [FabricLoader/GameProvider/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.1
-[21:02:55] [ForkJoinPool-1-worker-9] [FabricLoader/Metadata/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+[21:07:35] [main] [FabricLoader/GameProvider/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.1
+[21:07:35] [ForkJoinPool-1-worker-9] [FabricLoader/Metadata/WARN]: The mod "betterstats" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 26 column 4
 - Unsupported root entry "" at line 26 column 92
 - Unsupported root entry "" at line 28 column 4
 - Unsupported root entry "" at line 28 column 24
-[21:02:55] [ForkJoinPool-1-worker-13] [FabricLoader/Metadata/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+[21:07:35] [ForkJoinPool-1-worker-4] [FabricLoader/Metadata/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 27 column 4
 - Unsupported root entry "" at line 27 column 198
 - Unsupported root entry "" at line 29 column 4
 - Unsupported root entry "" at line 29 column 24
-[21:02:55] [main] [FabricLoader/Resolution/WARN]: Warnings were found!
+[21:07:35] [main] [FabricLoader/Resolution/WARN]: Warnings were found!
  - Mod 'Sodium Extra' (sodium-extra) 0.5.9+mc1.20.1 recommends version 1.4.2 or later of reeses-sodium-options, which is missing!
 	 - You should install version 1.4.2 or later of reeses-sodium-options for the optimal experience.
-[21:02:55] [main] [FabricLoader/INFO]: Loading 242 mods:
+[21:07:35] [main] [FabricLoader/INFO]: Loading 242 mods:
 	- adorablehamsterpets 3.3.2-1.20.1+fabric
 	- advancementplaques 1.6.7
 	- ae2 15.4.10
@@ -307,356 +307,364 @@
 	- yungsapi 1.20-Fabric-4.0.6
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
-[21:02:56] [main] [FabricLoader/Mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Mischa/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[21:02:56] [main] [FabricLoader/Mixin/INFO]: Compatibility level set to JAVA_17
-[21:02:57] [main] [Lithium/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
-[21:02:57] [main] [FabricLoader/Mixin/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:02:58] [main] [ModernFix/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 71 options available, 0 override(s) found
-[21:02:58] [main] [ModernFix/INFO]: Applying Nashorn fix
-[21:02:58] [main] [ModernFix/INFO]: Configuring Minecraft's max.bg.threads option with 21 threads
-[21:02:58] [main] [Sodium/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
-[21:02:58] [main] [Sodium Extra Config/INFO]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
-[21:02:58] [main] [FabricLoader/Mixin/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
-[21:02:58] [main] [FabricLoader/Mixin/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
-[21:02:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
-[21:02:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz/jei/library/load/PluginCaller)
-[21:02:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
-[21:02:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/HostAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/HostAPI)
-[21:02:59] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.HostAPI was not found estrogen-common.mixins.json:mixincompat.figura.HostAPIMixin from mod estrogen
-[21:02:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/entity/ViewerAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/entity/ViewerAPI)
-[21:02:59] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.entity.ViewerAPI was not found estrogen-common.mixins.json:mixincompat.figura.ViewerAPIMixin from mod estrogen
-[21:03:00] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[21:03:00] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[21:03:00] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[21:03:00] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[21:03:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/strobel/inventive_inventory/features/sorting/SortingHandler (java.lang.ClassNotFoundException: net/strobel/inventive_inventory/features/sorting/SortingHandler)
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: de/rubixdev/inventorio/player/InventorioScreenHandler (java.lang.ClassNotFoundException: de/rubixdev/inventorio/player/InventorioScreenHandler)
-[21:03:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider (java.lang.ClassNotFoundException: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider)
-[21:03:00] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
-[21:03:00] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
-[21:03:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[21:03:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[21:03:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[21:03:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[21:03:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
-[21:03:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
-[21:03:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[21:03:01] [main] [Sodium-GraphicsAdapterProbe/INFO]: Searching for graphics cards...
-[21:03:01] [main] [Sodium-GraphicsAdapterProbe/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon RX 5700 XT', adapterType=0x0000030B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\u0420529.inf_amd64_94ad5a6c4d1a04e2\B419765\atig6pxx.dll', openglIcdVersion=32.0.21030.2001}
-[21:03:01] [main] [FabricLoader/MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[21:03:03] [main] [oshi.driver.windows.perfmon.PerfmonDisabled/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[21:03:04] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
-[21:03:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[21:03:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[21:03:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[21:03:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[21:03:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[21:03:09] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[21:03:10] [main] [net.minecraft.class_2966/INFO]: Vanilla bootstrap took 5051 milliseconds
-[21:03:10] [Render thread] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:03:11] [Render thread] [net.minecraft.class_310/INFO]: Setting user: a_mishmash
-[21:03:11] [Render thread] [ModernFix/INFO]: Bypassed Mojang DFU
-[21:03:12] [Render thread] [fzzy_config/INFO]: Loaded config adorablehamsterpets:main in 937ms
-[21:03:12] [Render thread] [adorablehamsterpets/INFO]: Registering Mod Criteria for adorablehamsterpets
-[21:03:12] [Render thread] [adorablehamsterpets/INFO]: [BiomeConfig] Parsed 7 tags, 212 included biomes, and 1 excluded biomes.
-[21:03:12] [Render thread] [adorablehamsterpets/INFO]: [FeatureConfig] Parsed feature generation settings from config.
-[21:03:12] [Render thread] [adorablehamsterpets/INFO]: Parsed all item tag overrides from config.
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
-[21:03:12] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
-[21:03:12] [Render thread] [Moonlight/INFO]: Loaded config amendments-common.json
-[21:03:12] [Render thread] [Moonlight/INFO]: Loaded config amendments-client.json
-[21:03:12] [Render thread] [Moonlight/INFO]: Loaded config moonlight-client.json
-[21:03:12] [Render thread] [FabricLoader/Mixin/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 178 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
+[21:07:49] [main] [FabricLoader/Mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Mischa/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:07:49] [main] [FabricLoader/Mixin/INFO]: Compatibility level set to JAVA_17
+[21:07:50] [main] [Lithium/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
+[21:07:50] [main] [FabricLoader/Mixin/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:07:50] [main] [ModernFix/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 71 options available, 0 override(s) found
+[21:07:50] [main] [ModernFix/INFO]: Applying Nashorn fix
+[21:07:50] [main] [ModernFix/INFO]: Configuring Minecraft's max.bg.threads option with 21 threads
+[21:07:50] [main] [Sodium/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[21:07:50] [main] [Sodium Extra Config/INFO]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz/jei/library/load/PluginCaller)
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/HostAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/HostAPI)
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.HostAPI was not found estrogen-common.mixins.json:mixincompat.figura.HostAPIMixin from mod estrogen
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/entity/ViewerAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/entity/ViewerAPI)
+[21:07:51] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.entity.ViewerAPI was not found estrogen-common.mixins.json:mixincompat.figura.ViewerAPIMixin from mod estrogen
+[21:07:52] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[21:07:52] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[21:07:52] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[21:07:52] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[21:07:52] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/strobel/inventive_inventory/features/sorting/SortingHandler (java.lang.ClassNotFoundException: net/strobel/inventive_inventory/features/sorting/SortingHandler)
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: Error loading class: de/rubixdev/inventorio/player/InventorioScreenHandler (java.lang.ClassNotFoundException: de/rubixdev/inventorio/player/InventorioScreenHandler)
+[21:07:52] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider (java.lang.ClassNotFoundException: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider)
+[21:07:52] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[21:07:52] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[21:07:53] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[21:07:53] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[21:07:53] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[21:07:53] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[21:07:53] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[21:07:53] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[21:07:53] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[21:07:53] [main] [Sodium-GraphicsAdapterProbe/INFO]: Searching for graphics cards...
+[21:07:53] [main] [Sodium-GraphicsAdapterProbe/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon RX 5700 XT', adapterType=0x0000030B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\u0420529.inf_amd64_94ad5a6c4d1a04e2\B419765\atig6pxx.dll', openglIcdVersion=32.0.21030.2001}
+[21:07:53] [main] [FabricLoader/MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:07:55] [main] [oshi.driver.windows.perfmon.PerfmonDisabled/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[21:07:56] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
+[21:07:58] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:07:58] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:07:58] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21:07:58] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21:07:58] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[21:08:02] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[21:08:02] [main] [net.minecraft.class_2966/INFO]: Vanilla bootstrap took 5546 milliseconds
+[21:08:03] [Render thread] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:08:03] [Render thread] [net.minecraft.class_310/INFO]: Setting user: a_mishmash
+[21:08:03] [Render thread] [ModernFix/INFO]: Bypassed Mojang DFU
+[21:08:05] [Render thread] [fzzy_config/INFO]: Loaded config adorablehamsterpets:main in 1022ms
+[21:08:05] [Render thread] [adorablehamsterpets/INFO]: Registering Mod Criteria for adorablehamsterpets
+[21:08:05] [Render thread] [adorablehamsterpets/INFO]: [BiomeConfig] Parsed 7 tags, 212 included biomes, and 1 excluded biomes.
+[21:08:05] [Render thread] [adorablehamsterpets/INFO]: [FeatureConfig] Parsed feature generation settings from config.
+[21:08:05] [Render thread] [adorablehamsterpets/INFO]: Parsed all item tag overrides from config.
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[21:08:05] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[21:08:05] [Render thread] [Moonlight/INFO]: Loaded config amendments-common.json
+[21:08:05] [Render thread] [Moonlight/INFO]: Loaded config amendments-client.json
+[21:08:05] [Render thread] [Moonlight/INFO]: Loaded config moonlight-client.json
+[21:08:05] [Render thread] [FabricLoader/Mixin/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 178 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
  Expected: [Ljava/lang/Object;, I, I, I, I, Lorg/joml/Vector2ic;]
     Found: [I, I, I, I, Lorg/joml/Vector2ic;]
 Available: [I, I, I, I, Lorg/joml/Vector2ic;]
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 59 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[21:03:13] [Render thread] [betterfortresses/INFO]: Creating directory for additional Better Nether Fortresses configuration at C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\betterfortresses\fabric-1_20
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:13] [Render thread] [yungsapi/WARN]: WARNING: block Block{minecraft:coal_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[21:03:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[21:03:13] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[21:03:13] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[21:03:13] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[21:03:13] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[21:03:13] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[21:03:13] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[21:03:13] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[21:03:13] [Render thread] [Collective/INFO]: Loading Collective version 8.13.
-[21:03:13] [Render thread] [dev.smto.constructionwand.ConstructionWand/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
-[21:03:16] [Render thread] [Estrogen/INFO]: Injecting Estrogen into your veins!
-[21:03:17] [Render thread] [faunify/INFO]: Initializing Faunify...
-[21:03:17] [Render thread] [faunify/INFO]: Faunify initialized successfully!
-[21:03:17] [Render thread] [Friendly Fire/INFO]: Loaded config file.
-[21:03:17] [Render thread] [Friendly Fire/INFO]: Saved config file.
-[21:03:17] [Render thread] [snownee.kiwi.Kiwi/INFO]: Processing 5 KiwiModule annotations
-[21:03:17] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:contributors] initialized
-[21:03:17] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_templates] initialized
-[21:03:17] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_components] initialized
-[21:03:17] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:data] initialized
-[21:03:17] [Render thread] [snownee.kiwi.Kiwi/INFO]: recipe_serializer: 3
-[21:03:17] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:item_templates] initialized
-[21:03:17] [Render thread] [com.chocohead.mm.MM/INFO]: Definitely not up to no good
-[21:03:17] [Render thread] [Moonlight/INFO]: Loaded config moonlight-common.json
-[21:03:18] [Render thread] [me.wesley1808.servercore.common.ServerCore/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
-[21:03:18] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-common.json
-[21:03:18] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-client.json
-[21:03:19] [Render thread] [voicechat/INFO]: [voicechat] Compatibility version 20
-[21:03:19] [Render thread] [voicechat/INFO]: [voicechat] Loading plugins
-[21:03:19] [Render thread] [voicechat/INFO]: [voicechat] Loaded 0 plugin(s)
-[21:03:19] [Render thread] [voicechat/INFO]: [voicechat] Initializing plugins
-[21:03:19] [Render thread] [voicechat/INFO]: [voicechat] Initialized 0 plugin(s)
-[21:03:19] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[21:03:19] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
-[21:03:19] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:19] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:03:19] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
-[21:03:19] [Render thread] [betterstats/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
-[21:03:20] [Render thread] [CITResewn/INFO]: [citresewn] Registering CIT Conditions
-[21:03:20] [Render thread] [CITResewn/INFO]: [citresewn] Registering CIT Types
-[21:03:20] [Render thread] [dynamic_fps/INFO]: Dynamic FPS 3.9.5 active on Fabric!
-[21:03:20] [Render thread] [Entity Texture Features/INFO]: [ETF]: Modifying ETF Render State constructor because: for EMF
-[21:03:20] [Render thread] [traben.entity_model_features.EMF/INFO]: Loading Entity Model Features, now available for Terraria!
-[21:03:20] [Render thread] [Entity Texture Features/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features
-[21:03:20] [Render thread] [Entity Texture Features/INFO]: Loading Entity Texture Features, Paranormal ResourcePacktivity.
-[21:03:21] [Render thread] [net.fabricmc.fabric.impl.client.indigo.Indigo/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[21:03:21] [Render thread] [com.jozufozu.flywheel.backend.Backend/INFO]: Iris detected.
-[21:03:21] [Render thread] [fzzy_config/INFO]: Loaded config fzzy_config:keybinds in 38ms
-[21:03:21] [Worker-Main-1] [Mod Menu/Update Checker/INFO]: Checking mod updates...
-[21:03:21] [Render thread] [Moonlight/INFO]: Initialized block sets in 20ms
-[21:03:21] [Render thread] [Moonlight/INFO]: Initialized color sets in 35ms
-[21:03:22] [Render thread] [Supplementaries/INFO]: Finished mod setup in: [0, 1, 0, 0, 0, 0, 13, 1] ms
+[21:08:05] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 60 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:05] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:05] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[21:08:05] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[21:08:05] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[21:08:05] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:06] [Render thread] [yungsapi/WARN]: WARNING: block Block{minecraft:coal_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:08:06] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[21:08:06] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[21:08:06] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[21:08:06] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[21:08:06] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[21:08:06] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[21:08:06] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[21:08:06] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[21:08:06] [Render thread] [Collective/INFO]: Loading Collective version 8.13.
+[21:08:06] [Render thread] [dev.smto.constructionwand.ConstructionWand/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: java.lang.NullPointerException
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.LogicalSidedProvider.get(LogicalSidedProvider.java:34)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.lambda$refreshItemVisibility$8(FeatureToggle.java:142)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.Platform$Environment.runIfCurrent(Platform.java:40)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.refreshItemVisibility(FeatureToggle.java:141)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.CFeatures.onReload(CFeatures.java:58)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(Unknown Source)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.simibubi.create.foundation.config.ConfigBase.onReload(ConfigBase.java:36)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.SyncConfigBase.onReload(SyncConfigBase.java:63)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.fabric.CCConfigsImpl.onReload(CCConfigsImpl.java:28)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.api.config.v2.ModConfigEvents$ModConfigEventsHolder.lambda$create$2(ModConfigEvents.java:133)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.impl.core.FabricAbstractions.fireConfigReloading(FabricAbstractions.java:20)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:160)
+[21:08:07] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[21:08:10] [Render thread] [Estrogen/INFO]: Injecting Estrogen into your veins!
+[21:08:10] [Render thread] [faunify/INFO]: Initializing Faunify...
+[21:08:10] [Render thread] [faunify/INFO]: Faunify initialized successfully!
+[21:08:10] [Render thread] [Friendly Fire/INFO]: Loaded config file.
+[21:08:10] [Render thread] [Friendly Fire/INFO]: Saved config file.
+[21:08:10] [Render thread] [snownee.kiwi.Kiwi/INFO]: Processing 5 KiwiModule annotations
+[21:08:10] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:contributors] initialized
+[21:08:10] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_templates] initialized
+[21:08:10] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_components] initialized
+[21:08:10] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:data] initialized
+[21:08:10] [Render thread] [snownee.kiwi.Kiwi/INFO]: recipe_serializer: 3
+[21:08:10] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:item_templates] initialized
+[21:08:10] [Render thread] [com.chocohead.mm.MM/INFO]: Definitely not up to no good
+[21:08:10] [Render thread] [Moonlight/INFO]: Loaded config moonlight-common.json
+[21:08:11] [Render thread] [me.wesley1808.servercore.common.ServerCore/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
+[21:08:12] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-common.json
+[21:08:12] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-client.json
+[21:08:12] [Render thread] [voicechat/INFO]: [voicechat] Compatibility version 20
+[21:08:12] [Render thread] [voicechat/INFO]: [voicechat] Loading plugins
+[21:08:12] [Render thread] [voicechat/INFO]: [voicechat] Loaded 0 plugin(s)
+[21:08:12] [Render thread] [voicechat/INFO]: [voicechat] Initializing plugins
+[21:08:12] [Render thread] [voicechat/INFO]: [voicechat] Initialized 0 plugin(s)
+[21:08:12] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[21:08:12] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[21:08:12] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:12] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:08:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[21:08:13] [Render thread] [betterstats/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[21:08:13] [Render thread] [CITResewn/INFO]: [citresewn] Registering CIT Conditions
+[21:08:13] [Render thread] [CITResewn/INFO]: [citresewn] Registering CIT Types
+[21:08:13] [Render thread] [dynamic_fps/INFO]: Dynamic FPS 3.9.5 active on Fabric!
+[21:08:14] [Render thread] [Entity Texture Features/INFO]: [ETF]: Modifying ETF Render State constructor because: for EMF
+[21:08:14] [Render thread] [traben.entity_model_features.EMF/INFO]: Loading Entity Model Features, is this 'EPF' in the room with us now?
+[21:08:14] [Render thread] [Entity Texture Features/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features
+[21:08:14] [Render thread] [Entity Texture Features/INFO]: Loading Entity Texture Features, breaking your resource packs since 17 Jan 2022.
+[21:08:14] [Render thread] [net.fabricmc.fabric.impl.client.indigo.Indigo/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[21:08:14] [Render thread] [com.jozufozu.flywheel.backend.Backend/INFO]: Iris detected.
+[21:08:14] [Render thread] [fzzy_config/INFO]: Loaded config fzzy_config:keybinds in 47ms
+[21:08:15] [Worker-Main-1] [Mod Menu/Update Checker/INFO]: Checking mod updates...
+[21:08:15] [Render thread] [Moonlight/INFO]: Initialized block sets in 17ms
+[21:08:15] [Render thread] [Moonlight/INFO]: Initialized color sets in 33ms
+[21:08:15] [Render thread] [Supplementaries/INFO]: Finished mod setup in: [0, 1, 0, 1, 0, 0, 14, 1] ms
 [Mouse Tweaks] Main.initialize()
 [Mouse Tweaks] Initialized.
-[21:03:22] [Render thread] [sodiumdynamiclights/INFO]: [LambDynLights] Initializing SodiumDynamicLights...
-[21:03:22] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing WorldSoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\world.json'
-[21:03:22] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing UISoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\ui.json'
-[21:03:22] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing ModConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\mod_utils.json'
-[21:03:22] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing EventSoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\event.json'
-[21:03:22] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing ChatSoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\chat.json'
-[21:03:22] [Render thread] [YetAnotherConfigLib/INFO]: Serializing class dev.imb11.sounds.config.ChatSoundsConfig to 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\chat.json'
-[21:03:22] [Render thread] [tcdcommons/INFO]: Initializing 'TCD Commons API' 3.12.3.3+fabric-1.20.1 as 'TCDCommonsClient'.
+[21:08:15] [Render thread] [sodiumdynamiclights/INFO]: [LambDynLights] Initializing SodiumDynamicLights...
+[21:08:16] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing WorldSoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\world.json'
+[21:08:16] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing UISoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\ui.json'
+[21:08:16] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing EventSoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\event.json'
+[21:08:16] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing ModConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\mod_utils.json'
+[21:08:16] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing ChatSoundsConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\chat.json'
+[21:08:16] [Render thread] [YetAnotherConfigLib/INFO]: Serializing class dev.imb11.sounds.config.ChatSoundsConfig to 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\sounds\chat.json'
+[21:08:16] [Worker-Main-1] [Mod Menu/Update Checker/INFO]: Update available for 'create@0.5.1-j-build.1631+mc1.20.1', (-> 6.0.8.0+build.1734-mc1.20.1)
+[21:08:16] [Render thread] [tcdcommons/INFO]: Initializing 'TCD Commons API' 3.12.3.3+fabric-1.20.1 as 'TCDCommonsClient'.
 [LibGui] Initializing Client...
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Using Cloth Config GUI
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Initializing Opus
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Opus
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Initializing RNNoise
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized RNNoise
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Initializing Speex
-[21:03:22] [Worker-Main-1] [Mod Menu/Update Checker/INFO]: Update available for 'create@0.5.1-j-build.1631+mc1.20.1', (-> 6.0.8.0+build.1734-mc1.20.1)
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Speex
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Initializing LAME
-[21:03:22] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized LAME
-[21:03:22] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing YACLConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\yacl.json5'
-[21:03:22] [ForkJoinPool.commonPool-worker-1] [Iris/WARN]: [Iris Update Check] Cached update file detected, using that!
-[21:03:23] [Render thread] [net.minecraft.class_310/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
-[21:03:23] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Vendor: ATI Technologies Inc.
-[21:03:23] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Renderer: AMD Radeon RX 5700 XT
-[21:03:23] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Version: 3.2.0 Core Profile Context 25.10.30.02.250923
-[21:03:23] [Render thread] [ImmediatelyFast/INFO]: Initializing ImmediatelyFast 1.5.2+1.20.4 on AMD Radeon RX 5700 XT (ATI Technologies Inc.) with OpenGL 3.2.0 Core Profile Context 25.10.30.02.250923
-[21:03:23] [Render thread] [ImmediatelyFast/INFO]: Found Iris/Oculus 1.7.6+mc1.20.1. Enabling compatibility.
-[21:03:23] [Render thread] [Iris/INFO]: Debug functionality is disabled.
-[21:03:23] [Render thread] [Iris/INFO]: ARB_direct_state_access detected, enabling DSA.
-[21:03:23] [Render thread] [Iris/INFO]: Shaders are disabled because no valid shaderpack is selected
-[21:03:23] [Render thread] [Sodium/INFO]: Block minecraft:water_cauldron had its color provider replaced with net.mehvahdjukaar.amendments.AmendmentsClient$$Lambda$12005/0x00000152de8e9680@6a1ff452 and will not use per-vertex coloring
-[21:03:23] [Render thread] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
-[21:03:24] [Render thread] [Iris/INFO]: Hardware information:
-[21:03:24] [Render thread] [Iris/INFO]: CPU: 24x Intel(R) Xeon(R) CPU X5690 @ 3.47GHz
-[21:03:24] [Render thread] [Iris/INFO]: GPU: AMD Radeon RX 5700 XT (Supports OpenGL 3.2.0 Core Profile Context 25.10.30.02.250923)
-[21:03:24] [Render thread] [Iris/INFO]: OS: Windows 10 (10.0)
-[21:03:24] [Render thread] [net.minecraft.class_3304/INFO]: Reloading ResourceManager: vanilla, fabric (adorablehamsterpets, advancementplaques, ae2, ae2wtlib, amendments, appleskin, betterdeserttemples, betterdungeons, betterfortresses, betterjungletemples, bettermineshafts, betteroceanmonuments, betterstats, betterstrongholds, betterwitchhuts, bookshelf, caffeineconfig, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, citresewn, citresewn-defaults, cloth-config, clumps, constructionwand, continuity, copycats, create, dripstone_fluid_lib, dynamic_fps, eatinganimationid, emi, enchancement, entity_model_features, entity_texture_features, entityculling, epherolib, estrogen, explosiveenhancement, exposure, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, farmersdelight, faunify, fireworkfrenzy, flywheel, forgeconfigapiport, friendlyfire, fzzy_config, geckolib, immediatelyfast, indium, iris, kiwi, lithium, malilib, midnightlib, milk, mm, modernfix, modmenu, moonlight, morechathistory, mru, nethersdelight, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_recipe_book_categories, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, registrate-fabric, sit, sliceanddice, sodium, sodium-extra, sodiumdynamiclights, sounds, spark, sparkweave, starlight, step-height-entity-attribute, supplementaries, tcdcommons, team_reborn_energy, tooltipfix, trender, trinkets, voicechat, yet_another_config_lib_v3), Moonlight Mods Dynamic Assets
-[21:03:24] [Worker-ResourceReload-0] [Moonlight/INFO]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators from mods [supplementaries, moonlight, amendments, supplementaries]: [net.mehvahdjukaar.moonlight.core.MoonlightClient$Gen@69ebd1dd, net.mehvahdjukaar.amendments.client.ClientResourceGenerator@6057ae80, net.mehvahdjukaar.supplementaries.dynamicpack.ClientDynamicResourcesGenerator@4e8e4916]
-[21:03:24] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (moonlight)
-[21:03:24] [Worker-ResourceReload-0] [Moonlight/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 5 ms (multithreaded)
-[21:03:24] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (amendments)
-[21:03:24] [Worker-ResourceReload-0] [Amendments/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (amendments) in: 78 ms (multithreaded)
-[21:03:24] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (supplementaries)
-[21:03:24] [Render thread] [Iris/INFO]: Creating pipeline for dimension minecraft:overworld
-[21:03:24] [Worker-ResourceReload-0] [Supplementaries/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 32 ms (multithreaded)
-[21:03:24] [Worker-ResourceReload-0] [Moonlight/INFO]: Finished runtime resources generation for 4 packs in a total of 121 ms
-[21:03:24] [Finalizer] [ModernFix/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[21:03:24] [Worker-ResourceReload-4] [net.minecraft.class_391/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[21:03:25] [Worker-ResourceReload-8] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_1.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
-[21:03:25] [Worker-ResourceReload-8] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_2.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
-[21:03:25] [Worker-ResourceReload-8] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_3.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
-[21:03:25] [Worker-ResourceReload-19] [Sounds/WARN]: Failed to find block entries for tag key: minecraft:cauldrons
-[21:03:25] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'supplementaries:blackboard' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'supplementaries:book_pile' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'supplementaries:bunting' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'ae2:block/cable_bus' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'amendments:carpet_overlay' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/1k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-14] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/16k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/64k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-8] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/256k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/accelerator_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-8] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/unit_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-14] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:25] [Worker-ResourceReload-13] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/4k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:25] [Worker-ResourceReload-13] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'ae2:block/drive' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'amendments:cauldron' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-14] [Porting Lib/WARN]: Model loader 'supplementaries:flower_box' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-14] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-8] [Porting Lib/WARN]: Model loader 'supplementaries:faucet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-8] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-7] [Porting Lib/WARN]: Model loader 'supplementaries:goblet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-7] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-14] [Porting Lib/WARN]: Model loader 'amendments:hanging_pot' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-14] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-10] [Porting Lib/WARN]: Model loader 'amendments:waterlogged_lily' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-10] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-7] [Porting Lib/WARN]: Model loader 'ae2:block/paint' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-7] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-9] [Porting Lib/WARN]: Model loader 'ae2:block/qnb/qnb_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-10] [Porting Lib/WARN]: Model loader 'ae2:block/quartz_glass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-9] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-10] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-0] [Porting Lib/WARN]: Model loader 'supplementaries:rope_knot' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-0] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'supplementaries:sign_post' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'ae2:block/spatial_pylon' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'supplementaries:frame_block' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-8] [Porting Lib/WARN]: Model loader 'amendments:tool_hook' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-8] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:26] [Worker-ResourceReload-21] [Porting Lib/WARN]: Model loader 'amendments:wall_lantern' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:26] [Worker-ResourceReload-21] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:item/facade' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'ae2:item/memory_card' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-1] [Porting Lib/WARN]: Model loader 'ae2:item/meteorite_compass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-1] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'ae2:part/annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-16] [Porting Lib/WARN]: Model loader 'ae2:part/annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-16] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-11] [Porting Lib/WARN]: Model loader 'ae2:part/formation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'ae2:part/formation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:part/identity_annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'ae2:part/identity_annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-11] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:27] [Worker-ResourceReload-8] [Porting Lib/WARN]: Model loader 'ae2:part/p2p/p2p_tunnel_frequency' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
-[21:03:27] [Worker-ResourceReload-8] [Porting Lib/WARN]: Falling back to vanilla logic.
-[21:03:33] [Worker-ResourceReload-6] [Estrogen/INFO]: baking 16 thigh highs
-[21:03:33] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[21:03:33] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[21:03:33] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: sounds:item.hard_metal.hold
-[21:03:33] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: sounds:item.shiny_metal.hold
-[21:03:33] [Render thread] [net.minecraft.class_4225/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (2- USB Audio Device)
-[21:03:33] [Render thread] [net.minecraft.class_1140/INFO]: Sound engine started
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[21:03:34] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[21:03:35] [Render thread] [net.minecraft.class_5944/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[21:03:35] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named GameTime in the specified shader program.
-[21:03:35] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named NoiseSpeed in the specified shader program.
-[21:03:35] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named NoiseScale in the specified shader program.
-[21:03:35] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named Intensity in the specified shader program.
-[21:03:35] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named CameraPos in the specified shader program.
-[21:03:35] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
-[21:03:35] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[21:03:35] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[21:03:35] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
-[21:03:35] [Render thread] [com.simibubi.create.Create/INFO]: Loaded 51 train hat configurations.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Loading exposure filters:
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:light_blue_pane, exposure:shaders/light_blue_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:orange_pane, exposure:shaders/orange_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:red_pane, exposure:shaders/red_filter.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:purple_pane, exposure:shaders/purple_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:blue_pane, exposure:shaders/blue_filter.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:light_gray_pane, exposure:shaders/light_gray_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:magenta_pane, exposure:shaders/magenta_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:gray_pane, exposure:shaders/gray_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:lime_pane, exposure:shaders/lime_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:green_pane, exposure:shaders/green_filter.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:pink_pane, exposure:shaders/pink_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:yellow_pane, exposure:shaders/yellow_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:white_pane, exposure:shaders/white_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:brown_pane, exposure:shaders/brown_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:glass_pane, exposure:shaders/crisp.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:interplanar_projector, exposure:shaders/invert.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:black_pane, exposure:shaders/black_tint.json] added.
-[21:03:35] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:cyan_pane, exposure:shaders/cyan_tint.json] added.
-[21:03:35] [Render thread] [com.jozufozu.flywheel.backend.Backend/INFO]: Loaded all shader sources.
-[21:03:35] [Render thread] [patchouli/INFO]: BookContentResourceListenerLoader preloaded 34 jsons
-[21:03:35] [Render thread] [sodiumdynamiclights/WARN]: [LambDynLights] Failed to parse item light source "supplementaries:dynamiclights/item/candle_holder", invalid format: missing required fields.
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'supplementaries:textures/block/gottem.gif'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/chat_sounds.webp'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/discord.webp'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/event_sounds.webp'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/kofi.webp'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/mod_sounds.webp'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/modrinth.webp'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/ui_sounds.webp'
-[21:03:35] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/world_sounds.webp'
-[21:03:35] [Render thread] [Entity Texture Features/INFO]: [ETF]: reloading ETF data.
-[21:03:35] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
-[21:03:35] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
-[21:03:35] [Render thread] [snownee.kiwi.Kiwi/INFO]: Canceling Microsoft telemetry
-[21:03:38] [Render thread] [ModernFix/WARN]: Game took 44.664 seconds to start
-[21:03:40] [Render thread] [net.minecraft.class_310/INFO]: Stopping!
-Shutting down culling task!
-[21:03:40] [Render thread] [EMI/INFO]: [EMI] Disconnecting from server, EMI data cleared
-[21:03:40] [Thread-9] [EMI/INFO]: [EMI] Clearing data
-[21:03:40] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
-
-# Process exited with status: exit code: 0
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Using Cloth Config GUI
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Initializing Opus
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Opus
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Initializing RNNoise
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized RNNoise
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Initializing Speex
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Speex
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Initializing LAME
+[21:08:17] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized LAME
+[21:08:17] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing YACLConfig from 'C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Strawberry Flavored\config\yacl.json5'
+[21:08:17] [ForkJoinPool.commonPool-worker-1] [Iris/WARN]: [Iris Update Check] Cached update file detected, using that!
+[21:08:17] [Render thread] [net.minecraft.class_310/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[21:08:17] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[21:08:17] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Renderer: AMD Radeon RX 5700 XT
+[21:08:17] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Version: 3.2.0 Core Profile Context 25.10.30.02.250923
+[21:08:17] [Render thread] [ImmediatelyFast/INFO]: Initializing ImmediatelyFast 1.5.2+1.20.4 on AMD Radeon RX 5700 XT (ATI Technologies Inc.) with OpenGL 3.2.0 Core Profile Context 25.10.30.02.250923
+[21:08:17] [Render thread] [ImmediatelyFast/INFO]: Found Iris/Oculus 1.7.6+mc1.20.1. Enabling compatibility.
+[21:08:18] [Render thread] [Iris/INFO]: Debug functionality is disabled.
+[21:08:18] [Render thread] [Iris/INFO]: ARB_direct_state_access detected, enabling DSA.
+[21:08:18] [Render thread] [Iris/INFO]: Shaders are disabled because no valid shaderpack is selected
+[21:08:18] [Render thread] [Sodium/INFO]: Block minecraft:water_cauldron had its color provider replaced with net.mehvahdjukaar.amendments.AmendmentsClient$$Lambda$12007/0x0000024982918e88@331e737b and will not use per-vertex coloring
+[21:08:18] [Render thread] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[21:08:18] [Render thread] [Iris/INFO]: Hardware information:
+[21:08:18] [Render thread] [Iris/INFO]: CPU: 24x Intel(R) Xeon(R) CPU X5690 @ 3.47GHz
+[21:08:18] [Render thread] [Iris/INFO]: GPU: AMD Radeon RX 5700 XT (Supports OpenGL 3.2.0 Core Profile Context 25.10.30.02.250923)
+[21:08:18] [Render thread] [Iris/INFO]: OS: Windows 10 (10.0)
+[21:08:18] [Finalizer] [ModernFix/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[21:08:19] [Render thread] [net.minecraft.class_3304/INFO]: Reloading ResourceManager: vanilla, fabric (adorablehamsterpets, advancementplaques, ae2, ae2wtlib, amendments, appleskin, betterdeserttemples, betterdungeons, betterfortresses, betterjungletemples, bettermineshafts, betteroceanmonuments, betterstats, betterstrongholds, betterwitchhuts, bookshelf, caffeineconfig, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, citresewn, citresewn-defaults, cloth-config, clumps, constructionwand, continuity, copycats, create, dripstone_fluid_lib, dynamic_fps, eatinganimationid, emi, enchancement, entity_model_features, entity_texture_features, entityculling, epherolib, estrogen, explosiveenhancement, exposure, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, farmersdelight, faunify, fireworkfrenzy, flywheel, forgeconfigapiport, friendlyfire, fzzy_config, geckolib, immediatelyfast, indium, iris, kiwi, lithium, malilib, midnightlib, milk, mm, modernfix, modmenu, moonlight, morechathistory, mru, nethersdelight, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_recipe_book_categories, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, registrate-fabric, sit, sliceanddice, sodium, sodium-extra, sodiumdynamiclights, sounds, spark, sparkweave, starlight, step-height-entity-attribute, supplementaries, tcdcommons, team_reborn_energy, tooltipfix, trender, trinkets, voicechat, yet_another_config_lib_v3), Moonlight Mods Dynamic Assets
+[21:08:19] [Worker-ResourceReload-0] [Moonlight/INFO]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators from mods [supplementaries, amendments, moonlight, supplementaries]: [net.mehvahdjukaar.amendments.client.ClientResourceGenerator@193b9492, net.mehvahdjukaar.moonlight.core.MoonlightClient$Gen@7d929329, net.mehvahdjukaar.supplementaries.dynamicpack.ClientDynamicResourcesGenerator@1189a925]
+[21:08:19] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (amendments)
+[21:08:19] [Worker-ResourceReload-0] [Amendments/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (amendments) in: 149 ms (multithreaded)
+[21:08:19] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (moonlight)
+[21:08:19] [Worker-ResourceReload-0] [Moonlight/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 8 ms (multithreaded)
+[21:08:19] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (supplementaries)
+[21:08:19] [Worker-ResourceReload-0] [Supplementaries/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 68 ms (multithreaded)
+[21:08:19] [Worker-ResourceReload-0] [Moonlight/INFO]: Finished runtime resources generation for 4 packs in a total of 230 ms
+[21:08:19] [Render thread] [Iris/INFO]: Creating pipeline for dimension minecraft:overworld
+[21:08:19] [Worker-ResourceReload-8] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_1.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
+[21:08:19] [Worker-ResourceReload-8] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_2.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
+[21:08:19] [Worker-ResourceReload-8] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_3.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
+[21:08:19] [Worker-ResourceReload-11] [net.minecraft.class_391/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[21:08:20] [Worker-ResourceReload-0] [Sounds/WARN]: Failed to find block entries for tag key: minecraft:cauldrons
+[21:08:20] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'supplementaries:blackboard' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'supplementaries:book_pile' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'supplementaries:bunting' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'ae2:block/cable_bus' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'amendments:carpet_overlay' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'amendments:carpet_overlay' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-8] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/16k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/1k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-8] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-9] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/64k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-8] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/accelerator_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-8] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-9] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/unit_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/256k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-18] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/4k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-18] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'ae2:block/drive' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-9] [Porting Lib/WARN]: Model loader 'amendments:cauldron' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-9] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'supplementaries:faucet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'supplementaries:flower_box' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-12] [Porting Lib/WARN]: Model loader 'supplementaries:goblet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-12] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-13] [Porting Lib/WARN]: Model loader 'amendments:hanging_pot' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-13] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-9] [Porting Lib/WARN]: Model loader 'amendments:waterlogged_lily' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-9] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'ae2:block/paint' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'ae2:block/qnb/qnb_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'ae2:block/quartz_glass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'supplementaries:rope_knot' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:20] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'supplementaries:sign_post' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'ae2:block/spatial_pylon' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'supplementaries:frame_block' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-2] [Porting Lib/WARN]: Model loader 'amendments:tool_hook' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-2] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'amendments:wall_lantern' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-18] [Porting Lib/WARN]: Model loader 'ae2:item/facade' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-18] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'ae2:item/memory_card' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-9] [Porting Lib/WARN]: Model loader 'ae2:item/meteorite_compass' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-9] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-6] [Porting Lib/WARN]: Model loader 'ae2:part/annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-18] [Porting Lib/WARN]: Model loader 'ae2:part/annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-6] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-18] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-13] [Porting Lib/WARN]: Model loader 'ae2:part/formation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-19] [Porting Lib/WARN]: Model loader 'ae2:part/identity_annihilation_plane' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-15] [Porting Lib/WARN]: Model loader 'ae2:part/identity_annihilation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-13] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-19] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-20] [Porting Lib/WARN]: Model loader 'ae2:part/formation_plane_on' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-15] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-20] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:21] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'ae2:part/p2p/p2p_tunnel_frequency' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[21:08:21] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
+[21:08:28] [Worker-ResourceReload-14] [Estrogen/INFO]: baking 16 thigh highs
+[21:08:29] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[21:08:29] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21:08:29] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: sounds:item.hard_metal.hold
+[21:08:29] [Render thread] [net.minecraft.class_1140/WARN]: Missing sound for event: sounds:item.shiny_metal.hold
+[21:08:29] [Render thread] [net.minecraft.class_4225/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (2- USB Audio Device)
+[21:08:29] [Render thread] [net.minecraft.class_1140/INFO]: Sound engine started
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:08:29] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:08:30] [Render thread] [net.minecraft.class_5944/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21:08:30] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named GameTime in the specified shader program.
+[21:08:30] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named NoiseSpeed in the specified shader program.
+[21:08:30] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named NoiseScale in the specified shader program.
+[21:08:30] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named Intensity in the specified shader program.
+[21:08:30] [Render thread] [net.minecraft.class_5944/WARN]: Shader supplementariesmoonlight_markerspherify could not find uniform named CameraPos in the specified shader program.
+[21:08:30] [Render thread] [net.minecraft.class_1059/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[21:08:30] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:08:30] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:08:30] [Render thread] [net.minecraft.class_1059/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[21:08:31] [Render thread] [com.simibubi.create.Create/INFO]: Loaded 51 train hat configurations.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Loading exposure filters:
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:light_blue_pane, exposure:shaders/light_blue_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:orange_pane, exposure:shaders/orange_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:red_pane, exposure:shaders/red_filter.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:purple_pane, exposure:shaders/purple_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:blue_pane, exposure:shaders/blue_filter.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:light_gray_pane, exposure:shaders/light_gray_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:magenta_pane, exposure:shaders/magenta_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:gray_pane, exposure:shaders/gray_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:lime_pane, exposure:shaders/lime_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:green_pane, exposure:shaders/green_filter.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:pink_pane, exposure:shaders/pink_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:yellow_pane, exposure:shaders/yellow_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:white_pane, exposure:shaders/white_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:brown_pane, exposure:shaders/brown_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:glass_pane, exposure:shaders/crisp.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:interplanar_projector, exposure:shaders/invert.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:black_pane, exposure:shaders/black_tint.json] added.
+[21:08:31] [Render thread] [io.github.mortuusars.exposure.Exposure/INFO]: Filter [exposure:cyan_pane, exposure:shaders/cyan_tint.json] added.
+[21:08:31] [Render thread] [com.jozufozu.flywheel.backend.Backend/INFO]: Loaded all shader sources.
+[21:08:31] [Render thread] [patchouli/INFO]: BookContentResourceListenerLoader preloaded 34 jsons
+[21:08:31] [Render thread] [sodiumdynamiclights/WARN]: [LambDynLights] Failed to parse item light source "supplementaries:dynamiclights/item/candle_holder", invalid format: missing required fields.
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'supplementaries:textures/block/gottem.gif'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/chat_sounds.webp'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/discord.webp'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/event_sounds.webp'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/kofi.webp'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/mod_sounds.webp'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/modrinth.webp'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/ui_sounds.webp'
+[21:08:31] [Render thread] [YetAnotherConfigLib/INFO]: Successfully loaded image 'sounds:textures/gui/world_sounds.webp'
+[21:08:31] [Render thread] [Entity Texture Features/INFO]: [ETF]: reloading ETF data.
+[21:08:31] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
+[21:08:31] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
+[21:08:31] [Render thread] [snownee.kiwi.Kiwi/INFO]: Canceling Microsoft telemetry
+[21:08:33] [Render thread] [ModernFix/WARN]: Game took 60.133 seconds to start

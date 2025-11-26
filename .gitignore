@@ -1,3 +1,6 @@
 *Distant_Horizons*
 /saves/**
 /screenshots
+/.mixin.out
+/logs
+/config
