@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@a_mishmash"
+		"@a_mishmash",
+		"@SaturnCorgi"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,

@@ -1,30 +1,18 @@
 {
-  "favorites": [],
-  "lookup_history": [
-    "item:estrogen:horse_urine_bottle",
+  "favorites": [
     {
-      "type": "fluid",
-      "id": "estrogen:horse_urine",
-      "amount": 27000
-    },
-    {
-      "type": "fluid",
-      "id": "estrogen:filtrated_horse_urine",
-      "amount": 81
-    },
-    {
-      "type": "fluid",
-      "id": "estrogen:liquid_estrogen",
-      "amount": 81000
-    },
-    "item:estrogen:estrogen_patches"
+      "stack": {
+        "type": "item",
+        "id": "minecraft:cobblestone",
+        "amount": 57
+      }
+    }
   ],
+  "lookup_history": [],
   "craft_history": [
+    "minecraft:iron_pickaxe",
+    "minecraft:stick",
     "minecraft:spruce_door",
-    "minecraft:spruce_planks",
-    "minecraft:furnace",
-    "minecraft:shield",
-    "minecraft:crafting_table",
     "minecraft:oak_planks"
   ],
   "recipe_defaults": {

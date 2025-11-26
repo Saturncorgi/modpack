@@ -1,0 +1,1 @@
+{"jarName":"sparkweave-0.8.8.jar","modId":"sparkweave","version":"0.8.8","mixinConfigs":["sparkweave.mixins.json"],"jarJarMods":[{"jarName":"appdirs-1.2.1.jar","modId":"net_harawata_appdirs","version":"1.2.1","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}
