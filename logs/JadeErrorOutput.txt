@@ -1,0 +1,30 @@
+Nov 25, 2025, 12:39:00 PM
+INSTANCE
+snownee.jade.api.TraceableException: Exception occurred in create
+	at knot//snownee.jade.api.TraceableException.create(TraceableException.java:23)
+	at knot//snownee.jade.addon.vanilla.ItemTooltipProvider.appendTooltip(ItemTooltipProvider.java:55)
+	at knot//snownee.jade.impl.EntityAccessorClientHandler.gatherComponents(EntityAccessorClientHandler.java:81)
+	at knot//snownee.jade.impl.EntityAccessorClientHandler.gatherComponents(EntityAccessorClientHandler.java:26)
+	at knot//snownee.jade.overlay.WailaTickHandler.tickClient(WailaTickHandler.java:177)
+	at knot//snownee.jade.util.ClientProxy.onClientTick(ClientProxy.java:132)
+	at knot//net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents.lambda$static$2(ClientTickEvents.java:43)
+	at knot//net.minecraft.class_310.handler$chg000$fabric-lifecycle-events-v1$onEndTick(class_310.java:13022)
+	at knot//net.minecraft.class_310.method_1574(class_310.java:1957)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1181)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:802)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1937.method_45448(net.minecraft.class_5321)" because "worldIn" is null
+	at knot//com.simibubi.create.content.equipment.zapper.ZapperItem.method_7851(ZapperItem.java:65)
+	at knot//net.minecraft.class_1799.method_7950(class_1799.java:647)
+	at knot//snownee.jade.addon.vanilla.ItemTooltipProvider.appendTooltip(ItemTooltipProvider.java:44)
+	... 19 more
+

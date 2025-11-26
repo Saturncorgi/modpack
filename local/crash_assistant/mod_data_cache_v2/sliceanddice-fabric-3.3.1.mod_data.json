@@ -1,0 +1,1 @@
+{"jarName":"sliceanddice-fabric-3.3.1.jar","modId":"sliceanddice","version":"3.3.1","mixinConfigs":["sliceanddice.mixins.json"],"jarJarMods":[{"jarName":"forgeconfigapiport-fabric-8.0.0.jar","modId":"forgeconfigapiport","version":"8.0.0","mixinConfigs":["forgeconfigapiport.common.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

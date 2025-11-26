@@ -1,0 +1,1 @@
+{"jarName":"Steam_Rails-1.6.9+fabric-mc1.20.1.jar","modId":"railways","version":"1.6.9+fabric-mc1.20.1","mixinConfigs":["railways.mixins.json","railways-common.mixins.json"],"jarJarMods":[{"jarName":"Fabric-ASM-v2.3.jar","modId":"mm","version":"2.3","mixinConfigs":["mixins.mm.json","mixins.mm.refmap.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}
