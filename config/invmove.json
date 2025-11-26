@@ -18,5 +18,8 @@
     "hideOnPause": "Show",
     "unrecognizedScreenDefault": true
   },
-  "allowedKeysOverrides": {}
+  "allowedKeysOverrides": {
+    "key.adorablehamsterpets.force_mount_hamster.disabled": false,
+    "key.adorablehamsterpets.dismount_hamster.disabled": false
+  }
 }
