@@ -1,1 +1,0 @@
-{"jarName":"appliedenergistics2-fabric-15.4.10.jar","modId":"ae2","version":"15.4.10","mixinConfigs":["ae2.mixins.json"],"jarJarMods":[{"jarName":"energy-3.0.0.jar","modId":"team_reborn_energy","version":"3.0.0","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}
