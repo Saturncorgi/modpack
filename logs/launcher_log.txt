@@ -1,22 +1,202 @@
-# Minecraft launcher log started at 2025-11-25 22:32:53
+# Minecraft launcher log started at 2025-11-25 22:35:01
 # Profile: TRANS 
 
 
-[22:32:54] [main] [FabricLoader/GameProvider/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.1
-[22:32:54] [ForkJoinPool-1-worker-2] [FabricLoader/Metadata/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 2025-11-25 22:35:01
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'createaddition' at 'com.mrh0.createaddition.CreateAddition'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at knot//net.minecraft.class_310.
+(class_310.java:458)
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+Caused by: java.lang.NoClassDefFoundError: com/simibubi/create/api/behaviour/movement/MovementBehaviour
+	at knot//com.mrh0.createaddition.index.CACreativeModeTabs.lambda$static$0(CACreativeModeTabs.java:25)
+	at knot//io.github.fabricators_of_create.porting_lib.util.RegistryObject.get(RegistryObject.java:65)
+	at knot//io.github.fabricators_of_create.porting_lib.util.LazyRegistrar.lambda$register$0(LazyRegistrar.java:72)
+	at java.base/java.util.LinkedHashMap.forEach(Unknown Source)
+	at knot//io.github.fabricators_of_create.porting_lib.util.LazyRegistrar.register(LazyRegistrar.java:71)
+	at knot//com.mrh0.createaddition.index.CACreativeModeTabs.register(CACreativeModeTabs.java:31)
+	at knot//com.mrh0.createaddition.CreateAddition.onInitialize(CreateAddition.java:67)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: com.simibubi.create.api.behaviour.movement.MovementBehaviour
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:239)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at knot//net.minecraft.class_310.
+(class_310.java:458)
+
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.17.8-arch1-1
+	Java Version: 17.0.17, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 140092416 bytes (133 MiB) / 504365056 bytes (481 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 5800U with Radeon Graphics
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #0 VRAM (MB): 258.00
+	Graphics card #0 deviceId: 0x1638
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 170725.06
+	Virtual memory used (MB): 20782.19
+	Swap memory total (MB): 163059.00
+	Swap memory used (MB): 9455.79
+	JVM Flags: 1 total; -Xmx2048M
+	Fabric Mods: 
+		adorablehamsterpets: Adorable Hamster Pets 3.3.2-1.20.1+fabric
+		advancementplaques: Advancement Plaques 1.6.7
+		ae2: Applied Energistics 2 15.4.10
+			team_reborn_energy: Energy 3.0.0
+		ae2wtlib: AE2WTLib 15.2.1-fabric
+		amendments: Amendments 1.20-2.2.3
+		antique_atlas: Antique Atlas 2.12.0+1.20
+		appleskin: AppleSkin 2.5.1+mc1.20
+		architectury: Architectury 9.2.14
+		betterdeserttemples: YUNG's Better Desert Temples 1.20-Fabric-3.0.3
+			org_reflections_reflections: reflections 0.10.2
+		betterdungeons: YUNG's Better Dungeons 1.20-Fabric-4.0.4
+		betterfortresses: YUNG's Better Nether Fortresses 1.20-Fabric-2.0.6
+		betterjungletemples: YUNG's Better Jungle Temples 1.20-Fabric-2.0.5
+		bettermineshafts: YUNG's Better Mineshafts 1.20-Fabric-4.0.4
+		betteroceanmonuments: YUNG's Better Ocean Monuments 1.20-Fabric-3.0.4
+		betterstats: Better Statistics Screen 3.12.6+fabric-1.20.1
+		betterstrongholds: YUNG's Better Strongholds 1.20-Fabric-4.0.3
+		betterwitchhuts: YUNG's Better Witch Huts 1.20-Fabric-3.0.3
+		bookshelf: Bookshelf 20.2.13
+		botarium: Botarium 2.3.4
+		cardinal-components: Cardinal Components API 5.2.3
+			cardinal-components-base: Cardinal Components API (base) 5.2.3
+			cardinal-components-block: Cardinal Components API (blocks) 5.2.3
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.2.3
+			cardinal-components-entity: Cardinal Components API (entities) 5.2.3
+			cardinal-components-item: Cardinal Components API (items) 5.2.3
+			cardinal-components-level: Cardinal Components API (world saves) 5.2.3
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 5.2.3
+			cardinal-components-world: Cardinal Components API (worlds) 5.2.3
+		citresewn: CIT Resewn 1.2.2+1.20.1
+			citresewn-defaults: CIT Resewn: Defaults 1.2.2+1.20.1
+		cloth-config: Cloth Config v11 11.1.136
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 12.0.0.4
+		collective: Collective 8.13
+		constructionwand: Construction Wand (Fabric) 2.0.1
+			dev_smto_simpleconfig: simpleconfig 2.4.3+1.20.1
+		continuity: Continuity 3.0.0+1.20.1
+		copycats: Create: Copycats+ 2.2.2+mc.1.20.1-fabric
+		create: Create 0.5.1-j-build.1631+mc1.20.1
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			flywheel: Flywheel 0.6.11-4
+			milk: Milk Lib 1.2.60
+				dripstone_fluid_lib: Dripstone Fluid Lib 3.0.2
+			porting_lib_accessors: Porting Lib Accessors 2.3.8+1.20.1
+			porting_lib_base: Porting Lib Base 2.3.8+1.20.1
+				com_electronwill_night-config_core: core 3.6.6
+				com_electronwill_night-config_toml: toml 3.6.6
+				porting_lib_attributes: Porting Lib Attributes 2.3.8+1.20.1
+				porting_lib_common: Porting Lib Common 2.3.8+1.20.1
+				porting_lib_gui_utils: Porting Lib Gui Utils 2.3.8+1.20.1
+				porting_lib_utility: Porting Lib Utility 2.3.8+1.20.1
+			porting_lib_brewing: Porting Lib Brewing 2.3.8+1.20.1
+			porting_lib_client_events: Porting Lib Client Events 2.3.8+1.20.1
+			porting_lib_entity: Porting Lib Entity 2.3.8+1.20.1
+				porting_lib_mixin_extensions: Porting Lib Mixin Extensions 2.3.8+1.20.1
+			porting_lib_extensions: Porting Lib Extensions 2.3.8+1.20.1
+			porting_lib_models: Porting Lib Models 2.3.8+1.20.1
+				porting_lib_fluids: Porting Lib Fluids 2.3.8+1.20.1
+				porting_lib_model_loader: Porting Lib Model Loader 2.3.8+1.20.1
+			porting_lib_networking: Porting Lib Networking 2.3.8+1.20.1
+				porting_lib_core: Porting Lib Core 2.3.8+1.20.1
+			porting_lib_obj_loader: Porting Lib Obj Loader 2.3.8+1.20.1
+			porting_lib_tags: Porting Lib Tags 3.0
+			porting_lib_tool_actions: Porting Lib Tool Actions 2.3.8+1.20.1
+			porting_lib_transfer: Porting Lib Transfer 2.3.8+1.20.1
+			reach-entity-attributes: Reach Entity Attributes 2.4.0
+			registrate-fabric: Registrate for Fabric 1.3.79-MC1.20.1
+				porting_lib_data: Porting Lib Data 2.1.1090+1.20
+					porting_lib_gametest: Porting Lib GameTest 2.1.1090+1.20
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.1090+1.20
+					porting_lib_model_materials: Porting Lib Model Materials 2.1.1090+1.20
+		create-track-map: Create Track Map 1.4
+		create-trimmed: create-trimmed 1.0.0
+		create_copper_and_zinc: Create: Copper and Zinc 1.6.0
+		create_jetpack: Create Jetpack 4.3.0
+			flightlib: Flight Lib 2.1.0
+		create_jetpack_curios: Create: Jetpack Curios 1.2.0
+		create_power_loader: Create: Power Loader 1.5.3-mc1.20.1-fabric
+			porting_lib_chunk_loading: Porting Lib Chunk Loading 2.3.0+1.20.1
+		createaddition: Create Crafts
+[22:35:02] [main] [FabricLoader/GameProvider/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.1
+[22:35:03] [ForkJoinPool-1-worker-13] [FabricLoader/Metadata/WARN]: The mod "betterstats" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 26 column 4
 - Unsupported root entry "" at line 26 column 92
 - Unsupported root entry "" at line 28 column 4
 - Unsupported root entry "" at line 28 column 24
-[22:32:54] [ForkJoinPool-1-worker-9] [FabricLoader/Metadata/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+[22:35:03] [ForkJoinPool-1-worker-8] [FabricLoader/Metadata/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 27 column 4
 - Unsupported root entry "" at line 27 column 198
 - Unsupported root entry "" at line 29 column 4
 - Unsupported root entry "" at line 29 column 24
-[22:32:55] [main] [FabricLoader/Resolution/WARN]: Warnings were found!
+[22:35:03] [main] [FabricLoader/Resolution/WARN]: Warnings were found!
  - Mod 'Sodium Extra' (sodium-extra) 0.5.9+mc1.20.1 recommends version 1.4.2 or later of reeses-sodium-options, which is missing!
 	 - You should install version 1.4.2 or later of reeses-sodium-options for the optimal experience.
-[22:32:55] [main] [FabricLoader/INFO]: Loading 256 mods:
+[22:35:03] [main] [FabricLoader/INFO]: Loading 255 mods:
 	- adorablehamsterpets 3.3.2-1.20.1+fabric
 	- advancementplaques 1.6.7
 	- ae2 15.4.10
@@ -120,7 +300,6 @@
 	- create_jetpack_curios 1.2.0
 	- create_power_loader 1.5.3-mc1.20.1-fabric
 	   \-- porting_lib_chunk_loading 2.3.0+1.20.1
-	- createaddition 1.3.3
 	- dynamic_fps 3.9.5
 	   \-- net_lostluma_battery 1.3.0
 	- eatinganimationid 1.20+1.9.61
@@ -322,179 +501,366 @@
 	- yungsapi 1.20-Fabric-4.0.6
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
-[22:32:55] [main] [FabricLoader/Mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/saturncorgi/.local/share/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[22:32:55] [main] [FabricLoader/Mixin/INFO]: Compatibility level set to JAVA_17
-[22:32:56] [main] [Lithium/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
-[22:32:56] [main] [FabricLoader/Mixin/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:32:57] [main] [ModernFix/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 71 options available, 0 override(s) found
-[22:32:57] [main] [ModernFix/INFO]: Applying Nashorn fix
-[22:32:57] [main] [ModernFix/INFO]: Configuring Minecraft's max.bg.threads option with 13 threads
-[22:32:57] [main] [Sodium/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
-[22:32:57] [main] [Sodium Extra Config/INFO]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
-[22:32:58] [main] [FabricLoader/Mixin/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
-[22:32:58] [main] [FabricLoader/Mixin/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
-[22:32:58] [main] [FabricLoader/Mixin/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
-[22:32:58] [main] [FabricLoader/Mixin/WARN]: Error loading class: com/simibubi/create/api/contraption/BlockMovementChecks (java.lang.ClassNotFoundException: com/simibubi/create/api/contraption/BlockMovementChecks)
-[22:32:58] [main] [FabricLoader/Mixin/WARN]: @Mixin target com.simibubi.create.api.contraption.BlockMovementChecks was not found createaddition.mixins.json:BlockMovementChecksMixin from mod createaddition
-[22:32:58] [main] [FabricLoader/Mixin/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz/jei/library/load/PluginCaller)
-[22:32:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
-[22:32:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/HostAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/HostAPI)
-[22:32:59] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.HostAPI was not found estrogen-common.mixins.json:mixincompat.figura.HostAPIMixin from mod estrogen
-[22:32:59] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/entity/ViewerAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/entity/ViewerAPI)
-[22:32:59] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.entity.ViewerAPI was not found estrogen-common.mixins.json:mixincompat.figura.ViewerAPIMixin from mod estrogen
-[22:32:59] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[22:32:59] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[22:32:59] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[22:32:59] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[22:33:00] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/strobel/inventive_inventory/features/sorting/SortingHandler (java.lang.ClassNotFoundException: net/strobel/inventive_inventory/features/sorting/SortingHandler)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: de/rubixdev/inventorio/player/InventorioScreenHandler (java.lang.ClassNotFoundException: de/rubixdev/inventorio/player/InventorioScreenHandler)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider (java.lang.ClassNotFoundException: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider)
-[22:33:00] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
-[22:33:00] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
-[22:33:00] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
-[22:33:01] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[22:33:01] [main] [Sodium-GraphicsAdapterProbe/INFO]: Searching for graphics cards...
-[22:33:01] [main] [Sodium-GraphicsAdapterProbe/INFO]: Found graphics adapter: LinuxPciAdapterInfo[vendor=NVIDIA, name=GA107M [GeForce RTX 3050 Ti Mobile], pciVendorId=0x10de, pciDeviceId=0x25a0]
-[22:33:01] [main] [Sodium-GraphicsAdapterProbe/INFO]: Found graphics adapter: LinuxPciAdapterInfo[vendor=AMD, name=Cezanne [Radeon Vega Series / Radeon Vega Mobile Series], pciVendorId=0x1002, pciDeviceId=0x1638]
-[22:33:01] [main] [Sodium-Workarounds/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN, NO_ERROR_CONTEXT_UNSUPPORTED]
-[22:33:01] [main] [Sodium-Workarounds/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[22:33:01] [main] [FabricLoader/MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[22:33:03] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
-[22:33:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:33:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:33:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[22:33:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[22:33:06] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[22:33:10] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[22:33:10] [main] [net.minecraft.class_2966/INFO]: Vanilla bootstrap took 6022 milliseconds
-[22:33:11] [Render thread] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:33:11] [Render thread] [net.minecraft.class_310/INFO]: Setting user: SaturnCorgi
-[22:33:11] [Render thread] [ModernFix/INFO]: Bypassed Mojang DFU
-[22:33:13] [Render thread] [fzzy_config/INFO]: Loaded config adorablehamsterpets:main in 1140ms
-[22:33:13] [Render thread] [adorablehamsterpets/INFO]: Registering Mod Criteria for adorablehamsterpets
-[22:33:13] [Render thread] [adorablehamsterpets/INFO]: [BiomeConfig] Parsed 7 tags, 212 included biomes, and 1 excluded biomes.
-[22:33:13] [Render thread] [adorablehamsterpets/INFO]: [FeatureConfig] Parsed feature generation settings from config.
-[22:33:13] [Render thread] [adorablehamsterpets/INFO]: Parsed all item tag overrides from config.
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
-[22:33:13] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
-[22:33:13] [Render thread] [Moonlight/INFO]: Loaded config amendments-common.json
-[22:33:13] [Render thread] [Moonlight/INFO]: Loaded config amendments-client.json
-[22:33:13] [Render thread] [Moonlight/INFO]: Loaded config moonlight-client.json
-[22:33:13] [Render thread] [FabricLoader/Mixin/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 178 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
+[22:35:03] [main] [FabricLoader/Mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/saturncorgi/.local/share/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[22:35:03] [main] [FabricLoader/Mixin/INFO]: Compatibility level set to JAVA_17
+[22:35:04] [main] [Lithium/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
+[22:35:04] [main] [FabricLoader/Mixin/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:35:05] [main] [ModernFix/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 71 options available, 0 override(s) found
+[22:35:05] [main] [ModernFix/INFO]: Applying Nashorn fix
+[22:35:05] [main] [ModernFix/INFO]: Configuring Minecraft's max.bg.threads option with 13 threads
+[22:35:05] [main] [Sodium/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[22:35:05] [main] [Sodium Extra Config/INFO]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[22:35:06] [main] [FabricLoader/Mixin/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[22:35:06] [main] [FabricLoader/Mixin/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[22:35:06] [main] [FabricLoader/Mixin/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[22:35:06] [main] [FabricLoader/Mixin/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz/jei/library/load/PluginCaller)
+[22:35:07] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[22:35:07] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/HostAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/HostAPI)
+[22:35:07] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.HostAPI was not found estrogen-common.mixins.json:mixincompat.figura.HostAPIMixin from mod estrogen
+[22:35:07] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/figuramc/figura/lua/api/entity/ViewerAPI (java.lang.ClassNotFoundException: org/figuramc/figura/lua/api/entity/ViewerAPI)
+[22:35:07] [main] [FabricLoader/Mixin/WARN]: @Mixin target org.figuramc.figura.lua.api.entity.ViewerAPI was not found estrogen-common.mixins.json:mixincompat.figura.ViewerAPIMixin from mod estrogen
+[22:35:07] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[22:35:07] [main] [Lithium/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[22:35:07] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[22:35:07] [main] [Lithium/WARN]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[22:35:08] [main] [Sodium/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/strobel/inventive_inventory/features/sorting/SortingHandler (java.lang.ClassNotFoundException: net/strobel/inventive_inventory/features/sorting/SortingHandler)
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: Error loading class: de/rubixdev/inventorio/player/InventorioScreenHandler (java.lang.ClassNotFoundException: de/rubixdev/inventorio/player/InventorioScreenHandler)
+[22:35:08] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider (java.lang.ClassNotFoundException: net/blay09/mods/trashslot/client/deletion/DefaultDeletionProvider)
+[22:35:08] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[22:35:08] [main] [memoryleakfix/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[22:35:09] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[22:35:09] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[22:35:09] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[22:35:09] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[22:35:09] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[22:35:09] [main] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[22:35:09] [main] [FabricLoader/Mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[22:35:09] [main] [Sodium-GraphicsAdapterProbe/INFO]: Searching for graphics cards...
+[22:35:09] [main] [Sodium-GraphicsAdapterProbe/INFO]: Found graphics adapter: LinuxPciAdapterInfo[vendor=NVIDIA, name=GA107M [GeForce RTX 3050 Ti Mobile], pciVendorId=0x10de, pciDeviceId=0x25a0]
+[22:35:09] [main] [Sodium-GraphicsAdapterProbe/INFO]: Found graphics adapter: LinuxPciAdapterInfo[vendor=AMD, name=Cezanne [Radeon Vega Series / Radeon Vega Mobile Series], pciVendorId=0x1002, pciDeviceId=0x1638]
+[22:35:09] [main] [Sodium-Workarounds/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN, NO_ERROR_CONTEXT_UNSUPPORTED]
+[22:35:09] [main] [Sodium-Workarounds/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[22:35:09] [main] [FabricLoader/MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[22:35:12] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
+[22:35:14] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22:35:14] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22:35:14] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[22:35:14] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[22:35:14] [main] [ModernFix/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[22:35:18] [main] [FabricLoader/Mixin/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[22:35:18] [main] [net.minecraft.class_2966/INFO]: Vanilla bootstrap took 5830 milliseconds
+[22:35:19] [Render thread] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:35:19] [Render thread] [net.minecraft.class_310/INFO]: Setting user: SaturnCorgi
+[22:35:19] [Render thread] [ModernFix/INFO]: Bypassed Mojang DFU
+[22:35:21] [Render thread] [fzzy_config/INFO]: Loaded config adorablehamsterpets:main in 1138ms
+[22:35:21] [Render thread] [adorablehamsterpets/INFO]: Registering Mod Criteria for adorablehamsterpets
+[22:35:21] [Render thread] [adorablehamsterpets/INFO]: [BiomeConfig] Parsed 7 tags, 212 included biomes, and 1 excluded biomes.
+[22:35:21] [Render thread] [adorablehamsterpets/INFO]: [FeatureConfig] Parsed feature generation settings from config.
+[22:35:21] [Render thread] [adorablehamsterpets/INFO]: Parsed all item tag overrides from config.
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/5a7a5309b53b378e97db06742ac045ad
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/d7b6b61b3b47305cb7cc41d4492d07d0
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/82f318cc18da3b6a8b6368b32f811115
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/c3d14da61bd63f2fba2eb99d1bcd539e
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering C2S receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[22:35:21] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id adorablehamsterpets:main/2f637bd195983434b5c964c8e5d7548c
+[22:35:21] [Render thread] [Moonlight/INFO]: Loaded config amendments-common.json
+[22:35:21] [Render thread] [Moonlight/INFO]: Loaded config amendments-client.json
+[22:35:21] [Render thread] [Moonlight/INFO]: Loaded config moonlight-client.json
+[22:35:21] [Render thread] [FabricLoader/Mixin/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 178 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
  Expected: [Ljava/lang/Object;, I, I, I, I, Lorg/joml/Vector2ic;]
     Found: [I, I, I, I, Lorg/joml/Vector2ic;]
 Available: [I, I, I, I, Lorg/joml/Vector2ic;]
-[22:33:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 85 ms to scan 1 urls, producing 1 keys and 2 values
-[22:33:13] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 10 ms to scan 1 urls, producing 1 keys and 2 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:33:14] [Render thread] [yungsapi/WARN]: WARNING: block Block{minecraft:coal_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[22:33:14] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[22:33:14] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[22:33:14] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[22:33:14] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[22:33:14] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[22:33:14] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[22:33:14] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[22:33:14] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[22:33:14] [Render thread] [Collective/INFO]: Loading Collective version 8.13.
-[22:33:14] [Render thread] [dev.smto.constructionwand.ConstructionWand/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: java.lang.NullPointerException
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.LogicalSidedProvider.get(LogicalSidedProvider.java:34)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.lambda$refreshItemVisibility$8(FeatureToggle.java:142)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.Platform$Environment.runIfCurrent(Platform.java:40)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.refreshItemVisibility(FeatureToggle.java:141)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.CFeatures.onReload(CFeatures.java:58)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(Unknown Source)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.simibubi.create.foundation.config.ConfigBase.onReload(ConfigBase.java:36)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.SyncConfigBase.onReload(SyncConfigBase.java:63)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.fabric.CCConfigsImpl.onReload(CCConfigsImpl.java:28)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.api.config.v2.ModConfigEvents$ModConfigEventsHolder.lambda$create$2(ModConfigEvents.java:133)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.impl.core.FabricAbstractions.fireConfigReloading(FabricAbstractions.java:20)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:160)
-[22:33:15] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
-[22:33:18] [Render thread] [create_copper_and_zinc.CreateCopperAndZincMod/INFO]: Initializing CreateCopperAndZincMod
-[22:33:18] [Render thread] [create_jetpack_curios.CreateJetpackCuriosMod/INFO]: Initializing CreateJetpackCuriosMod
-[22:33:18] [Render thread] [Estrogen/INFO]: Injecting Estrogen into your veins!
-[22:33:19] [Render thread] [faunify/INFO]: Initializing Faunify...
-[22:33:19] [Render thread] [faunify/INFO]: Faunify initialized successfully!
-[22:33:19] [Render thread] [Friendly Fire/INFO]: Loaded config file.
-[22:33:19] [Render thread] [Friendly Fire/INFO]: Saved config file.
-[22:33:19] [Render thread] [snownee.kiwi.Kiwi/INFO]: Processing 5 KiwiModule annotations
-[22:33:19] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:contributors] initialized
-[22:33:19] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_templates] initialized
-[22:33:19] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_components] initialized
-[22:33:19] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:data] initialized
-[22:33:19] [Render thread] [snownee.kiwi.Kiwi/INFO]: recipe_serializer: 3
-[22:33:19] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:item_templates] initialized
-[22:33:19] [Render thread] [com.chocohead.mm.MM/INFO]: Definitely not up to no good
-[22:33:19] [Render thread] [Moonlight/INFO]: Loaded config moonlight-common.json
-[22:33:20] [Render thread] [me.wesley1808.servercore.common.ServerCore/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
-[22:33:20] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-common.json
-[22:33:20] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-client.json
-[22:33:20] [Render thread] [surveyor/INFO]: [Surveyor] is not a map mod
-[22:33:20] [Render thread] [voicechat/INFO]: [voicechat] Compatibility version 20
-[22:33:20] [Render thread] [voicechat/INFO]: [voicechat] Loading plugins
-[22:33:20] [Render thread] [voicechat/INFO]: [voicechat] Loaded 1 plugin(s)
-[22:33:20] [Render thread] [voicechat/INFO]: [voicechat] Initializing plugins
-[22:33:20] [Render thread] [Sound Physics - General/INFO]: Initializing Simple Voice Chat integration
-[22:33:20] [Render thread] [voicechat/INFO]: [voicechat] Initialized 1 plugin(s)
-[22:33:20] [Render thread] [voicechat/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[22:33:21] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
-[22:33:21] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
-[22:33:21] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[22:33:21] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
----- Minecraft Crash Report ----
-// I let you down. Sorry :(
-
-Time: 2025-11-25 22:33:21
-Description: Initializing game
-
-java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'createaddition' at 'com.mrh0.createaddition.CreateAddition'!
-	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
-	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
-	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
-	at knot//net.minecraft.class_310.
-(class_310.java:458)
-	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+[22:35:21] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 91 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:21] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:22] [Render thread] [yungsapi/WARN]: WARNING: block Block{minecraft:coal_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[22:35:22] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[22:35:22] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[22:35:22] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[22:35:22] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[22:35:22] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[22:35:22] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[22:35:22] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[22:35:22] [Render thread] [Bookshelf/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[22:35:22] [Render thread] [Collective/INFO]: Loading Collective version 8.13.
+[22:35:22] [Render thread] [dev.smto.constructionwand.ConstructionWand/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: java.lang.NullPointerException
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.LogicalSidedProvider.get(LogicalSidedProvider.java:34)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.lambda$refreshItemVisibility$8(FeatureToggle.java:142)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.utility.Platform$Environment.runIfCurrent(Platform.java:40)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.FeatureToggle.refreshItemVisibility(FeatureToggle.java:141)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.CFeatures.onReload(CFeatures.java:58)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at java.base/java.util.ArrayList.forEach(Unknown Source)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.simibubi.create.foundation.config.ConfigBase.onReload(ConfigBase.java:36)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.SyncConfigBase.onReload(SyncConfigBase.java:63)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.copycatsplus.copycats.config.fabric.CCConfigsImpl.onReload(CCConfigsImpl.java:28)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.api.config.v2.ModConfigEvents$ModConfigEventsHolder.lambda$create$2(ModConfigEvents.java:133)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//fuzs.forgeconfigapiport.impl.core.FabricAbstractions.fireConfigReloading(FabricAbstractions.java:20)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:160)
+[22:35:23] [Thread-2] [net.minecraft.class_2983/INFO]: [STDERR]: 	at knot//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[22:35:26] [Render thread] [create_copper_and_zinc.CreateCopperAndZincMod/INFO]: Initializing CreateCopperAndZincMod
+[22:35:26] [Render thread] [create_jetpack_curios.CreateJetpackCuriosMod/INFO]: Initializing CreateJetpackCuriosMod
+[22:35:26] [Render thread] [Estrogen/INFO]: Injecting Estrogen into your veins!
+[22:35:27] [Render thread] [faunify/INFO]: Initializing Faunify...
+[22:35:27] [Render thread] [faunify/INFO]: Faunify initialized successfully!
+[22:35:27] [Render thread] [Friendly Fire/INFO]: Loaded config file.
+[22:35:27] [Render thread] [Friendly Fire/INFO]: Saved config file.
+[22:35:27] [Render thread] [snownee.kiwi.Kiwi/INFO]: Processing 5 KiwiModule annotations
+[22:35:27] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:contributors] initialized
+[22:35:27] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_templates] initialized
+[22:35:27] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:block_components] initialized
+[22:35:27] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:data] initialized
+[22:35:27] [Render thread] [snownee.kiwi.Kiwi/INFO]: recipe_serializer: 3
+[22:35:27] [Render thread] [snownee.kiwi.Kiwi/INFO]: Module [kiwi:item_templates] initialized
+[22:35:27] [Render thread] [com.chocohead.mm.MM/INFO]: Definitely not up to no good
+[22:35:27] [Render thread] [Moonlight/INFO]: Loaded config moonlight-common.json
+[22:35:27] [Render thread] [me.wesley1808.servercore.common.ServerCore/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
+[22:35:28] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-common.json
+[22:35:28] [Render thread] [Moonlight/INFO]: Loaded config supplementaries-client.json
+[22:35:28] [Render thread] [surveyor/INFO]: [Surveyor] is not a map mod
+[22:35:28] [Render thread] [voicechat/INFO]: [voicechat] Compatibility version 20
+[22:35:28] [Render thread] [voicechat/INFO]: [voicechat] Loading plugins
+[22:35:28] [Render thread] [voicechat/INFO]: [voicechat] Loaded 1 plugin(s)
+[22:35:28] [Render thread] [voicechat/INFO]: [voicechat] Initializing plugins
+[22:35:28] [Render thread] [Sound Physics - General/INFO]: Initializing Simple Voice Chat integration
+[22:35:28] [Render thread] [voicechat/INFO]: [voicechat] Initialized 1 plugin(s)
+[22:35:28] [Render thread] [voicechat/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[22:35:28] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[22:35:28] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[22:35:28] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:28] [Render thread] [org.reflections.Reflections/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[22:35:29] [Render thread] [dev.architectury.networking.fabric.NetworkManagerImpl/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[22:35:29] [Render thread] [betterstats/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[22:35:29] [Render thread] [CITResewn/INFO]: [citresewn] Registering CIT Conditions
+[22:35:29] [Render thread] [CITResewn/INFO]: [citresewn] Registering CIT Types
+[22:35:30] [Render thread] [dynamic_fps/INFO]: Dynamic FPS 3.9.5 active on Fabric!
+[22:35:30] [Render thread] [Entity Texture Features/INFO]: [ETF]: Modifying ETF Render State constructor because: for EMF
+[22:35:30] [Render thread] [traben.entity_model_features.EMF/INFO]: Loading Entity Model Features, 100% of the time it works 90% of the time!
+[22:35:30] [Render thread] [Entity Texture Features/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features
+[22:35:30] [Render thread] [Entity Texture Features/INFO]: Loading Entity Texture Features, not to be confused with CIT, seriously, why does that keep happening?
+[22:35:31] [Render thread] [net.fabricmc.fabric.impl.client.indigo.Indigo/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[22:35:31] [Render thread] [com.jozufozu.flywheel.backend.Backend/INFO]: Iris detected.
+[22:35:31] [Render thread] [fzzy_config/INFO]: Loaded config fzzy_config:keybinds in 42ms
+[22:35:31] [Render thread] [Sound Physics - General/WARN]: Using Cloth Config GUI
+[22:35:31] [Worker-Main-1] [Mod Menu/Update Checker/INFO]: Checking mod updates...
+[22:35:32] [Render thread] [Moonlight/INFO]: Initialized block sets in 20ms
+[22:35:32] [Render thread] [Moonlight/INFO]: Initialized color sets in 40ms
+[22:35:32] [Render thread] [Supplementaries/INFO]: Finished mod setup in: [0, 1, 0, 0, 0, 0, 16, 1] ms
+[Mouse Tweaks] Main.initialize()
+[Mouse Tweaks] Initialized.
+[22:35:32] [Render thread] [sodiumdynamiclights/INFO]: [LambDynLights] Initializing SodiumDynamicLights...
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Reloading reverb parameters
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: effective:ambience.waterfall
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: hearth_and_home:block.chimney.crackle
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: railways:conductor_whistle
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.alligator.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.alligator.ambient_baby
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.alligator.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.alligator.egg_break
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.alligator.egg_crack
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.alligator.egg_hatch
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.alligator.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bass.flop
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.ambient_baby
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.eat
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.hurt_baby
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.sleep
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.sniff
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bear.spit
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.ambient_bluejay
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.ambient_canary
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.ambient_cardinal
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.ambient_finch
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.ambient_robin
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.ambient_sparrow
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.eat
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.fly
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.bird.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.bite_attack
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.boar.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.boar.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.boar.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.bubble_pop
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.catfish.flop
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.deer.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.deer.ambient_baby
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.deer.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.deer.hurt_baby
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.dragonfly.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.dragonfly.loop
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.duck.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.duck.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.duck.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.duck.step
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.elephant.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.elephant.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.ferret.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.ferret.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.ferret.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.firefly.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.firefly.hide
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.firefly.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.giraffe.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.hippo.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.hippo.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.leaf_insect.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.leaf_insect.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.lion.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.lion.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.lion.roar
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.otter.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.otter.clam_break
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.otter.clam_break_land
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.otter.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.otter.eat
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.otter.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.otter.swim
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: effective:entity.parry
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.red_panda.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.red_panda.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.red_panda.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.rhino.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.rhino.ambient_baby
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.rhino.scrape
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.rubber_ducky.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.rubber_ducky.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.rubber_ducky.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.sea_bunny.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.sea_bunny.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: crittersandcompanions:entity.shima_enaga.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.snail.back
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.snail.crush
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.snail.forward
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.snake.hiss
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.snake.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.snake.rattle
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.tortoise.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.tortoise.egg_break
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.tortoise.egg_crack
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.tortoise.egg_hatch
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.tortoise.hide
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.tortoise.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.tortoise.thud
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.vulture.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.vulture.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.vulture.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.zebra.ambient
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.zebra.angry
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.zebra.breathe
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.zebra.death
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.zebra.eat
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.zebra.hurt
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:entity.zebra.jump
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: railways:handcar_cogs
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:item.bucket.empty_snail
+[22:35:32] [Render thread] [Sound Physics - General/INFO]: Unknown sound in sound rate config: naturalist:item.bucket.fill_snail
+[22:35:32] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing ModConfig from '/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/sounds/mod_utils.json'
+[22:35:32] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing UISoundsConfig from '/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/sounds/ui.json'
+[22:35:32] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing WorldSoundsConfig from '/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/sounds/world.json'
+[22:35:32] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing EventSoundsConfig from '/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/sounds/event.json'
+[22:35:32] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing ChatSoundsConfig from '/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/sounds/chat.json'
+[22:35:32] [Worker-Main-1] [Mod Menu/Update Checker/INFO]: Update available for 'create@0.5.1-j-build.1631+mc1.20.1', (-> 6.0.8.0+build.1734-mc1.20.1)
+[22:35:32] [Render thread] [YetAnotherConfigLib/INFO]: Serializing class dev.imb11.sounds.config.ChatSoundsConfig to '/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/sounds/chat.json'
+[22:35:33] [Render thread] [surveyor/INFO]: [Surveyor Client] is not a map mod either
+[22:35:33] [Render thread] [tcdcommons/INFO]: Initializing 'TCD Commons API' 3.12.3.3+fabric-1.20.1 as 'TCDCommonsClient'.
+[LibGui] Initializing Client...
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Using Cloth Config GUI
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Initializing Opus
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Opus
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Initializing RNNoise
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized RNNoise
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Initializing Speex
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized Speex
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Initializing LAME
+[22:35:33] [Render thread] [voicechat/INFO]: [voicechat] Successfully initialized LAME
+[22:35:33] [Render thread] [YetAnotherConfigLib/INFO]: Deserializing YACLConfig from '/home/saturncorgi/.local/share/ModrinthApp/profiles/TRANS/config/yacl.json5'
+[22:35:33] [ForkJoinPool.commonPool-worker-1] [Iris/WARN]: [Iris Update Check] Cached update file detected, using that!
+[22:35:33] [Render thread] [net.minecraft.class_310/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[22:35:33] [Render thread] [Sodium-NvidiaWorkarounds/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[22:35:34] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Vendor: NVIDIA Corporation
+[22:35:34] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2
+[22:35:34] [Render thread] [net.minecraft.class_1041/INFO]: OpenGL Version: 3.2.0 NVIDIA 580.105.08
+[22:35:34] [Render thread] [Sodium-NvidiaWorkarounds/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[22:35:34] [Render thread] [ImmediatelyFast/INFO]: Initializing ImmediatelyFast 1.5.2+1.20.4 on NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 580.105.08
+[22:35:34] [Render thread] [ImmediatelyFast/INFO]: Found Iris/Oculus 1.7.6+mc1.20.1. Enabling compatibility.
+[22:35:34] [Render thread] [Iris/INFO]: Debug functionality is disabled.
+[22:35:34] [Render thread] [Iris/INFO]: ARB_direct_state_access detected, enabling DSA.
+[22:35:34] [Render thread] [Iris/INFO]: Shaders are disabled because no valid shaderpack is selected
+[22:35:35] [Render thread] [Sodium/INFO]: Block minecraft:water_cauldron had its color provider replaced with net.mehvahdjukaar.amendments.AmendmentsClient$$Lambda$12229/0x00007f13b5985538@634f4666 and will not use per-vertex coloring
+[22:35:35] [Render thread] [FabricLoader/Mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/model/light/data/LightDataAccess)
+[22:35:35] [Render thread] [Iris/INFO]: Hardware information:
+[22:35:35] [Render thread] [Iris/INFO]: CPU: 16x AMD Ryzen 7 5800U with Radeon Graphics
+[22:35:35] [Render thread] [Iris/INFO]: GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 580.105.08)
+[22:35:35] [Render thread] [Iris/INFO]: OS: Linux (6.17.8-arch1-1)
+[22:35:35] [Render thread] [ModernFix/WARN]: Failed to initialize Linux Narrator. Make sure you have libflite installed!
+[22:35:35] [Finalizer] [ModernFix/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[22:35:35] [Render thread] [net.minecraft.class_3304/INFO]: Reloading ResourceManager: vanilla, fabric (adorablehamsterpets, advancementplaques, ae2, ae2wtlib, amendments, antique_atlas, appleskin, betterdeserttemples, betterdungeons, betterfortresses, betterjungletemples, bettermineshafts, betteroceanmonuments, betterstats, betterstrongholds, betterwitchhuts, bookshelf, caffeineconfig, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, citresewn, citresewn-defaults, cloth-config, clumps, constructionwand, continuity, copycats, create, create-track-map, create-trimmed, create_copper_and_zinc, create_jetpack, create_jetpack_curios, create_power_loader, dripstone_fluid_lib, dynamic_fps, eatinganimationid, emi, enchancement, entity_model_features, entity_texture_features, entityculling, epherolib, estrogen, explosiveenhancement, exposure, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, farmersdelight, faunify, fireworkfrenzy, flightlib, flywheel, forgeconfigapiport, friendlyfire, fzzy_config, geckolib, immediatelyfast, indium, iris, kiwi, lithium, malilib, midnightlib, milk, mm, modernfix, modmenu, moonlight, morechathistory, mru, nethersdelight, patchouli, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_recipe_book_categories, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, reach-entity-attributes, registrate-fabric, respawnablepets, sit, sliceanddice, sodium, sodium-extra, sodiumdynamiclights, sound_physics_remastered, sounds, spark, sparkweave, starlight, step-height-entity-attribute, supplementaries, surveyor, tcdcommons, team_reborn_energy, tooltipfix, trender, trinkets, voicechat, yet_another_config_lib_v3), Moonlight Mods Dynamic Assets
+[22:35:35] [Worker-ResourceReload-0] [Moonlight/INFO]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators from mods [amendments, supplementaries, moonlight, supplementaries]: [net.mehvahdjukaar.amendments.client.ClientResourceGenerator@7bd004a3, net.mehvahdjukaar.supplementaries.dynamicpack.ClientDynamicResourcesGenerator@28aba82d, net.mehvahdjukaar.moonlight.core.MoonlightClient$Gen@768319f8]
+[22:35:36] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (amendments)
+[22:35:36] [Render thread] [Iris/INFO]: Creating pipeline for dimension minecraft:overworld
+[22:35:36] [Worker-ResourceReload-0] [Amendments/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (amendments) in: 97 ms (multithreaded)
+[22:35:36] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (supplementaries)
+[22:35:36] [Worker-ResourceReload-0] [Supplementaries/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 55 ms (multithreaded)
+[22:35:36] [Worker-ResourceReload-0] [Moonlight/INFO]: Generating runtime assets for pack Moonlight Mods Dynamic Assets (moonlight)
+[22:35:36] [Worker-ResourceReload-0] [Moonlight/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 2 ms (multithreaded)
+[22:35:36] [Worker-ResourceReload-0] [Moonlight/INFO]: Finished runtime resources generation for 4 packs in a total of 161 ms
+[22:35:36] [Worker-ResourceReload-14] [net.minecraft.class_391/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[22:35:36] [Worker-ResourceReload-9] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_1.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
+[22:35:36] [Worker-ResourceReload-9] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_2.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
+[22:35:36] [Worker-ResourceReload-9] [net.minecraft.class_1144/WARN]: File supplementaries:sounds/item/awning_bounce_3.ogg does not exist, cannot add it to event supplementaries:block.awning.bounce
+Shutting down culling task!
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'supplementaries:blackboard' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:37] [Render thread] [net.minecraft.class_310/INFO]: Stopping!
+[22:35:37] [Render thread] [EMI/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[22:35:37] [Thread-16] [EMI/INFO]: [EMI] Clearing data
+[22:35:37] [Worker-ResourceReload-5] [Sounds/WARN]: Failed to find block entries for tag key: minecraft:cauldrons
+[22:35:37] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'supplementaries:book_pile' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:37] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'supplementaries:bunting' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:37] [Render thread] [net.minecraft.class_310/ERROR]: Shutdown failure!
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.forEach(Unknown Source)
+	at knot//net.minecraft.class_1060.close(class_1060.java:174)
+	at knot//net.minecraft.class_310.close(class_310.java:1138)
+	at knot//net.minecraft.class_310.method_1490(class_310.java:1113)
+	at knot//net.minecraft.client.main.Main.main(Main.java:266)
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
@@ -504,162 +870,39 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
 	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
 	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
-Caused by: java.lang.NoClassDefFoundError: com/simibubi/create/api/behaviour/movement/MovementBehaviour
-	at knot//com.mrh0.createaddition.index.CACreativeModeTabs.lambda$static$0(CACreativeModeTabs.java:25)
-	at knot//io.github.fabricators_of_create.porting_lib.util.RegistryObject.get(RegistryObject.java:65)
-	at knot//io.github.fabricators_of_create.porting_lib.util.LazyRegistrar.lambda$register$0(LazyRegistrar.java:72)
-	at java.base/java.util.LinkedHashMap.forEach(Unknown Source)
-	at knot//io.github.fabricators_of_create.porting_lib.util.LazyRegistrar.register(LazyRegistrar.java:71)
-	at knot//com.mrh0.createaddition.index.CACreativeModeTabs.register(CACreativeModeTabs.java:31)
-	at knot//com.mrh0.createaddition.CreateAddition.onInitialize(CreateAddition.java:67)
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
-	... 12 more
-Caused by: java.lang.ClassNotFoundException: com.simibubi.create.api.behaviour.movement.MovementBehaviour
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:239)
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 20 more
+[22:35:37] [Render thread] [net.minecraft.class_310/ERROR]: Shutdown failure!
+[22:35:37] [Worker-ResourceReload-10] [Porting Lib/WARN]: Model loader 'ae2:block/cable_bus' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:37] [Worker-ResourceReload-10] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'amendments:carpet_overlay' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:37] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/16k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/1k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/256k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/64k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/4k_storage_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/accelerator_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Model loader 'ae2:block/crafting/unit_formed' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-10] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'ae2:block/drive' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-3] [Porting Lib/WARN]: Model loader 'amendments:cauldron' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-3] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-12] [Porting Lib/WARN]: Model loader 'supplementaries:faucet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-12] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-1] [Porting Lib/WARN]: Model loader 'supplementaries:flower_box' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Model loader 'supplementaries:flower_box' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-4] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-1] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-14] [Porting Lib/WARN]: Model loader 'supplementaries:goblet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-14] [Porting Lib/WARN]: Falling back to vanilla logic.
+[22:35:38] [Worker-ResourceReload-14] [Porting Lib/WARN]: Model loader 'amendments:hanging_pot' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[22:35:38] [Worker-ResourceReload-14] [Porting Lib/WARN]: Falling back to vanilla logic.
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
 
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- Head --
-Thread: Render thread
-Stacktrace:
-	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
-	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
-	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
-	at knot//net.minecraft.class_310.
-(class_310.java:458)
-
--- Initialization --
-Details:
-	Modules: 
-Stacktrace:
-	at knot//net.minecraft.client.main.Main.main(Main.java:211)
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
-	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
-
--- System Details --
-Details:
-	Minecraft Version: 1.20.1
-	Minecraft Version ID: 1.20.1
-	Operating System: Linux (amd64) version 6.17.8-arch1-1
-	Java Version: 17.0.17, Azul Systems, Inc.
-	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
-	Memory: 197881712 bytes (188 MiB) / 509607936 bytes (486 MiB) up to 2147483648 bytes (2048 MiB)
-	CPUs: 16
-	Processor Vendor: AuthenticAMD
-	Processor Name: AMD Ryzen 7 5800U with Radeon Graphics
-	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
-	Microarchitecture: Zen 3
-	Frequency (GHz): -0.00
-	Number of physical packages: 1
-	Number of physical CPUs: 8
-	Number of logical CPUs: 16
-	Graphics card #0 name: Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]
-	Graphics card #0 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
-	Graphics card #0 VRAM (MB): 258.00
-	Graphics card #0 deviceId: 0x1638
-	Graphics card #0 versionInfo: unknown
-	Virtual memory max (MB): 170725.06
-	Virtual memory used (MB): 20259.24
-	Swap memory total (MB): 163059.00
-	Swap memory used (MB): 9354.14
-	JVM Flags: 1 total; -Xmx2048M
-	Fabric Mods: 
-		adorablehamsterpets: Adorable Hamster Pets 3.3.2-1.20.1+fabric
-		advancementplaques: Advancement Plaques 1.6.7
-		ae2: Applied Energistics 2 15.4.10
-			team_reborn_energy: Energy 3.0.0
-		ae2wtlib: AE2WTLib 15.2.1-fabric
-		amendments: Amendments 1.20-2.2.3
-		antique_atlas: Antique Atlas 2.12.0+1.20
-		appleskin: AppleSkin 2.5.1+mc1.20
-		architectury: Architectury 9.2.14
-		betterdeserttemples: YUNG's Better Desert Temples 1.20-Fabric-3.0.3
-			org_reflections_reflections: reflections 0.10.2
-		betterdungeons: YUNG's Better Dungeons 1.20-Fabric-4.0.4
-		betterfortresses: YUNG's Better Nether Fortresses 1.20-Fabric-2.0.6
-		betterjungletemples: YUNG's Better Jungle Temples 1.20-Fabric-2.0.5
-		bettermineshafts: YUNG's Better Mineshafts 1.20-Fabric-4.0.4
-		betteroceanmonuments: YUNG's Better Ocean Monuments 1.20-Fabric-3.0.4
-		betterstats: Better Statistics Screen 3.12.6+fabric-1.20.1
-		betterstrongholds: YUNG's Better Strongholds 1.20-Fabric-4.0.3
-		betterwitchhuts: YUNG's Better Witch Huts 1.20-Fabric-3.0.3
-		bookshelf: Bookshelf 20.2.13
-		botarium: Botarium 2.3.4
-		cardinal-components: Cardinal Components API 5.2.3
-			cardinal-components-base: Cardinal Components API (base) 5.2.3
-			cardinal-components-block: Cardinal Components API (blocks) 5.2.3
-			cardinal-components-chunk: Cardinal Components API (chunks) 5.2.3
-			cardinal-components-entity: Cardinal Components API (entities) 5.2.3
-			cardinal-components-item: Cardinal Components API (items) 5.2.3
-			cardinal-components-level: Cardinal Components API (world saves) 5.2.3
-			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 5.2.3
-			cardinal-components-world: Cardinal Components API (worlds) 5.2.3
-		citresewn: CIT Resewn 1.2.2+1.20.1
-			citresewn-defaults: CIT Resewn: Defaults 1.2.2+1.20.1
-		cloth-config: Cloth Config v11 11.1.136
-			cloth-basic-math: cloth-basic-math 0.6.1
-		clumps: Clumps 12.0.0.4
-		collective: Collective 8.13
-		constructionwand: Construction Wand (Fabric) 2.0.1
-			dev_smto_simpleconfig: simpleconfig 2.4.3+1.20.1
-		continuity: Continuity 3.0.0+1.20.1
-		copycats: Create: Copycats+ 2.2.2+mc.1.20.1-fabric
-		create: Create 0.5.1-j-build.1631+mc1.20.1
-			com_google_code_findbugs_jsr305: jsr305 3.0.2
-			flywheel: Flywheel 0.6.11-4
-			milk: Milk Lib 1.2.60
-				dripstone_fluid_lib: Dripstone Fluid Lib 3.0.2
-			porting_lib_accessors: Porting Lib Accessors 2.3.8+1.20.1
-				porting_lib_core: Porting Lib Core 2.3.8+1.20.1
-			porting_lib_base: Porting Lib Base 2.3.8+1.20.1
-				com_electronwill_night-config_core: core 3.6.6
-				com_electronwill_night-config_toml: toml 3.6.6
-				porting_lib_gui_utils: Porting Lib Gui Utils 2.3.8+1.20.1
-				porting_lib_mixin_extensions: Porting Lib Mixin Extensions 2.3.8+1.20.1
-				porting_lib_utility: Porting Lib Utility 2.3.8+1.20.1
-			porting_lib_brewing: Porting Lib Brewing 2.3.8+1.20.1
-			porting_lib_client_events: Porting Lib Client Events 2.3.8+1.20.1
-			porting_lib_entity: Porting Lib Entity 2.3.8+1.20.1
-			porting_lib_extensions: Porting Lib Extensions 2.3.8+1.20.1
-				porting_lib_attributes: Porting Lib Attributes 2.3.8+1.20.1
-				porting_lib_common: Porting Lib Common 2.3.8+1.20.1
-			porting_lib_models: Porting Lib Models 2.3.8+1.20.1
-				porting_lib_fluids: Porting Lib Fluids 2.3.8+1.20.1
-				porting_lib_model_loader: Porting Lib Model Loader 2.3.8+1.20.1
-			porting_lib_networking: Porting Lib Networking 2.3.8+1.20.1
-			porting_lib_obj_loader: Porting Lib Obj Loader 2.3.8+1.20.1
-			porting_lib_tags: Porting Lib Tags 3.0
-			porting_lib_tool_actions: Porting Lib Tool Actions 2.3.8+1.20.1
-			porting_lib_transfer: Porting Lib Transfer 2.3.8+1.20.1
-			reach-entity-attributes: Reach Entity Attributes 2.4.0
-			registrate-fabric: Registrate for Fabric 1.3.79-MC1.20.1
-				porting_lib_data: Porting Lib Data 2.1.1090+1.20
-					porting_lib_gametest: Porting Lib GameTest 2.1.1090+1.20
-				porting_lib_model_generators: Porting Lib Model Generators 2.1.1090+1.20
-					porting_lib_model_materials: Porting Lib Model Materials 2.1.1090+1.20
-		create-track-map: Create Track Map 1.4
-		create-trimmed: create-trimmed 1.0.0
-		create_copper_and_zinc: Create: Copper and Zinc 1.6.0
-		create_jetpack: Create Jetpack 4.3.0
-			flightlib: Flight Lib 2.1.0
-		create_jetpack_curios: Create: Jetpack Curios 1.2.0
-		create_power_loader: Create: Power Loader 1.5.3-mc1.20.1-fabric
-			porting_lib_chunk_loading: Porting Lib Chunk Loading 2.3.0+1.20.1
-		createaddition: Create Crafts
-
-# Process exited with status: exit status: 255
+# Process exited with status: exit status: 0
