@@ -1,0 +1,41 @@
+[2025-11-25 19:23:13.685] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: JVM args: [-XX:+UseSerialGC, -XX:MaxHeapFreeRatio=30, -XX:MinHeapFreeRatio=10, -XX:MaxGCPauseMillis=10000, -Xms8m, -Xmx512m]
+[2025-11-25 19:23:13.689] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: program args: [-jarPath, local\crash_assistant\16768_1764127370927_app.jar, -parentPID, 16768, -parentStarted, 1764127370927, -platform, FABRIC, -loaderJarName, fabric-loader-0.18.1.jar, -minecraftVersion, 1.20.1, -childProcessesPIDs, VU5ERUZJTkVE, -crashAssistantModJarName, CrashAssistant-fabric-1.19-1.21.4-1.10.23.jar, -classPath, local\crash_assistant\16768_1764127370927_app.jar;local\crash_assistant\16768_1764127370927_mod.jar;C:\Users\Mischa\AppData\Roaming\ModrinthApp\meta\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\Mischa\AppData\Roaming\ModrinthApp\meta\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\Mischa\AppData\Roaming\ModrinthApp\meta\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\Mischa\AppData\Roaming\ModrinthApp\meta\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Mischa\AppData\Roaming\ModrinthApp\meta\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Mischa\AppData\Roaming\ModrinthApp\meta\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar, -parentXms, unknown, -parentXmx, 2048M, -systemRAM, 96g, -processor, SW50ZWwoUikgWGVvbihSKSBDUFUgICAgICAgICAgIFg1NjkwICBAIDMuNDdHSHo=, -serialisedGPUs, VnVsa2FuIEdQVSBkZXRlY3Rpb24gYWRkb24gbm90IGZvdW5kLCBmYWxsaW5nIGJhY2sgdG8gRGlyZWN0WApTdWNjZXNzZnVsbHkgZGV0ZWN0ZWQgR1BVcyB1c2luZyBEaXJlY3RYOgpERURJQ0FURUQgOiBBTUQgUmFkZW9uIFJYIDU3MDAgWFQKDQo=]
+[2025-11-25 19:23:13.689] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running from: C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish
+[2025-11-25 19:23:13.690] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: crashAssistantJarName: CrashAssistant-fabric-1.19-1.21.4-1.10.23.jar
+[2025-11-25 19:23:13.690] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent PID: 16768
+[2025-11-25 19:23:13.690] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent started: 1764127370927
+[2025-11-25 19:23:13.693] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Platform: FABRIC
+[2025-11-25 19:23:13.693] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: loaderJarName: fabric-loader-0.18.1.jar
+[2025-11-25 19:23:13.694] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: minecraftVersion: 1.20.1
+[2025-11-25 19:23:13.694] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: childProcessesPIDs: UNDEFINED
+[2025-11-25 19:23:13.694] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXms: unknown
+[2025-11-25 19:23:13.695] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXmx: 2048M
+[2025-11-25 19:23:13.695] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemRAM: 96g
+[2025-11-25 19:23:13.696] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: processor: Intel(R) Xeon(R) CPU           X5690  @ 3.47GHz
+[2025-11-25 19:23:13.696] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Boot.serialisedGPUs:
+Vulkan GPU detection addon not found, falling back to DirectX
+Successfully detected GPUs using DirectX:
+DEDICATED : AMD Radeon RX 5700 XT
+
+
+[2025-11-25 19:23:13.696] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: os.name: windows 10
+[2025-11-25 19:23:13.701] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java path: C:\Users\Mischa\AppData\Roaming\ModrinthApp\meta\java_versions\zulu17.62.17-ca-jre17.0.17-win_x64\bin\javaw.exe
+[2025-11-25 19:23:13.702] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java version: 17.0.17+10-LTS
+[2025-11-25 19:23:13.728] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp started successfully. Waiting for PID 16768 to stop.
+[2025-11-25 19:23:40.321] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft is running on renderer:
+AMD Radeon RX 5700 XT
+[2025-11-25 19:38:10.244] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: PID "16768" is not alive or reused by another process. Minecraft JVM appears to have stopped.
+[2025-11-25 19:38:10.326] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding latest.log from C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\logs\latest.log
+[2025-11-25 19:38:10.329] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: stderr_stream.log size: 386 bytes
+[2025-11-25 19:38:10.333] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding launcher_log.txt from C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\logs\launcher_log.txt
+[2025-11-25 19:38:10.344] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding session_20251125_191503.log from C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\..\..\launcher_logs\session_20251125_191503.log
+[2025-11-25 19:38:10.356] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding crash_assistant_app.log from C:\Users\Mischa\AppData\Roaming\ModrinthApp\profiles\Raspberryish\logs\crash_assistant\crash_assistant_app.log
+[2025-11-25 19:38:10.357] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Reached first tick of TitleScreen: true
+[2025-11-25 19:38:10.357] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Joined world successfully: false
+[2025-11-25 19:38:10.358] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: stop() function of Minecraft fired: true
+[2025-11-25 19:38:10.358] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: close() function of Minecraft failed: false
+[2025-11-25 19:38:10.359] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: emergencySave() function of Minecraft fired: false
+[2025-11-25 19:38:10.376] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isModpackCreator: false
+[2025-11-25 19:38:10.379] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isHelpLinkDefault: true
+[2025-11-25 19:38:10.382] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: helpLink: https://discord.gg/v6v4pMv
+[2025-11-25 19:38:10.383] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Seems like Minecraft finished normally. Trying to locate terminated processes and Exiting Crash Assistant app.
