@@ -1,4 +1,22 @@
 {
-  "allowMovement": {},
+  "allowMovement": {
+    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.SkipOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.SpeakerOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.MicOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.ActivationOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.VoiceActivationOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.FinalOnboardingScreen": true,
+    "net.minecraft.class_433": true,
+    "net.minecraft.class_429": true,
+    "net.minecraft.class_458": true,
+    "net.minecraft.class_6599": true,
+    "net.dawson.adorablehamsterpets.client.gui.AnnouncementScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatSettingsScreen": true,
+    "de.maxhenkel.voicechat.gui.group.JoinGroupScreen": true,
+    "de.maxhenkel.voicechat.gui.CreateGroupScreen": true,
+    "de.maxhenkel.voicechat.gui.group.GroupScreen": true
+  },
   "hideBackground": {}
 }

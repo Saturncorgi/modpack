@@ -1,11 +1,11 @@
 # Don't change this! Version used to track needed updates.
 version = 0
 # The master switch for all announcement notifications. Turning this off is the same as clicking 'Disable All' in the announcement screen. Announcements can still be viewed in the §f§lHamster Tips§r guide book.
-enableNotificationIcons = true
+enableNotificationIcons = false
 # For when you see the update notification and think, 'That's a problem for future me.' Future you will be so proud. This is where you select many days to hide the 'Update Available' notification when you click 'Remind Me Later'.
 snoozeUpdateReminderDays = 5
 # Decide if the bell haunts you full-time on the HUD or only ambushes you when you're trying to organize your inventory. If disabled, you will only see notifications when you open an inventory.
-enableHudIcon = true
+enableHudIcon = false
 # Banish the bell to a corner of your choosing. It's your screen. Establish dominance.
 hudIconPositionPreset = "TOP_LEFT"
 # Shove the icon horizontally. For when 'top-left' isn't specific enough for your discerning taste.
@@ -15,7 +15,7 @@ hudIconOffsetY = 10
 # Make it bigger. Make it smaller. Make it an affront to good taste. I'm not your art director.
 hudIconScale = 1.0
 # Decide if the bell icon should ambush you while you're sorting your inventory. If disabled, it will only bother you on the main menu or the game HUD if you have those enabled. Your screen, your rules.
-enableWidgetIcon = true
+enableWidgetIcon = false
 # Hand-delivers the sacred texts on first login. Read it—or don’t. I'm not your conscience.
 enableAutoGuidebookDelivery = true
 # Helpful whispers on what the heck that cucumber is for.
