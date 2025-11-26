@@ -10,6 +10,9 @@
   ],
   "lookup_history": [],
   "craft_history": [
+    "minecraft:iron_shovel",
+    "minecraft:stick",
+    "minecraft:iron_axe",
     "minecraft:iron_helmet",
     "minecraft:iron_boots",
     "minecraft:iron_chestplate",
@@ -19,7 +22,6 @@
     "minecraft:oak_planks",
     "minecraft:torch",
     "minecraft:iron_pickaxe",
-    "minecraft:stick",
     "minecraft:spruce_door"
   ],
   "recipe_defaults": {

@@ -955,3 +955,51 @@ Finalizing fluid item registration
 [22:10:41] [Render thread] [net.minecraft.class_634/WARN]: Received passengers for unknown entity
 [22:11:07] [Render thread] [net.minecraft.class_338/INFO]: [System] [CHAT] a_mishmash has made the advancement [Diamonds!]
 [22:11:07] [Render thread] [net.minecraft.class_634/WARN]: Received passengers for unknown entity
+[22:12:55] [Render thread] [net.minecraft.class_634/WARN]: Received passengers for unknown entity
+[22:14:34] [Render thread] [net.minecraft.class_634/WARN]: Received passengers for unknown entity
+[22:15:10] [Render thread] [net.minecraft.class_634/WARN]: Received passengers for unknown entity
+[22:16:27] [Render thread] [net.minecraft.class_338/INFO]: [System] [CHAT] a_mishmash has made the advancement [Isn't It Iron Pick]
+[22:16:28] [Render thread] [net.minecraft.class_338/INFO]: [System] [CHAT] a_mishmash has made the advancement [Hunt and Gather]
+[22:17:36] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] <a_mishmash> testttt >w<
+[22:17:44] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] <a_mishmash> abcdefghijkwmnowopppp ^w^
+[22:17:47] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] <a_mishmash> PSFOWOGHPOWODIFGGGG owo
+[22:18:02] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] <a_mishmash> t-the q-quick b-bwowown f-fowox j-jumps u-uvw t-the w-wazy d-dowog :3
+[22:18:06] [Render thread] [net.minecraft.class_338/INFO]: [CHAT] <a_mishmash> t-the q-quick b-bwowown f-fowox j-jumps u-uvw t-the w-wazy d-dowog :3
+[22:20:32] [Render thread] [net.minecraft.class_634/WARN]: Received passengers for unknown entity
+[22:20:51] [Render thread] [net.minecraft.class_338/INFO]: [System] [CHAT] a_mishmash has made the advancement [This Must be a Sign!]
+[22:21:00] [Render thread] [net.minecraft.class_338/INFO]: [System] [CHAT] SaturnCorgi has made the advancement [This Must be a Sign!]
+[22:21:00] [Render thread] [net.minecraft.class_163/INFO]: Loaded 393 advancements
+[22:21:03] [Render thread] [net.minecraft.class_163/INFO]: Loaded 409 advancements
+[22:21:10] [SoundSourceThread-a5b10a82-f98f-42b6-b5b8-93d8f25a76ca] [voicechat/WARN]: [voicechat] Full playback buffer: 32/32
+[22:22:09] [Render thread] [net.minecraft.class_338/INFO]: [System] [CHAT] SaturnCorgi has made the advancement [Monster Hunter]
+[22:22:09] [Render thread] [net.minecraft.class_163/INFO]: Loaded 412 advancements
+[22:22:09] [Render thread] [net.minecraft.class_163/INFO]: Loaded 414 advancements
+[22:22:11] [Render thread] [net.minecraft.class_163/INFO]: Loaded 414 advancements
+[22:22:11] [Render thread] [net.minecraft.class_163/INFO]: Loaded 417 advancements
+[22:22:15] [SoundSourceThread-a5b10a82-f98f-42b6-b5b8-93d8f25a76ca] [voicechat/WARN]: [voicechat] Full playback buffer: 32/32
+[22:23:51] [Render thread] [net.minecraft.class_338/INFO]: [System] [CHAT] a_mishmash left the game
+[22:24:07] [Render thread] [net.minecraft.class_163/INFO]: Loaded 417 advancements
+[22:24:33] [Render thread] [EMI/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[22:24:33] [Thread-59] [EMI/INFO]: [EMI] Clearing data
+[22:24:33] [Render thread] [surveyor/INFO]: [Surveyor] Finished saving data for minecraft:overworld | cleaned 4 terrain regions, 1 structure regions, 0 landmarks
+[22:24:33] [Render thread] [voicechat/INFO]: [voicechat] Clearing audio channels
+[22:24:33] [Render thread] [voicechat/INFO]: [voicechat] Closing audio channel a5b10a82-f98f-42b6-b5b8-93d8f25a76ca
+[22:24:33] [AudioChannelThread-a5b10a82-f98f-42b6-b5b8-93d8f25a76ca] [voicechat/INFO]: [voicechat] Closed audio channel a5b10a82-f98f-42b6-b5b8-93d8f25a76ca
+[22:24:33] [Render thread] [voicechat/INFO]: [voicechat] Stopping microphone thread
+[22:24:33] [Render thread] [voicechat/INFO]: [voicechat] Disconnecting voicechat
+[22:24:33] [AudioChannelThread-a5b10a82-f98f-42b6-b5b8-93d8f25a76ca] [voicechat/INFO]: [voicechat] Closing audio channel a5b10a82-f98f-42b6-b5b8-93d8f25a76ca
+[22:24:33] [AudioChannelThread-a5b10a82-f98f-42b6-b5b8-93d8f25a76ca] [voicechat/INFO]: [voicechat] Closed audio channel a5b10a82-f98f-42b6-b5b8-93d8f25a76ca
+[22:24:33] [Render thread] [ChunkBuilder/INFO]: Stopping worker threads
+[22:24:33] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
+[22:24:36] [Render thread] [net.minecraft.class_310/INFO]: Stopping!
+Shutting down culling task!
+[22:24:36] [Render thread] [EMI/INFO]: [EMI] Disconnecting from server, EMI data cleared
+[22:24:36] [Thread-61] [EMI/INFO]: [EMI] Clearing data
+[22:24:36] [Render thread] [Entity Texture Features/INFO]: [ETF]: emissive suffixes loaded: {_e}
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+
+# Process exited with status: exit status: 0
