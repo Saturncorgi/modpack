@@ -13,9 +13,9 @@
     }
   ],
   "lookup_history": [
+    "item:estrogen:estrogen_patches{BotariumData:{StoredFluids:[{Amount:81000L,Fluid:\"estrogen:liquid_estrogen\"}]}}",
     "item:create:wrench",
     "item:create:cogwheel",
-    "item:ae2:charger",
     "item:ae2:charged_certus_quartz_crystal",
     "item:ae2:fluix_crystal",
     "item:ae2:controller",
