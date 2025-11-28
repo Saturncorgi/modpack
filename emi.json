@@ -13,6 +13,8 @@
     }
   ],
   "lookup_history": [
+    "item:create:wrench",
+    "item:create:cogwheel",
     "item:ae2:charger",
     "item:ae2:charged_certus_quartz_crystal",
     "item:ae2:fluix_crystal",
@@ -20,7 +22,6 @@
     "item:create:goggles",
     "item:create:attribute_filter",
     "item:create:chute",
-    "item:create:cogwheel",
     "item:create:large_cogwheel",
     "item:copycats:copycat_large_cogwheel",
     "item:minecraft:chest",
@@ -32,6 +33,10 @@
     "item:create:propeller"
   ],
   "craft_history": [
+    "create:crafting/kinetics/cogwheel",
+    "minecraft:redstone_torch",
+    "minecraft:stick",
+    "create:crafting/kinetics/wrench",
     "ae2:network/blocks/crystal_processing_charger",
     "create:crafting/kinetics/goggles",
     "create:crafting/kinetics/attribute_filter",
@@ -40,8 +45,6 @@
     "create:crafting/kinetics/chute",
     "create:crafting/kinetics/shaft",
     "minecraft:oak_sign",
-    "minecraft:stick",
-    "create:crafting/kinetics/cogwheel",
     "create:crafting/kinetics/large_cogwheel",
     "create:crafting/kinetics/belt_connector",
     "minecraft:chest",
