@@ -1,0 +1,9 @@
+#35F biomesoplenty:jacaranda_glade
+#294 biomesoplenty:jade_cliffs
+#65C biomesoplenty:lavender_field
+#79A minecraft:lukewarm_ocean
+#47F biomesoplenty:mediterranean_forest
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#421 minecraft:stony_peaks
+#51A minecraft:stony_shore

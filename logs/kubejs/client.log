@@ -1,0 +1,55 @@
+[11:32:52] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[11:32:52] [INIT] Loaded plugins:
+[11:32:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:32:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:32:52] [INIT] - com.almostreliable.morejs.Plugin
+[11:32:52] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[11:32:52] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[11:32:52] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[11:32:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[11:32:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[11:32:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[11:32:52] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[11:32:52] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[11:32:52] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[11:32:52] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[11:32:52] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[11:32:52] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[11:32:52] [INIT] - com.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#5: Loaded Java class 'com.simibubi.create.compat.jei.ConversionRecipe'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#7: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#8: Loaded Java class 'net.minecraft.ChatFormatting'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#9: Loaded Java class 'mezz.jei.api.gui.drawable.IDrawableAnimated'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#11: Loaded Java class 'cofh.lib.util.helpers.StringHelper'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#13: Loaded Java class 'java.lang.Boolean'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#14: Loaded Java class 'com.mojang.math.Axis'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#15: Loaded Java class 'net.minecraft.world.level.block.state.properties.BlockStateProperties'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#16: Loaded Java class 'com.simibubi.create.compat.jei.category.animations.AnimatedKinetics'
+[11:32:52] [INFO] jei_categories/_jei_category_helper.js#18: Loaded Java class 'net.minecraft.world.level.block.state.properties.AttachFace'
+[11:32:52] [INFO] Loaded script client_scripts:jei_categories/_jei_category_helper.js in 0.002 s
+[11:32:52] [INFO] Loaded script client_scripts:JEI_potions.js in 0.001 s
+[11:32:52] [INFO] Loaded script client_scripts:bulkhide.js in 0.001 s
+[11:32:52] [INFO] Loaded script client_scripts:client_compatibility/createaddition.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:client_compatibility/createcasing.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:client_compatibility/createconnected.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:client_compatibility/createdieselgenerators.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
+[11:32:52] [INFO] Loaded script client_scripts:jei_categories/alchemy/alchemy_handlers.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:jei_categories/alchemy/alchemy_kubejs_events.js in 0.001 s
+[11:32:52] [INFO] Loaded script client_scripts:jei_categories/mysterious_conversion.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:jei_categories/straining/straining_handlers.js in 0.001 s
+[11:32:52] [INFO] Loaded script client_scripts:jei_categories/straining/straining_kubejs_events.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:lang.js in 0.001 s
+[11:32:52] [INFO] Loaded script client_scripts:mods/create_central_kitchen.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:mods/quark.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:mods/reliquary.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:mods/trials.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:ponder.js in 0.0 s
+[11:32:52] [INFO] Loaded script client_scripts:ponders/laser_alchemy.js in 0.0 s
+[11:32:52] [INFO] ponders/_ponder_helpers.js#2: Loaded Java class 'com.simibubi.create.foundation.ponder.CreateSceneBuilder'
+[11:32:52] [INFO] Loaded script client_scripts:ponders/_ponder_helpers.js in 0.0 s
+[11:32:52] [INFO] resource_pack_updates.js#1: Loaded Java class 'net.minecraft.client.Minecraft'
+[11:32:52] [INFO] resource_pack_updates.js#2: Loaded Java class 'fuzs.resourcepackoverrides.client.data.ResourceOverridesManager'
+[11:32:53] [INFO] Loaded script client_scripts:resource_pack_updates.js in 0.001 s
+[11:32:53] [INFO] Loaded script client_scripts:tooltips.js in 0.001 s
+[11:32:53] [INFO] Loaded 23/23 KubeJS client scripts in 0.024 s with 0 errors and 0 warnings

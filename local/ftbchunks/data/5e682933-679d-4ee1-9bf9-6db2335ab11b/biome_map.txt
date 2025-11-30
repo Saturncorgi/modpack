@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#34D minecraft:deep_lukewarm_ocean
+#266 biomesoplenty:floodplain
+#79A minecraft:lukewarm_ocean
+#47F biomesoplenty:mediterranean_forest
+#552 biomesoplenty:old_growth_woodland
+#5A5 biomesoplenty:orchard
+#68B biomesoplenty:rainforest
+#5FF minecraft:river
+#204 biomesoplenty:rocky_shrubland
+#2CF biomesoplenty:shrubland
+#30B biomesoplenty:volcanic_plains
+#7F2 biomesoplenty:woodland
